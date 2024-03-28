@@ -1,0 +1,6813 @@
+[dictionary.a]
+disabled = true
+
+[dictionary."fine grained"]
+[dictionary."state of the art"]
+[dictionary.ssr]
+english = "SSR"
+unshortened = ["server side rendering"]
+[dictionary.csr]
+english = "CSR"
+unshortened = ["client side rendering"]
+[dictionary.dom]
+english = "DOM"
+unshortened = ["document object model"]
+[dictionary.com]
+english = "COM"
+unshortened = ["component object model"]
+[dictionary.hydrate]
+kana = ["ハイドレート"]
+[dictionary.hydration]
+kana = ["ハイドレーション"]
+description = """
+Webアプリケーションの文脈で、サーバ側で生成した静的なWebページに、クライアント側のスクリプトが操作可能にする、すなわち動的なWebページに変換する処理のことを指す。
+ブラウザにロードされたスクリプトがDOMを解析し、ボタンなどの操作要素を検知して適切なイベントハンドラを紐付けることによって、利用者の操作や入力に反応するようになる。"""
+
+[dictionary."control flow"]
+japanese = ["制御フロー"]
+
+[dictionary.encapsulation]
+japanese = ["カプセル化"]
+
+[dictionary.aab]
+disabled = true
+
+[dictionary.aabb]
+english = "AABB"
+plural = "aabbs"
+unshortened = ["Axis Aligned Bounding Box"]
+kana = ["エーエービービー"]
+
+[dictionary.aabbkhr]
+disabled = true
+
+[dictionary.aabbs]
+singular = "aabb"
+
+[dictionary.aarch]
+english = "AArch"
+unshortened = ["ARM architecture"]
+
+[dictionary.abgr]
+
+[dictionary.abi]
+english = "ABI"
+unshortened = ["application binary interface"]
+
+[dictionary.abort]
+
+[dictionary.aborted]
+infinitive = "abort"
+
+[dictionary.abs]
+unshortened = ["absolute"]
+japanese = ["絶対値"]
+
+[dictionary.absolute]
+shortened = ["abs"]
+japanese = ["絶対値"]
+
+[dictionary.abstract]
+kana = ["アブストラクト"]
+japanese = ["抽象"]
+
+[dictionary."abstract syntax tree"]
+shortened = ["ast"]
+japanese = ["抽象構文木"]
+
+[dictionary.abstraction]
+kana = ["アブストラクション"]
+japanese = ["抽象化"]
+
+[dictionary.ac]
+unshortened = ["acceleration"]
+
+[dictionary.acc]
+unshortened = ["acceleration"]
+
+[dictionary.accel]
+unshortened = ["acceleration"]
+
+[dictionary.accelerated]
+kana = ["アクセラレーテッド"]
+
+[dictionary.acceleration]
+shortened = [
+    "acc",
+    "accel",
+    "ac",
+]
+kana = ["アクセラレーション"]
+japanese = [
+    "加速",
+    "加速度",
+]
+
+[dictionary.accent]
+
+[dictionary.accept]
+
+[dictionary.access]
+kana = ["アクセス"]
+
+[dictionary.accessed]
+
+[dictionary.accesses]
+
+[dictionary.accumulate]
+kana = ["アキュムレート"]
+japanese = ["蓄積する"]
+
+[dictionary.accumulating]
+
+[dictionary.accumulation]
+
+[dictionary.accumulator]
+
+[dictionary.accuracy]
+japanese = [
+    "正解率",
+    "正確性",
+    "精度",
+]
+
+[dictionary.acknowledge]
+description = "U+0006。文字化けする可能性のある文字。"
+
+[dictionary.acos]
+unshortened = [
+    "arccos",
+    "arccosine",
+]
+japanese = ["逆余弦"]
+description = "コサインの逆関数。"
+
+[dictionary.acosh]
+unshortened = ["arccosh"]
+description = "sinhの逆関数。"
+
+[dictionary.acq]
+
+[dictionary.acqrel]
+unshortened = ["acquire release"]
+description = "atomicなメモリ順序に対し、ロードはacquire、ストアはReleaseを指定する。"
+
+[dictionary.acquire]
+antonym = ["release"]
+
+[dictionary.acquired]
+
+[dictionary.action]
+
+[dictionary.active]
+
+[dictionary.adapter]
+
+[dictionary.add]
+
+[dictionary.additional]
+
+[dictionary.additive]
+
+[dictionary.addr]
+plural = "addrs"
+unshortened = ["address"]
+
+[dictionary.address]
+shortened = ["addr"]
+kana = ["アドレス"]
+
+[dictionary.addresses]
+shortened = ["addrs"]
+
+[dictionary.addressing]
+
+[dictionary.addrs]
+singular = "addr"
+unshortened = ["addresses"]
+
+[dictionary.adjacency]
+
+[dictionary.adjust]
+
+[dictionary.adjustment]
+
+[dictionary.admin]
+unshortened = ["administrator"]
+
+[dictionary.administrator]
+shortened = ["admin"]
+kana = [
+    "アドミニストレータ",
+    "アドミニストレーター",
+]
+japanese = ["管理者"]
+
+[dictionary.adobe]
+
+[dictionary.advance]
+kana = ["アドバンス"]
+japanese = ["進める"]
+description = "進める、あるいは進んだ量。"
+
+[dictionary.advanced]
+infinitive = "advance"
+
+[dictionary.advice]
+disabled = true
+
+[dictionary.advise]
+disabled = true
+
+[dictionary.after]
+disabled = true
+
+[dictionary.akhr]
+disabled = true
+
+[dictionary.algorithm]
+kana = ["アルゴリズム"]
+
+[dictionary.alias]
+
+[dictionary.aliased]
+
+[dictionary.aliasing]
+kana = ["エイリアシング"]
+description = "連続信号が標本化・量子化によって区別できなくなり、ひずみや雑音が発生すること。"
+
+[dictionary.align]
+kana = ["アライン"]
+
+[dictionary.aligned]
+
+[dictionary.alignment]
+kana = ["アラインメント"]
+
+[dictionary.all]
+disabled = true
+
+[dictionary.alloc]
+unshortened = [
+    "allocate",
+    "allocation",
+]
+kana = ["アロック"]
+
+[dictionary.allocate]
+antonym = [
+    "deallocate",
+    "delete",
+    "release",
+]
+shortened = ["alloc"]
+kana = ["アロケート"]
+japanese = ["割り当てる"]
+description = "ヒープ領域にメモリを割り当てること。"
+
+[dictionary.allocated]
+
+[dictionary.allocation]
+shortened = ["alloc"]
+
+[dictionary.allocations]
+
+[dictionary.allocator]
+kana = [
+    "アロケータ",
+    "アロケーター",
+]
+
+[dictionary.allow]
+disabled = true
+kana = ["アラウ"]
+
+[dictionary.allowed]
+
+[dictionary.alpha]
+plural = "alphas"
+kana = ["アルファ"]
+
+[dictionary.alphabetic]
+
+[dictionary.alphanumeric]
+
+[dictionary.alphas]
+singular = "alpha"
+
+[dictionary.already]
+disabled = true
+
+[dictionary.alt]
+unshortened = ["alternative"]
+
+[dictionary.alternate]
+
+[dictionary.altintel]
+disabled = true
+
+[dictionary.always]
+
+[dictionary.amd]
+disabled = true
+
+[dictionary.amdx]
+disabled = true
+
+[dictionary.amigo]
+
+[dictionary.ampersand]
+kana = ["アンパサンド"]
+description = "'&'記号のこと。ラテン語の\"εt\"から。"
+
+[dictionary.amt]
+unshortened = ["amount"]
+
+[dictionary.analytic]
+antonym = ["numeric"]
+japanese = [
+    "解析的",
+    "解析的な",
+]
+
+[dictionary.analytical]
+antonym = ["numerical"]
+japanese = [
+    "解析的",
+    "解析的な",
+]
+
+[dictionary.ancestors]
+category = ["data structure"]
+antonym = ["descendants"]
+singular = "ancestor"
+japanese = ["先祖"]
+description = "木構造において親と親より上のノードのこと。先祖ノード。"
+
+[dictionary.ancillary]
+kana = [
+    "アンサレリ",
+    "アンサレリー",
+]
+description = "通信ネットワークにおいて、プライマリサービスを補助する付随サービスのこと。"
+
+[dictionary.and]
+
+[dictionary.android]
+disabled = true
+
+[dictionary.anisotropic]
+japanese = [
+    "異方性の",
+    "異等方性の",
+]
+
+[dictionary.anisotropy]
+japanese = [
+    "異方性",
+    "異等方性",
+]
+
+[dictionary.ansi]
+english = "ANSI"
+unshortened = ["American National Standards Institute"]
+description = "Windowsシステムの標準コードページ。各文字は8ビットの固定長シーケンスである。ASCIIのスーパーセットで、UTF-8のサブセットではない。"
+
+[dictionary."anti aliasing"]
+category = ["computer graphics"]
+kana = ["アンチエイリアシング"]
+
+[dictionary.any]
+kana = ["エニー"]
+description = "任意の型・任意の値。"
+
+[dictionary.api]
+english = "API"
+unshortened = ["application programming interface"]
+kana = ["エーピーアイ"]
+
+[dictionary.apostrophe]
+kana = ["アポストロフィ"]
+
+[dictionary.append]
+kana = ["アペンド"]
+
+[dictionary.application]
+kana = ["アプリケーション"]
+
+[dictionary.apply]
+kana = ["アプライ"]
+japanese = ["適用する"]
+
+[dictionary.arbitrary]
+japanese = [
+    "任意の",
+    "恣意的な",
+]
+
+[dictionary.arc]
+kana = ["アーク"]
+japanese = [
+    "弧",
+    "円弧",
+]
+
+[dictionary.arch]
+unshortened = ["architecture"]
+
+[dictionary.area]
+plural = "areas"
+
+[dictionary.areas]
+singular = "area"
+
+[dictionary.arena]
+category = ["memory management"]
+kana = ["アリーナ"]
+description = "メモリ管理の文脈で、大きな連続したメモリ領域を指す。メモリアロケータは一連のメモリブロックを含むアリーナを割り当て、個々のデータ項目に割り振る。"
+
+[dictionary.arg]
+unshortened = ["argument"]
+
+[dictionary.argb]
+
+[dictionary.args]
+
+[dictionary.argument]
+plural = "arguments"
+shortened = ["arg"]
+kana = ["アーギュメント"]
+
+[dictionary.arguments]
+singular = "argument"
+
+[dictionary.arith]
+unshortened = ["arithmetic"]
+
+[dictionary.arithmetic]
+shortened = ["arith"]
+
+[dictionary.arm]
+disabled = true
+
+[dictionary.array]
+plural = "arrays"
+kana = ["アレイ"]
+japanese = ["配列"]
+
+[dictionary.arrayed]
+
+[dictionary.arrays]
+singular = "array"
+
+[dictionary.arrive]
+disabled = true
+
+[dictionary.as]
+
+[dictionary.ascii]
+english = "ASCII"
+unshortened = ["American Standard Code for Information Interchange"]
+kana = ["アスキー"]
+description = "1963年に制定された、ラテン文字を中心とする文字コード。各文字は7ビットの固定長シーケンスで、UTF-8のサブセットである。ASCIIコード。"
+
+[dictionary.ascribe]
+
+[dictionary.asin]
+
+[dictionary.asinh]
+
+[dictionary.asm]
+
+[dictionary.aspect]
+
+[dictionary.aspects]
+
+[dictionary.assembly]
+kana = ["アセンブリ"]
+
+[dictionary.assert]
+kana = ["アサート"]
+
+[dictionary.assign]
+kana = ["アサイン"]
+japanese = ["代入する"]
+
+[dictionary.assignment]
+kana = ["アサインメント"]
+japanese = ["代入"]
+
+[dictionary.assisted]
+
+[dictionary."associative array"]
+japanese = ["連想配列"]
+
+[dictionary.assume]
+disabled = true
+
+[dictionary.assumptions]
+disabled = true
+
+[dictionary.ast]
+unshortened = ["abstract syntax tree"]
+
+[dictionary.astc]
+
+[dictionary.asterisk]
+kana = ["アスタリスク"]
+
+[dictionary.async]
+unshortened = [
+    "asynchronous",
+    "asynchronicity",
+]
+kana = ["エーシンク"]
+
+[dictionary.asynchronicity]
+shortened = ["async"]
+japanese = ["非同期"]
+
+[dictionary.asynchronous]
+antonym = ["blocking"]
+shortened = ["async"]
+japanese = ["非同期の"]
+description = "並行プログラミングの文脈において、同期的に実行(シンクロ)しないという意味。対義語はシンクロではなくブロッキング。"
+
+[dictionary.at]
+
+[dictionary.atan]
+
+[dictionary.atanh]
+
+[dictionary.atim]
+
+[dictionary.atime]
+
+[dictionary.atom]
+
+[dictionary.atomic]
+kana = ["アトミック"]
+
+[dictionary.atomicity]
+
+[dictionary.atomics]
+
+[dictionary.attached]
+
+[dictionary.attachment]
+
+[dictionary.attachments]
+
+[dictionary.attr]
+plural = "attrs"
+unshortened = ["attribute"]
+
+[dictionary.attrib]
+unshortened = ["attribute"]
+
+[dictionary.attribute]
+shortened = [
+    "attr",
+    "attrib",
+]
+japanese = ["属性"]
+
+[dictionary.attributes]
+shortened = ["attrs"]
+
+[dictionary.attributesv]
+
+[dictionary.attrs]
+singular = "attr"
+unshortened = ["attributes"]
+
+[dictionary.augmented]
+kana = ["オーグメンテッド"]
+
+[dictionary.auto]
+
+[dictionary.availability]
+
+[dictionary.availabilty]
+
+[dictionary.available]
+
+[dictionary.avc]
+
+[dictionary.average]
+
+[dictionary.avi]
+
+[dictionary.await]
+
+[dictionary.aware]
+
+[dictionary.b]
+
+[dictionary.back]
+
+[dictionary.backpropagation]
+category = ["machine learning"]
+kana = ["バックプロパゲーション"]
+japanese = [
+    "逆伝播",
+    "誤差逆伝播法",
+]
+description = "ニューラルネットワークにおいて、モデルの出力とground truthの誤差から各ニューロンの重みを調整すること。"
+
+[dictionary.backspace]
+
+[dictionary.backtrace]
+
+[dictionary.backward]
+
+[dictionary.ballot]
+
+[dictionary.bank]
+
+[dictionary.banks]
+
+[dictionary.bankwidth]
+
+[dictionary.bar]
+
+[dictionary.barrier]
+
+[dictionary.barriers]
+
+[dictionary.bary]
+
+[dictionary.barycentric]
+plural = "barycentrics"
+kana = ["バリセントリック"]
+description = "バリセントリック座標のこと。バリセントリック座標(x, y)と3頂点(v1, v2, v3)に対し、`v=v1*x+v2*y+v3*(1-x-y)`となる。"
+
+[dictionary.barycentrics]
+singular = "barycentric"
+
+[dictionary.base]
+kana = ["ベース"]
+japanese = ["基底"]
+
+[dictionary.based]
+infinitive = "base"
+
+[dictionary.basic]
+
+[dictionary.baz]
+
+[dictionary.bc]
+
+[dictionary.be]
+unshortened = ["big endian"]
+
+[dictionary.before]
+
+[dictionary.begin]
+
+[dictionary.behavior]
+
+[dictionary.bell]
+
+[dictionary.benchmarking]
+
+[dictionary.best]
+
+[dictionary.between]
+
+[dictionary.beyond]
+
+[dictionary.bf]
+
+[dictionary.bgra]
+english = "BGRA"
+description = "三原色がblue-green-red-alphaの順に並んでいること。"
+
+[dictionary.bias]
+
+[dictionary.bidirectional]
+
+[dictionary.bikeshed]
+
+[dictionary.bilinear]
+
+[dictionary.binary]
+kana = [
+    "バイナリ",
+    "バイナリー",
+]
+description = "2進数で表現されるデータあるいはファイルのこと。テキストファイルはバイナリとはみなされない。"
+
+[dictionary."binary operation"]
+japanese = ["二項演算"]
+
+[dictionary."binary operator"]
+japanese = ["二項演算子"]
+
+[dictionary.bind]
+kana = ["バインド"]
+
+[dictionary.binding]
+kana = ["バインディング"]
+
+[dictionary.bindings]
+
+[dictionary.bindless]
+
+[dictionary.binds]
+
+[dictionary.binop]
+
+[dictionary.bit]
+plural = "bits"
+kana = ["ビット"]
+description = "0か1を表すコンピュータ上の情報の最小単位。8ビットは1バイトに等しい。"
+
+[dictionary."bit blt"]
+unshortened = ["bit block transfer"]
+
+[dictionary.bitand]
+
+[dictionary.bitcast]
+
+[dictionary.bitmask]
+
+[dictionary.bitor]
+
+[dictionary.bitreverse]
+
+[dictionary.bits]
+singular = "bit"
+
+[dictionary.bitwise]
+
+[dictionary."bitwise operation"]
+japanese = ["ビット演算"]
+
+[dictionary."bitwise operator"]
+japanese = ["ビット演算子"]
+
+[dictionary.bitxor]
+
+[dictionary.bkhr]
+
+[dictionary.black]
+
+[dictionary.blend]
+
+[dictionary.blit]
+unshortened = ["block bit transfer"]
+
+[dictionary.blksize]
+
+[dictionary.block]
+
+[dictionary.blocking]
+antonym = ["asynchronous"]
+
+[dictionary.blocks]
+
+[dictionary.blue]
+
+[dictionary.blur]
+
+[dictionary.bme]
+
+[dictionary.bom]
+english = "BOM"
+unshortened = ["byte order mark"]
+
+[dictionary.bool]
+shortened = ["boolean"]
+kana = ["ブール"]
+description = "trueまたはfalseの真偽値を持つ値またはその型。命名はブール代数から。19世紀の数学者ジョージ・ブールに由来する。"
+
+[dictionary.border]
+
+[dictionary.borrow]
+
+[dictionary.borrowed]
+
+[dictionary.borrowing]
+
+[dictionary.both]
+
+[dictionary.bottom]
+antonym = ["top"]
+kana = ["ボトム"]
+description = "矩形の下の辺、もしくは下側の領域。"
+
+[dictionary.bound]
+infinitive = "bind"
+plural = "bounds"
+kana = ["バウンド"]
+japanese = ["境界"]
+
+[dictionary.boundary]
+japanese = ["境界"]
+
+[dictionary.bounds]
+singular = "bound"
+
+[dictionary.box]
+kana = ["ボックス"]
+description = "スタック領域にあるオブジェクトをヒープ領域に割り当てること。ボックス化。"
+
+[dictionary.boxed]
+infinitive = "box"
+
+[dictionary.bpp]
+
+[dictionary.braces]
+japanese = [
+    "括弧",
+    "波括弧",
+]
+description = "\"{}\"のこと。"
+
+[dictionary.bracket]
+japanese = [
+    "括弧",
+    "角括弧",
+]
+description = "\"[]\"のこと。"
+
+[dictionary.branch]
+
+[dictionary.break]
+
+[dictionary.breakpoint]
+
+[dictionary.bresenham]
+kana = ["ブレゼンハム"]
+
+[dictionary.broadcast]
+
+[dictionary.broadcom]
+
+[dictionary.broken]
+
+[dictionary.brush]
+
+[dictionary."brute force"]
+
+[dictionary.bs]
+
+[dictionary.bswap]
+
+[dictionary.bt]
+
+[dictionary.btree]
+unshortened = ["binary tree"]
+
+[dictionary.bucket]
+
+[dictionary.buddy]
+
+[dictionary.budget]
+category = ["memory management"]
+kana = ["バジェット"]
+japanese = ["予算"]
+description = "割り当てられるメモリの許容量。"
+
+[dictionary.buf]
+unshortened = ["buffer"]
+
+[dictionary.buffer]
+plural = "buffers"
+shortened = ["buf"]
+kana = [
+    "バッファ",
+    "バッファー",
+]
+
+[dictionary.bufferless]
+
+[dictionary.buffers]
+singular = "buffer"
+
+[dictionary.bufs]
+
+[dictionary.bug]
+kana = ["バグ"]
+
+[dictionary.build]
+kana = ["ビルド"]
+description = "プログラムコード・アセット・リソースなどをコンパイル・リンクしバイナリを生成すること。データを段階的に蓄積し最終的な出力を行うこと。"
+
+[dictionary.builder]
+
+[dictionary.built]
+
+[dictionary.builtin]
+
+[dictionary.builtins]
+
+[dictionary.bump]
+
+[dictionary.burst]
+
+[dictionary.bus]
+
+[dictionary.busy]
+
+[dictionary.but]
+
+[dictionary.bwd]
+
+[dictionary.bx]
+
+[dictionary.by]
+
+[dictionary.byte]
+plural = "bytes"
+kana = ["バイト"]
+description = """
+8ビット。コンピュータが扱える情報の実質的な最小単位である。メモリアドレスは1バイト単位で管理され、最小のレジスタも1バイトである。
+"""
+
+[dictionary.bytes]
+singular = "byte"
+
+[dictionary.c]
+kana = ["シー"]
+description = "C言語のこと。"
+
+[dictionary.cache]
+plural = "caches"
+kana = ["キャッシュ"]
+
+[dictionary.cached]
+infinitive = "cache"
+
+[dictionary.caches]
+infinitive = "cache"
+singular = "cache"
+
+[dictionary.calibrated]
+
+[dictionary.call]
+
+[dictionary.callable]
+
+[dictionary.callback]
+kana = ["コールバック"]
+
+[dictionary.called]
+
+[dictionary.callee]
+description = "callerにcallされる関数・オブジェクト。"
+
+[dictionary.caller]
+
+[dictionary.can]
+
+[dictionary.cancel]
+
+[dictionary.candidate]
+japanese = ["候補"]
+
+[dictionary.canonical]
+
+[dictionary.canonicalization]
+japanese = ["正規化"]
+description = "データの冗長性をなくしたり、等価な表現を統一したりして、同じ形式でデータを扱えるようにすること。"
+
+[dictionary.canonicalize]
+japanese = ["正規化する"]
+
+[dictionary.capabilities]
+
+[dictionary.capability]
+
+[dictionary.capable]
+
+[dictionary.capacity]
+
+[dictionary.capital]
+japanese = [
+    "頭文字",
+    "大文字",
+]
+
+[dictionary.capture]
+
+[dictionary.captured]
+
+[dictionary.care]
+
+[dictionary.cargo]
+
+[dictionary.carriage]
+
+[dictionary.carry]
+kana = ["キャリー"]
+description = "整数の加算・乗算でオーバーフローした値。キャリーを扱うCPUの専用オペランドが存在する。"
+
+[dictionary.carrying]
+
+[dictionary.case]
+
+[dictionary.cast]
+
+[dictionary.catch]
+
+[dictionary.category]
+
+[dictionary.cause]
+
+[dictionary.cb]
+
+[dictionary.cbrt]
+
+[dictionary.ccw]
+
+[dictionary.ceil]
+antonym = ["floor"]
+unshortened = ["ceiling"]
+kana = ["シール"]
+description = "天井関数のこと。小数点以下を切り上げる演算。"
+
+[dictionary.ceilf]
+
+[dictionary.cell]
+
+[dictionary.cells]
+
+[dictionary.center]
+
+[dictionary.centered]
+
+[dictionary.centroid]
+japanese = ["重心"]
+
+[dictionary.cfg]
+unshortened = ["configration"]
+
+[dictionary.ch]
+unshortened = ["character"]
+
+[dictionary.chain]
+plural = "chains"
+kana = ["チェーン"]
+japanese = ["鎖"]
+
+[dictionary.chains]
+singular = "chain"
+
+[dictionary.change]
+
+[dictionary.channel]
+kana = [
+    "チャネル",
+    "チャンネル",
+]
+
+[dictionary.char]
+plural = "chars"
+unshortened = ["character"]
+
+[dictionary.character]
+shortened = [
+    "char",
+    "ch",
+]
+kana = ["キャラクター"]
+japanese = ["文字"]
+description = "'A'や'あ'など1文字のこと。"
+
+[dictionary.chars]
+singular = "char"
+
+[dictionary.check]
+
+[dictionary.checked]
+
+[dictionary.checkpoints]
+
+[dictionary.checks]
+
+[dictionary.child]
+
+[dictionary.chown]
+
+[dictionary.chroma]
+
+[dictionary.chroot]
+
+[dictionary.chunk]
+
+[dictionary.chunks]
+
+[dictionary.circumflex]
+
+[dictionary.cl]
+
+[dictionary.clamp]
+
+[dictionary.class]
+
+[dictionary.classes]
+
+[dictionary.classify]
+japanese = ["分類する"]
+
+[dictionary.cleanup]
+
+[dictionary.clear]
+
+[dictionary.clip]
+
+[dictionary.clipped]
+
+[dictionary.clipping]
+
+[dictionary.clobber]
+
+[dictionary.clock]
+
+[dictionary.clockwise]
+japanese = [
+    "時計回り",
+    "時計回りの",
+]
+
+[dictionary.clone]
+
+[dictionary.cloned]
+
+[dictionary.close]
+
+[dictionary.closest]
+
+[dictionary.cluster]
+
+[dictionary.clusterculling]
+
+[dictionary.clustered]
+
+[dictionary.clz]
+unshortened = ["count leading zeros"]
+
+[dictionary.cmd]
+unshortened = ["command"]
+
+[dictionary.cmp]
+unshortened = ["compare"]
+
+[dictionary.cmsg]
+
+[dictionary.coalesce]
+
+[dictionary.coalesced]
+
+[dictionary.coalescing]
+
+[dictionary.coarse]
+
+[dictionary.code]
+
+[dictionary.codec]
+
+[dictionary.coefficient]
+japanese = ["係数"]
+
+[dictionary.coefficients]
+
+[dictionary.coerce]
+
+[dictionary.coherent]
+
+[dictionary.col]
+unshortened = [
+    "color",
+    "colomn",
+]
+
+[dictionary.collect]
+
+[dictionary.collection]
+kana = ["コレクション"]
+description = "配列や辞書など複数の値をまとめる型。"
+
+[dictionary.collections]
+
+[dictionary.colon]
+
+[dictionary.color]
+shortened = ["col"]
+
+[dictionary.colors]
+
+[dictionary.colorspace]
+japanese = ["色空間"]
+
+[dictionary.column]
+antonym = ["row"]
+plural = "columns"
+kana = ["カラム"]
+japanese = ["列"]
+description = "行列・表・レイアウトの「列」。縦方向の一連のグリッド。"
+
+[dictionary.columns]
+singular = "column"
+
+[dictionary.combined]
+
+[dictionary.combiner]
+
+[dictionary.comma]
+kana = [
+    "コンマ",
+    "カンマ",
+]
+
+[dictionary.command]
+plural = "commands"
+shortened = ["cmd"]
+kana = ["コマンド"]
+
+[dictionary.commands]
+singular = "command"
+
+[dictionary.commercial]
+
+[dictionary.commit]
+kana = ["コミット"]
+
+[dictionary.commitment]
+
+[dictionary.committed]
+
+[dictionary.common]
+kana = ["コモン"]
+japanese = ["共通"]
+
+[dictionary.compact]
+
+[dictionary.compacted]
+
+[dictionary.compaction]
+category = ["memory management"]
+kana = ["コンパクション"]
+description = "メモリ管理の文脈において、断片化したメモリブロックを連続したメモリ領域に再割り当てすること。"
+
+[dictionary.comparator]
+
+[dictionary.compare]
+shortened = ["cmp"]
+japanese = ["比較する"]
+
+[dictionary.comparison]
+japanese = ["比較"]
+
+[dictionary.compatibility]
+
+[dictionary.compatible]
+japanese = [
+    "互換性のある",
+    "適合可能な",
+]
+
+[dictionary.compile]
+kana = ["コンパイル"]
+description = "高級言語を機械語に変換しコンピュータが実行できる形式にすること。"
+
+[dictionary.compiler]
+kana = [
+    "コンパイラ",
+    "コンパイラー",
+]
+description = "コンパイルするプログラム。"
+
+[dictionary.complement]
+
+[dictionary.complete]
+
+[dictionary.completed]
+
+[dictionary.component]
+plural = "components"
+kana = ["コンポーネント"]
+
+[dictionary.components]
+singular = "component"
+
+[dictionary.composite]
+
+[dictionary.compress]
+kana = ["コンプレス"]
+japanese = ["圧縮する"]
+
+[dictionary.compressed]
+
+[dictionary.compression]
+
+[dictionary.compute]
+kana = ["コンピュート"]
+japanese = ["計算する"]
+
+[dictionary.concat]
+unshortened = ["concatenate"]
+
+[dictionary.concatenate]
+shortened = ["concat"]
+japanese = [
+    "連結する",
+    "鎖状に繋ぐ",
+]
+
+[dictionary.concurrency]
+category = ["concurrent programming"]
+japanese = ["並行"]
+
+[dictionary.concurrent]
+category = ["concurrent programming"]
+japanese = [
+    "並行",
+    "並行の",
+]
+
+[dictionary.cond]
+unshortened = [
+    "condition",
+    "conditional",
+]
+
+[dictionary.condition]
+shortened = ["cond"]
+japanese = ["状態"]
+
+[dictionary.conditional]
+shortened = ["cond"]
+
+[dictionary.conduit]
+kana = [
+    "コンジット",
+    "コンドゥイット",
+]
+japanese = ["経路"]
+description = "通信ネットワークにおいて、データパケットが送信元から目的地へ移動する経路・チャネルのこと。"
+
+[dictionary.condvar]
+unshortened = ["conditional variable"]
+
+[dictionary.config]
+unshortened = ["configration"]
+
+[dictionary.configration]
+shortened = [
+    "cfg",
+    "config",
+]
+
+[dictionary.configure]
+
+[dictionary.confirm]
+
+[dictionary.conflict]
+kana = ["コンフリクト"]
+japanese = ["衝突する"]
+
+[dictionary.conformance]
+
+[dictionary.connect]
+
+[dictionary.connected]
+
+[dictionary.connection]
+
+[dictionary.conservative]
+
+[dictionary.consistent]
+
+[dictionary.const]
+plural = "consts"
+unshortened = ["constant"]
+description = "constantの略。"
+
+[dictionary.constant]
+plural = "constants"
+shortened = ["const"]
+japanese = [
+    "一定の",
+    "定数",
+]
+description = "変更できない値や、immutableな関数に対して用いられる。"
+
+[dictionary.constants]
+singular = "constant"
+
+[dictionary.constituents]
+
+[dictionary.constraint]
+plural = "constraints"
+japanese = ["制約"]
+
+[dictionary.constraints]
+singular = "constraint"
+
+[dictionary.construct]
+
+[dictionary.constructor]
+kana = [
+    "コンストラクタ",
+    "コンストラクター",
+]
+description = "オブジェクトの初期化時に1度だけ呼ばれる特殊な関数。主にフィールド・メンバ・プロパティの初期化を行う。"
+
+[dictionary.consts]
+singular = "const"
+
+[dictionary.consume]
+kana = ["コンスーム"]
+japanese = ["消費する"]
+
+[dictionary.contain]
+japanese = [
+    "含む",
+    "含有する",
+]
+
+[dictionary.contained]
+
+[dictionary.contains]
+infinitive = "contain"
+
+[dictionary.content]
+plural = "contents"
+
+[dictionary.contents]
+singular = "content"
+kana = ["コンテンツ"]
+
+[dictionary.context]
+shortened = ["cx"]
+kana = [
+    "コンテクスト",
+    "コンテキスト",
+]
+japanese = ["文脈"]
+
+[dictionary.contiguous]
+
+[dictionary.continue]
+kana = ["コンティニュー"]
+description = "多くのプログラミング言語で、ループ内の残りの処理を打ち切り、次の反復に進むキーワードである。"
+
+[dictionary.continued]
+
+[dictionary.contract]
+
+[dictionary.contraction]
+
+[dictionary.contravariance]
+japanese = ["反変性"]
+
+[dictionary.control]
+kana = ["コントロール"]
+japanese = ["制御"]
+
+[dictionary.controlled]
+
+[dictionary.controls]
+infinitive = "control"
+
+[dictionary.conv]
+unshortened = ["convert"]
+
+[dictionary.conversion]
+
+[dictionary.convert]
+shortened = ["conv"]
+kana = ["コンバート"]
+japanese = ["変換する"]
+
+[dictionary.cooperative]
+
+[dictionary.coord]
+plural = "coords"
+unshortened = ["coordinate"]
+
+[dictionary.coordinate]
+plural = "coordinates"
+shortened = ["coord"]
+japanese = ["座標"]
+
+[dictionary.coordinates]
+singular = "coordinate"
+
+[dictionary.coords]
+singular = "coord"
+
+[dictionary.copied]
+
+[dictionary.copies]
+
+[dictionary.copy]
+kana = ["コピー"]
+
+[dictionary.copysign]
+
+[dictionary.copysignf]
+
+[dictionary.core]
+kana = ["コア"]
+
+[dictionary.corner]
+kana = ["コーナー"]
+japanese = ["角"]
+
+[dictionary.coroutine]
+kana = ["コルーチン"]
+
+[dictionary.correlated]
+
+[dictionary.cos]
+
+[dictionary.cosf]
+
+[dictionary.cosh]
+
+[dictionary.cosited]
+
+[dictionary.cost]
+
+[dictionary.count]
+
+[dictionary.counter]
+
+[dictionary.counts]
+
+[dictionary.covariance]
+japanese = ["共変性"]
+
+[dictionary.coverage]
+
+[dictionary.covered]
+
+[dictionary.cow]
+
+[dictionary.cpp]
+description = "システムプログラミング言語C++のこと。"
+
+[dictionary.cpu]
+english = "CPU"
+unshortened = ["Central Processing Unit"]
+japanese = [
+    "中央処理装置",
+    "中央演算処理装置",
+]
+
+[dictionary.cr]
+
+[dictionary.crate]
+
+[dictionary.crawler]
+
+[dictionary.create]
+
+[dictionary.created]
+
+[dictionary.creation]
+
+[dictionary.cred]
+
+[dictionary.credentials]
+
+[dictionary.creds]
+
+[dictionary.crop]
+
+[dictionary.cross]
+japanese = ["クロス積"]
+
+[dictionary.crosses]
+
+[dictionary.cst]
+
+[dictionary.cstring]
+
+[dictionary.ctim]
+
+[dictionary.ctime]
+
+[dictionary.ctlz]
+
+[dictionary.ctpop]
+
+[dictionary.cttz]
+
+[dictionary.ctz]
+unshortened = ["count trailing zeros"]
+
+[dictionary.cube]
+
+[dictionary.cubic]
+
+[dictionary.cull]
+
+[dictionary.culling]
+kana = ["カリング"]
+
+[dictionary.cullmask]
+
+[dictionary.cur]
+unshortened = ["current"]
+
+[dictionary.curly]
+
+[dictionary.current]
+shortened = ["cur"]
+
+[dictionary.cursor]
+
+[dictionary.custom]
+
+[dictionary.cw]
+
+[dictionary.cx]
+unshortened = ["context"]
+
+[dictionary.cxchg]
+
+[dictionary.cxchgweak]
+
+[dictionary.cycle]
+
+[dictionary.cycles]
+
+[dictionary.cyclic]
+
+[dictionary.cylinder]
+kana = [
+    "シリンダ",
+    "シリンダー",
+]
+japanese = ["円柱"]
+
+[dictionary.d]
+
+[dictionary.dangling]
+japanese = ["宙ぶらりんの"]
+description = "どこからも参照されないこと。dangling pointer。"
+
+[dictionary.data]
+singular = "datum"
+
+[dictionary.datagram]
+
+[dictionary.date]
+
+[dictionary.datum]
+plural = "data"
+
+[dictionary.dbg]
+
+[dictionary.dc]
+
+[dictionary.dci]
+
+[dictionary.dd]
+
+[dictionary.dead]
+
+[dictionary.deadline]
+
+[dictionary.deadlock]
+
+[dictionary.dealloc]
+
+[dictionary.deallocate]
+antonym = ["allocate"]
+
+[dictionary.debug]
+
+[dictionary.decl]
+unshortened = [
+    "declare",
+    "declaration",
+]
+
+[dictionary.declaration]
+shortened = ["decl"]
+japanese = ["宣言"]
+
+[dictionary.declare]
+shortened = ["decl"]
+japanese = ["宣言する"]
+
+[dictionary.decode]
+
+[dictionary.decompress]
+
+[dictionary.decompression]
+
+[dictionary.deconstruct]
+
+[dictionary.decorate]
+
+[dictionary.decoration]
+
+[dictionary.decorations]
+
+[dictionary.decrement]
+
+[dictionary.dedicated]
+
+[dictionary.dedup]
+
+[dictionary."deep copy"]
+antonym = ["shallow copy"]
+
+[dictionary.default]
+
+[dictionary.deferred]
+
+[dictionary.define]
+japanese = ["定義する"]
+
+[dictionary.definition]
+japanese = ["定義"]
+
+[dictionary.defrag]
+category = ["memory management"]
+kana = ["デフラグ"]
+
+[dictionary.degenerate]
+
+[dictionary.degrees]
+
+[dictionary.deinit]
+
+[dictionary.deinterleave]
+
+[dictionary.delay]
+
+[dictionary.delegate]
+
+[dictionary.delegation]
+japanese = ["委譲"]
+
+[dictionary.delete]
+antonym = ["allocate"]
+
+[dictionary.delimiter]
+
+[dictionary.delta]
+
+[dictionary.demote]
+
+[dictionary.denied]
+
+[dictionary.denorm]
+
+[dictionary.density]
+
+[dictionary.dependencies]
+
+[dictionary.dependency]
+
+[dictionary.depth]
+
+[dictionary.deque]
+
+[dictionary.dequeue]
+
+[dictionary.deref]
+
+[dictionary.derivative]
+
+[dictionary.derivatives]
+
+[dictionary.desc]
+
+[dictionary.descendants]
+category = ["data structure"]
+antonym = ["ancestors"]
+singular = "descendant"
+japanese = ["子孫"]
+description = "木構造において子と子より下のノードのこと。子孫ノード。"
+
+[dictionary.description]
+
+[dictionary.descriptor]
+plural = "descriptors"
+kana = [
+    "ディスクリプタ",
+    "ディスクリプター",
+    "デスクリプタ",
+    "デスクリプター",
+]
+
+[dictionary.descriptors]
+singular = "descriptor"
+
+[dictionary.deserialize]
+antonym = ["serialize"]
+kana = ["デシリアライズ"]
+
+[dictionary.deserializer]
+antonym = ["serializer"]
+kana = [
+    "デシリアライザ",
+    "デシリアライザー",
+]
+
+[dictionary.dest]
+antonym = ["src"]
+shortened = ["dst"]
+unshortened = ["destination"]
+
+[dictionary.destination]
+antonym = ["source"]
+shortened = [
+    "dest",
+    "dst",
+]
+description = "原義は「目的地」。データをコピー・送信する元をsource、宛先をdestinationという。"
+
+[dictionary.destruct]
+
+[dictionary.detail]
+
+[dictionary.detected]
+
+[dictionary.deterministic]
+antonym = ["stochastic"]
+japanese = ["決定論的な"]
+
+[dictionary.dev]
+
+[dictionary.develop]
+japanese = ["開発する"]
+
+[dictionary.development]
+japanese = ["開発"]
+
+[dictionary.device]
+plural = "devices"
+kana = ["デバイス"]
+description = "GPUのこと。"
+
+[dictionary.devices]
+singular = "device"
+
+[dictionary.devicesize]
+
+[dictionary.dfb]
+
+[dictionary.dgram]
+
+[dictionary.diagnostic]
+
+[dictionary.diagnostics]
+
+[dictionary.dict]
+unshortened = ["dictionary"]
+
+[dictionary.dictionary]
+shortened = ["dict"]
+japanese = ["辞書"]
+
+[dictionary.diff]
+japanese = ["差分を求める"]
+
+[dictionary.difference]
+
+[dictionary.digit]
+japanese = ["桁"]
+
+[dictionary.digits]
+
+[dictionary.dim]
+unshortened = ["dimension"]
+
+[dictionary.dimension]
+plural = "dimensions"
+shortened = ["dim"]
+
+[dictionary.dimensions]
+singular = "dimension"
+
+[dictionary.dir]
+unshortened = [
+    "direction",
+    "directory",
+]
+
+[dictionary.direct]
+
+[dictionary.directfb]
+
+[dictionary.direction]
+shortened = ["dir"]
+
+[dictionary.directions]
+
+[dictionary.directory]
+shortened = ["dir"]
+
+[dictionary.dirty]
+japanese = ["未処理の"]
+description = """
+変更されたデータが保存・反映されていないこと。
+例えば、ユーザーがフォームに情報を入力したが、まだデータベースに保存されていない場合、そのデータは\"dirty\"である。"""
+
+[dictionary.disable]
+
+[dictionary.disabled]
+
+[dictionary.disallowed]
+
+[dictionary.disassembly]
+
+[dictionary.discard]
+
+[dictionary.disconnected]
+
+[dictionary.discrete]
+
+[dictionary.discriminant]
+
+[dictionary.disjoint]
+
+[dictionary.disk]
+
+[dictionary.dispatch]
+
+[dictionary.dispatcher]
+
+[dictionary.displacement]
+
+[dictionary.display]
+
+[dictionary.displays]
+
+[dictionary.dispose]
+
+[dictionary.distance]
+
+[dictionary.distances]
+
+[dictionary.distortion]
+
+[dictionary.distortions]
+
+[dictionary.dithering]
+japanese = ["ディザリング"]
+
+[dictionary.div]
+
+[dictionary.divergence]
+category = ["mathmatics"]
+japanese = ["発散"]
+description = "ベクトル解析。"
+
+[dictionary.divergent]
+
+[dictionary.divisor]
+
+[dictionary.dma]
+
+[dictionary."doc comments"]
+unshortened = ["documentation comments"]
+
+[dictionary.documentation]
+
+[dictionary."documentation comments"]
+shortened = ["doc comments"]
+
+[dictionary.dolby]
+
+[dictionary.dollar]
+description = "\"$\"記号のこと。"
+
+[dictionary.domain]
+
+[dictionary.done]
+
+[dictionary.dont]
+
+[dictionary.dot]
+
+[dictionary.double]
+description = "IEEE 754で定められる64ビットの浮動小数点数型を指す。"
+
+[dictionary.doublepump]
+
+[dictionary."doubly linked list"]
+
+[dictionary.down]
+
+[dictionary.downcast]
+
+[dictionary.downgrade]
+
+[dictionary.dozen]
+
+[dictionary.dpb]
+
+[dictionary.drain]
+
+[dictionary.drange]
+
+[dictionary.draw]
+
+[dictionary.dref]
+
+[dictionary.driven]
+infinitive = "drive"
+kana = ["ドリブン"]
+japanese = ["駆動"]
+
+[dictionary.driver]
+
+[dictionary.drm]
+
+[dictionary.drop]
+
+[dictionary.dsp]
+
+[dictionary.dst]
+antonym = ["src"]
+unshortened = [
+    "dest",
+    "destination",
+]
+
+[dictionary.dsync]
+
+[dictionary.dual]
+
+[dictionary.dummy]
+
+[dictionary.dumped]
+
+[dictionary.duplicate]
+
+[dictionary.dur]
+
+[dictionary.duration]
+
+[dictionary.dv]
+
+[dictionary.dword]
+unshortened = ["double word"]
+description = "wordが16ビットのことであり、dwordはその2倍の32ビットのこと、あるいは32ビットの型のこと。"
+
+[dictionary.dyn]
+unshortened = ["dynamic"]
+
+[dictionary.dynamic]
+antonym = ["static"]
+shortened = ["dyn"]
+japanese = ["動的"]
+
+[dictionary.e]
+
+[dictionary.eac]
+
+[dictionary.each]
+
+[dictionary.earlier]
+
+[dictionary.early]
+
+[dictionary.edge]
+
+[dictionary.effects]
+
+[dictionary.elapsed]
+
+[dictionary.elect]
+
+[dictionary.element]
+plural = "elements"
+kana = ["エレメント"]
+japanese = ["要素"]
+
+[dictionary.elements]
+singular = "element"
+
+[dictionary.else]
+
+[dictionary.elt]
+
+[dictionary.embed]
+
+[dictionary.embedded]
+
+[dictionary.emit]
+
+[dictionary.empty]
+
+[dictionary.enable]
+
+[dictionary.enabled]
+
+[dictionary.enables]
+
+[dictionary.encode]
+
+[dictionary.encoded]
+
+[dictionary.end]
+
+[dictionary.ended]
+
+[dictionary.endian]
+kana = ["エンディアン"]
+description = "endianあるいはbyte orderとは、マルチバイトデータを下位バイトから並べるか上位バイトから並べるかという規則。一般的にCPUはlittle endian、文字列はbig endianが採用されている。"
+
+[dictionary.endianness]
+description = "little endianかbig endianか。"
+
+[dictionary.ends]
+
+[dictionary.engine]
+
+[dictionary.enqueue]
+
+[dictionary.enqueued]
+
+[dictionary.enquiry]
+
+[dictionary.ensure]
+
+[dictionary.entries]
+
+[dictionary.entry]
+
+[dictionary.enum]
+plural = "enusm"
+unshortened = ["enumerate"]
+japanese = [
+    "列挙",
+    "列挙型",
+]
+
+[dictionary.enumerant]
+
+[dictionary.enumerate]
+shortened = ["enum"]
+
+[dictionary.enumeration]
+
+[dictionary.enums]
+
+[dictionary.env]
+plural = "envs"
+unshortened = ["environment"]
+
+[dictionary.envs]
+singular = "env"
+
+[dictionary.eof]
+english = "EoF"
+unshortened = ["End of File"]
+
+[dictionary.epoch]
+
+[dictionary.eprint]
+
+[dictionary.eprintln]
+
+[dictionary.epsilon]
+
+[dictionary.eq]
+
+[dictionary.eqintel]
+
+[dictionary.equal]
+
+[dictionary.equals]
+
+[dictionary.equation]
+
+[dictionary.equip]
+
+[dictionary.equivalent]
+
+[dictionary.err]
+
+[dictionary.error]
+
+[dictionary.errors]
+
+[dictionary.escape]
+
+[dictionary.essl]
+
+[dictionary.estimation]
+
+[dictionary.etc]
+
+[dictionary.euclid]
+
+[dictionary.eval]
+
+[dictionary.evaluate]
+
+[dictionary.evaluation]
+
+[dictionary.even]
+japanese = ["偶数"]
+
+[dictionary.event]
+plural = "events"
+kana = ["イベント"]
+
+[dictionary.events]
+singular = "event"
+
+[dictionary.exact]
+
+[dictionary.exceed]
+
+[dictionary.exceeded]
+
+[dictionary.exception]
+japanese = ["例外"]
+
+[dictionary.exchange]
+shortened = ["xchg"]
+
+[dictionary.exclamation]
+
+[dictionary.excluded]
+
+[dictionary.exclusive]
+
+[dictionary.exe]
+unshortened = ["executable"]
+
+[dictionary.exec]
+
+[dictionary.executable]
+shortened = ["exe"]
+
+[dictionary.execute]
+
+[dictionary.execution]
+
+[dictionary.exhausted]
+
+[dictionary.exhaustive]
+
+[dictionary.exist]
+
+[dictionary.exists]
+
+[dictionary.exit]
+
+[dictionary.exp]
+unshortened = ["exponent"]
+
+[dictionary.expect]
+
+[dictionary.expected]
+
+[dictionary.expf]
+
+[dictionary.explicit]
+japanese = ["明示的"]
+
+[dictionary.expm]
+
+[dictionary.exponent]
+shortened = ["exp"]
+
+[dictionary.export]
+
+[dictionary.exportable]
+
+[dictionary.expose]
+
+[dictionary.exposed]
+
+[dictionary.expression]
+category = ["compiler"]
+japanese = ["式"]
+description = "値を評価できるコードブロック。"
+
+[dictionary.ext]
+unshortened = ["extension"]
+
+[dictionary.extend]
+
+[dictionary.extended]
+
+[dictionary.extension]
+shortened = ["ext"]
+japanese = ["拡張"]
+
+[dictionary.extensions]
+
+[dictionary.extent]
+
+[dictionary.extern]
+
+[dictionary.external]
+
+[dictionary.extra]
+
+[dictionary.extract]
+
+[dictionary.f]
+
+[dictionary.fabs]
+
+[dictionary.fabsf]
+
+[dictionary.face]
+
+[dictionary.faces]
+
+[dictionary.facing]
+
+[dictionary.factor]
+
+[dictionary.factors]
+
+[dictionary.fadd]
+
+[dictionary.fail]
+
+[dictionary.failed]
+
+[dictionary.failure]
+
+[dictionary.false]
+japanese = ["偽"]
+
+[dictionary.family]
+
+[dictionary.fan]
+
+[dictionary.fans]
+
+[dictionary.fast]
+
+[dictionary.fat]
+
+[dictionary.fault]
+
+[dictionary.fb]
+
+[dictionary.fchown]
+
+[dictionary.fd]
+
+[dictionary.fdiv]
+
+[dictionary.fds]
+
+[dictionary.fdstat]
+
+[dictionary.feature]
+
+[dictionary.features]
+
+[dictionary.feed]
+
+[dictionary.feedback]
+
+[dictionary.fence]
+
+[dictionary.fences]
+
+[dictionary.fetch]
+
+[dictionary.ffi]
+
+[dictionary.field]
+kana = ["フィールド"]
+
+[dictionary.fields]
+
+[dictionary.fifo]
+
+[dictionary.file]
+
+[dictionary.filename]
+
+[dictionary.filesystem]
+
+[dictionary.fill]
+
+[dictionary.filled]
+
+[dictionary.filter]
+
+[dictionary.final]
+
+[dictionary.finalize]
+
+[dictionary.finalizer]
+
+[dictionary.find]
+
+[dictionary.fine]
+
+[dictionary.finish]
+
+[dictionary.finished]
+
+[dictionary.finite]
+
+[dictionary.fintel]
+
+[dictionary.first]
+
+[dictionary.fit]
+
+[dictionary.fixed]
+
+[dictionary.flag]
+kana = ["フラグ"]
+description = "onかoffかを表す値、またはその型。bitflagsは1ビットごとにフラグを表すためデータ効率が良い。列挙型として実装されることが多い。"
+
+[dictionary.flags]
+
+[dictionary.flat]
+
+[dictionary.flatten]
+
+[dictionary.flattened]
+
+[dictionary.flip]
+
+[dictionary.float]
+unshortened = ["floating point number"]
+description = "浮動小数点数のこと。一般的にはIEEE 754で定められる32ビットの浮動小数点数型を指す。"
+
+[dictionary.floating]
+
+[dictionary.floats]
+
+[dictionary.floor]
+antonym = ["ceil"]
+
+[dictionary.floorf]
+
+[dictionary.flow]
+
+[dictionary.flowinfo]
+
+[dictionary.flush]
+
+[dictionary.fma]
+
+[dictionary.fmaf]
+
+[dictionary.fmax]
+
+[dictionary.fme]
+
+[dictionary.fmin]
+
+[dictionary.fmt]
+
+[dictionary.fmul]
+
+[dictionary.fn]
+
+[dictionary.fns]
+
+[dictionary.fold]
+
+[dictionary.foo]
+
+[dictionary.footprint]
+
+[dictionary.for]
+
+[dictionary.force]
+
+[dictionary.forceable]
+
+[dictionary.foreign]
+
+[dictionary.forget]
+
+[dictionary.form]
+
+[dictionary.format]
+
+[dictionary.formats]
+
+[dictionary.formatter]
+
+[dictionary.forward]
+
+[dictionary.found]
+
+[dictionary.four]
+
+[dictionary.fp]
+unshortened = ["floating point"]
+japanese = ["浮動小数点"]
+
+[dictionary.fpga]
+english = "FPGA"
+unshortened = ["field-programmable gate array"]
+
+[dictionary.fpgadsp]
+
+[dictionary.fract]
+
+[dictionary.fractional]
+
+[dictionary.frag]
+category = ["memory management"]
+unshortened = ["fragment"]
+kana = ["フラグ"]
+
+[dictionary.fragment]
+category = ["memory management"]
+shortened = ["frag"]
+kana = ["フラグメント"]
+
+[dictionary.fragmentation]
+category = ["memory management"]
+kana = ["フラグメンテーション"]
+japanese = ["断片化"]
+description = "メモリ割り当てと開放"
+
+[dictionary.fragmented]
+
+[dictionary.frame]
+
+[dictionary.framebuffer]
+
+[dictionary.frames]
+
+[dictionary.free]
+
+[dictionary.frem]
+
+[dictionary.from]
+
+[dictionary.front]
+
+[dictionary.fs]
+
+[dictionary.fsub]
+
+[dictionary.fuchsia]
+
+[dictionary.fulfil]
+
+[dictionary.full]
+
+[dictionary.fully]
+
+[dictionary.func]
+
+[dictionary.function]
+
+[dictionary.functionality]
+
+[dictionary.functions]
+
+[dictionary.fuse]
+
+[dictionary.fused]
+
+[dictionary.fusion]
+
+[dictionary.future]
+
+[dictionary.fuzz]
+kana = ["ファズ"]
+description = "ファジングに用いられる予測不可能な入力データの意。"
+
+[dictionary.fuzzer]
+kana = ["ファザー"]
+description = "ファズテストを実行するツールのこと。"
+
+[dictionary.fuzzing]
+kana = ["ファジング"]
+description = "コンピュータプログラムの入力として無効なデータやランダムなデータを用い、プログラムの状態空間を探索するソフトウェアテストのこと。"
+
+[dictionary.fwd]
+
+[dictionary.fwidth]
+
+[dictionary.fxaa]
+english = "FXAA"
+unshortened = ["Fast Approximate Anti-Aliasing"]
+
+[dictionary.g]
+
+[dictionary.gamma]
+kana = ["ガンマ"]
+
+[dictionary."garbage collection"]
+unshortened = ["gc"]
+kana = ["ガベージコレクション"]
+
+[dictionary."garbage collector"]
+unshortened = ["gc"]
+kana = ["ガベージコレクター"]
+
+[dictionary.gather]
+
+[dictionary.gc]
+shortened = [
+    "garbage collection",
+    "garbage collector",
+]
+
+[dictionary.gcn]
+
+[dictionary.gdeflate]
+
+[dictionary.ge]
+
+[dictionary.geintel]
+
+[dictionary.gen]
+
+[dictionary.general]
+
+[dictionary.generate]
+kana = ["ジェネレート"]
+japanese = ["生成する"]
+
+[dictionary.generated]
+
+[dictionary.generation]
+kana = ["ジェネレーション"]
+japanese = [
+    "生成",
+    "世代",
+]
+
+[dictionary.generative]
+kana = ["ジェネレーティブ"]
+japanese = [
+    "生成的な",
+    "生成",
+]
+
+[dictionary.generator]
+
+[dictionary.generic]
+
+[dictionary.geometries]
+
+[dictionary.geometry]
+
+[dictionary.get]
+
+[dictionary.ggp]
+
+[dictionary.gid]
+
+[dictionary.gl]
+
+[dictionary.global]
+antonym = ["local"]
+
+[dictionary.glsl]
+
+[dictionary.glyph]
+
+[dictionary.google]
+
+[dictionary.goto]
+
+[dictionary.gpu]
+english = "GPU"
+unshortened = ["Graphics Processing Unit"]
+
+[dictionary.grad]
+unshortened = ["gradient"]
+
+[dictionary.gradient]
+category = ["mathmatics"]
+shortened = ["grad"]
+japanese = ["勾配"]
+description = "ベクトル解析において、スカラー場の変化量を表すベクトル場のこと。"
+
+[dictionary.granularity]
+japanese = ["粒度"]
+
+[dictionary.graphic]
+kana = ["グラフィック"]
+
+[dictionary.graphics]
+kana = ["グラフィックス"]
+
+[dictionary.grave]
+
+[dictionary.gravity]
+
+[dictionary.greater]
+
+[dictionary."green node"]
+category = ["compiler"]
+description = "red green syntax tree (赤緑構文木)におけるimmutableなノード。この文脈ではred nodeはmutableなノードを指し、赤黒木のそれとは異なる。Roslyn C#コンパイラが初出。"
+
+[dictionary.grid]
+kana = ["グリッド"]
+japanese = ["格子"]
+
+[dictionary."ground truth"]
+
+[dictionary.group]
+
+[dictionary.groups]
+
+[dictionary.grow]
+description = "リストやベクターなど成長可能な配列型が容量を増やすこと。"
+
+[dictionary.gt]
+unshortened = ["greater than"]
+
+[dictionary.gtintel]
+
+[dictionary.guaranteed]
+
+[dictionary.guard]
+
+[dictionary.gx]
+
+[dictionary.h]
+unshortened = [
+    "heading",
+    "height",
+    "handle",
+]
+
+[dictionary.haar]
+
+[dictionary.half]
+description = "16ビットの浮動小数点数型のこと。x86など汎用CPUにはhalf用の演算回路は存在しない。"
+
+[dictionary.handle]
+shortened = ["h"]
+kana = ["ハンドル"]
+
+[dictionary.handles]
+
+[dictionary.hard]
+
+[dictionary.hardware]
+
+[dictionary.has]
+
+[dictionary.hash]
+
+[dictionary.hashed]
+
+[dictionary.hashee]
+
+[dictionary.hasher]
+
+[dictionary.haystack]
+
+[dictionary.hdr]
+
+[dictionary.head]
+
+[dictionary.header]
+
+[dictionary.heading]
+shortened = ["h"]
+
+[dictionary.headless]
+
+[dictionary.heap]
+kana = ["ヒープ"]
+
+[dictionary.heaps]
+
+[dictionary.height]
+shortened = ["h"]
+kana = ["height"]
+japanese = ["高さ"]
+
+[dictionary.helper]
+
+[dictionary.hero]
+
+[dictionary.hex]
+
+[dictionary.hexadecimal]
+
+[dictionary.hexdigit]
+
+[dictionary.hieralchy]
+kana = [
+    "ヒエラルキー",
+    "ハイアラルキー",
+]
+japanese = ["階層"]
+
+[dictionary.hierarichical]
+
+[dictionary.high]
+
+[dictionary.hinstance]
+
+[dictionary.hint]
+
+[dictionary.hit]
+
+[dictionary.hlg]
+
+[dictionary.hlsl]
+
+[dictionary.hmonitor]
+
+[dictionary.home]
+
+[dictionary.hook]
+
+[dictionary.horizontal]
+
+[dictionary.host]
+
+[dictionary.how]
+
+[dictionary.huawei]
+
+[dictionary.hwnd]
+
+[dictionary.hyphen]
+kana = ["ハイフン"]
+
+[dictionary.hypot]
+
+[dictionary.i]
+unshortened = [
+    "integer",
+    "index",
+]
+
+[dictionary.id]
+plural = "ids"
+unshortened = ["identifier"]
+kana = ["アイディー"]
+
+[dictionary.idarm]
+
+[dictionary.identical]
+
+[dictionary.identifier]
+shortened = ["id"]
+japanese = ["識別子"]
+
+[dictionary.identity]
+
+[dictionary.idents]
+
+[dictionary.idle]
+
+[dictionary.idnv]
+
+[dictionary.ids]
+singular = "id"
+
+[dictionary.idx]
+unshortened = ["index"]
+
+[dictionary.idxs]
+
+[dictionary.ieee]
+
+[dictionary.ieeeintel]
+
+[dictionary.if]
+
+[dictionary.ignore]
+
+[dictionary.ignored]
+
+[dictionary.il]
+unshortened = ["intermediate language"]
+
+[dictionary.ilog]
+
+[dictionary.image]
+shortened = ["img"]
+
+[dictionary.imageless]
+
+[dictionary.imagepipe]
+
+[dictionary.images]
+
+[dictionary.imagination]
+
+[dictionary.ime]
+
+[dictionary.img]
+unshortened = ["image"]
+
+[dictionary.immediate]
+japanese = ["即時"]
+
+[dictionary.immutable]
+japanese = ["不変"]
+
+[dictionary.impl]
+
+[dictionary.implement]
+japanese = ["実装する"]
+
+[dictionary.implementation]
+japanese = ["実装"]
+
+[dictionary.implicit]
+japanese = ["暗黙的"]
+
+[dictionary.import]
+
+[dictionary.importable]
+
+[dictionary.imported]
+
+[dictionary.in]
+
+[dictionary.include]
+
+[dictionary.included]
+
+[dictionary.inclusive]
+
+[dictionary.incoming]
+
+[dictionary.incompatible]
+
+[dictionary.increment]
+kana = ["インクリメント"]
+
+[dictionary.incremental]
+
+[dictionary.independence]
+
+[dictionary.independent]
+
+[dictionary.index]
+plural = "indices"
+shortened = [
+    "i",
+    "idx",
+]
+
+[dictionary.indexed]
+
+[dictionary.indexes]
+
+[dictionary.indexing]
+
+[dictionary.indication]
+
+[dictionary.indices]
+singular = "index"
+
+[dictionary.indirect]
+
+[dictionary.indirectly]
+
+[dictionary.inf]
+
+[dictionary.infallible]
+
+[dictionary.infinite]
+
+[dictionary.infinity]
+
+[dictionary.info]
+plural = "infos"
+unshortened = ["information"]
+
+[dictionary.information]
+shortened = ["info"]
+
+[dictionary.infos]
+singular = "info"
+
+[dictionary.inhabited]
+
+[dictionary.inherit]
+japanese = [
+    "継承",
+    "継承する",
+]
+
+[dictionary.inheritance]
+japanese = ["継承"]
+
+[dictionary.inherited]
+
+[dictionary.inheriting]
+
+[dictionary.init]
+unshortened = ["initialize"]
+
+[dictionary.initial]
+
+[dictionary.initialization]
+japanese = ["初期化"]
+
+[dictionary.initialize]
+shortened = ["init"]
+japanese = ["初期化する"]
+
+[dictionary.initialized]
+
+[dictionary.initializer]
+
+[dictionary.initiation]
+
+[dictionary.inline]
+kana = ["インライン"]
+
+[dictionary.inner]
+antonym = ["outer"]
+
+[dictionary.ino]
+
+[dictionary.input]
+antonym = ["output"]
+
+[dictionary.inputs]
+
+[dictionary.insert]
+kana = ["インサート"]
+japanese = [
+    "挿入",
+    "挿入する",
+]
+
+[dictionary.inspect]
+
+[dictionary.inst]
+
+[dictionary.instance]
+plural = "instances"
+kana = ["インスタンス"]
+
+[dictionary.instances]
+singular = "instance"
+
+[dictionary.instant]
+
+[dictionary.instantiate]
+japanese = ["インスタンス化する"]
+
+[dictionary.instruction]
+plural = "instructions"
+japanese = ["命令"]
+
+[dictionary."instruction set"]
+japanese = ["命令セット"]
+
+[dictionary.instructions]
+singular = "instruction"
+
+[dictionary.int]
+unshortened = ["integer"]
+
+[dictionary.integer]
+shortened = [
+    "i",
+    "int",
+]
+
+[dictionary.integers]
+
+[dictionary.integral]
+
+[dictionary.integrate]
+japanese = ["統合する"]
+
+[dictionary.integrated]
+
+[dictionary.intel]
+
+[dictionary.intensity]
+japanese = [
+    "強度",
+    "強さ",
+]
+
+[dictionary.inter]
+
+[dictionary.interest]
+
+[dictionary.interface]
+plural = "interfaces"
+kana = ["インターフェース"]
+
+[dictionary.interfaces]
+singular = "interface"
+
+[dictionary.interlaced]
+
+[dictionary.interleave]
+kana = [
+    "インターリーブ",
+    "インターリーヴ",
+]
+japanese = [
+    "綴じ込む",
+    "交代で挿入する",
+]
+description = "例：2つの配列[a1, a2, a3], [b1, b2, b3]をinterleaveすると、[a1, b1, a2, b2, a3, b3]となる。"
+
+[dictionary.interleaving]
+
+[dictionary.interlock]
+
+[dictionary.internal]
+
+[dictionary.interop]
+japanese = ["相互運用する"]
+
+[dictionary.interoperability]
+japanese = ["相互運用性"]
+
+[dictionary.interp]
+
+[dictionary.interpolate]
+japanese = ["補間する"]
+
+[dictionary.interpolation]
+
+[dictionary.interrupt]
+japanese = [
+    "割り込み",
+    "割り込む",
+]
+
+[dictionary.interrupted]
+
+[dictionary.interruption]
+
+[dictionary.intersection]
+
+[dictionary.intersects]
+
+[dictionary.intersperse]
+
+[dictionary.interval]
+
+[dictionary.into]
+
+[dictionary.intra]
+
+[dictionary.intrinsic]
+japanese = [
+    "組み込み",
+    "組み込みの",
+]
+
+[dictionary.intrinsics]
+
+[dictionary.invalid]
+
+[dictionary.invalidate]
+
+[dictionary.invariant]
+
+[dictionary.inverse]
+
+[dictionary.invert]
+
+[dictionary.inverted]
+
+[dictionary.invocation]
+
+[dictionary.invocations]
+
+[dictionary.invoke]
+
+[dictionary.io]
+description = "inputとoutputのこと。データの入出力。"
+
+[dictionary.iointel]
+
+[dictionary.ios]
+
+[dictionary.ip]
+unshortened = ["internet protocol"]
+
+[dictionary.ipe]
+
+[dictionary.ipv]
+
+[dictionary.ir]
+unshortened = ["intermediate representation"]
+
+[dictionary.irrelevant]
+
+[dictionary.is]
+
+[dictionary.isize]
+
+[dictionary.isolines]
+
+[dictionary.isqrt]
+
+[dictionary.item]
+
+[dictionary.iter]
+unshortened = [
+    "iterator",
+    "iteration",
+    "iterate",
+]
+
+[dictionary.iteration]
+shortened = ["iter"]
+
+[dictionary.iterations]
+
+[dictionary.iterator]
+shortened = ["iter"]
+
+[dictionary.itu]
+
+[dictionary.j]
+
+[dictionary.join]
+
+[dictionary.juice]
+
+[dictionary.k]
+
+[dictionary.keep]
+
+[dictionary.kernel]
+
+[dictionary.key]
+plural = "keys"
+kana = ["キー"]
+japanese = ["鍵"]
+description = "辞書や連想配列の挿入・探索に用いる識別可能な値。"
+
+[dictionary.keyed]
+
+[dictionary.keys]
+singular = "key"
+
+[dictionary.keyword]
+kana = ["キーワード"]
+
+[dictionary.khr]
+
+[dictionary.kill]
+kana = ["キル"]
+description = "タスク・スレッド・プロセスなどを終了させること。"
+
+[dictionary.kind]
+
+[dictionary.kmt]
+
+[dictionary.known]
+
+[dictionary.ks]
+
+[dictionary.l]
+
+[dictionary.label]
+
+[dictionary.labels]
+
+[dictionary.lane]
+
+[dictionary.lanes]
+
+[dictionary.language]
+
+[dictionary.large]
+
+[dictionary.last]
+
+[dictionary.late]
+
+[dictionary.latency]
+
+[dictionary.launch]
+
+[dictionary.layer]
+
+[dictionary.layered]
+
+[dictionary.layers]
+
+[dictionary.layout]
+
+[dictionary.layouts]
+
+[dictionary.lazily]
+
+[dictionary.lazy]
+
+[dictionary.lchown]
+
+[dictionary.ldr]
+
+[dictionary.le]
+unshortened = ["little endian"]
+
+[dictionary.leader]
+
+[dictionary.leading]
+
+[dictionary.leaf]
+
+[dictionary.leak]
+
+[dictionary.leave]
+
+[dictionary.left]
+
+[dictionary.leftover]
+
+[dictionary.legacy]
+
+[dictionary.leintel]
+
+[dictionary.len]
+
+[dictionary.lenght]
+
+[dictionary.length]
+
+[dictionary.less]
+
+[dictionary.let]
+
+[dictionary.level]
+
+[dictionary.levels]
+
+[dictionary.lex]
+
+[dictionary.lexer]
+
+[dictionary.lhs]
+antonym = ["rhs"]
+
+[dictionary.library]
+
+[dictionary.lifetime]
+
+[dictionary.lifetimes]
+
+[dictionary.lifo]
+english = "LIFO"
+unshortened = ["Last In, First Out"]
+japanese = ["後入れ先出し"]
+
+[dictionary.like]
+
+[dictionary.likely]
+
+[dictionary.limit]
+
+[dictionary.limits]
+
+[dictionary.line]
+plural = "lines"
+japanese = [
+    "行",
+    "線",
+]
+description = "コード行のこと。"
+
+[dictionary."line break"]
+japanese = ["改行"]
+
+[dictionary.linear]
+kana = ["リニア"]
+japanese = ["線形"]
+
+[dictionary.lines]
+singular = "line"
+
+[dictionary.linger]
+
+[dictionary.link]
+
+[dictionary.linkage]
+
+[dictionary.linked]
+
+[dictionary."linked list"]
+japanese = ["連結リスト"]
+
+[dictionary.linker]
+kana = [
+    "リンカ",
+    "リンカー",
+]
+
+[dictionary.linking]
+
+[dictionary.links]
+
+[dictionary.linux]
+
+[dictionary.list]
+
+[dictionary.listener]
+
+[dictionary.lit]
+category = ["computer graphics"]
+infinitive = "light"
+
+[dictionary.literal]
+
+[dictionary.live]
+
+[dictionary.llv]
+
+[dictionary.ln]
+unshortened = ["natural logarithm"]
+japanese = ["自然対数"]
+description = "ネイピア数を底とする対数関数。"
+
+[dictionary.load]
+
+[dictionary.loader]
+
+[dictionary.loading]
+
+[dictionary.loads]
+
+[dictionary.loc]
+unshortened = ["lines of code"]
+description = "コードの行数"
+
+[dictionary.local]
+antonym = ["global"]
+kana = ["ローカル"]
+
+[dictionary.localhost]
+
+[dictionary.locality]
+
+[dictionary.locate]
+
+[dictionary.location]
+
+[dictionary.locations]
+
+[dictionary.lock]
+kana = ["ロック"]
+description = "mutexの排他的アクセスを獲得すること。"
+
+[dictionary.lod]
+
+[dictionary.log]
+
+[dictionary.logf]
+
+[dictionary.logic]
+japanese = ["論理"]
+
+[dictionary.logical]
+japanese = ["論理の"]
+
+[dictionary."logical operation"]
+japanese = ["論理演算"]
+
+[dictionary."logical operator"]
+japanese = ["論理演算子"]
+
+[dictionary.long]
+
+[dictionary.lookup]
+kana = ["ルックアップ"]
+description = "探すこと。ルックアップテーブル。"
+
+[dictionary.loop]
+
+[dictionary.loopback]
+
+[dictionary.loops]
+
+[dictionary.lossy]
+description = "非可逆変換のこと。データをロスする可能性がある変換のこと。"
+
+[dictionary.lost]
+
+[dictionary.low]
+
+[dictionary.lower]
+
+[dictionary.lowercase]
+
+[dictionary.lsb]
+
+[dictionary.lt]
+unshortened = ["less than"]
+japanese = ["未満"]
+
+[dictionary.ltintel]
+
+[dictionary.lto]
+unshortened = ["link time optimization"]
+
+[dictionary.luid]
+
+[dictionary.luma]
+
+[dictionary.luminance]
+japanese = ["輝度"]
+
+[dictionary.lunarg]
+
+[dictionary.m]
+
+[dictionary.mac]
+
+[dictionary.macos]
+
+[dictionary.macro]
+
+[dictionary.macros]
+
+[dictionary.mag]
+
+[dictionary.mailbox]
+
+[dictionary.main]
+
+[dictionary.maintenance]
+
+[dictionary.major]
+
+[dictionary.make]
+
+[dictionary.makes]
+
+[dictionary.managed]
+kana = ["マネージド"]
+
+[dictionary.mantissa]
+japanese = ["仮数"]
+
+[dictionary.manually]
+
+[dictionary.many]
+
+[dictionary.map]
+description = "全単射の写像。"
+
+[dictionary.mapped]
+
+[dictionary.mapping]
+
+[dictionary.mark]
+
+[dictionary.marker]
+
+[dictionary.markers]
+
+[dictionary.markup]
+
+[dictionary.marshal]
+kana = ["マーシャル"]
+
+[dictionary.mask]
+
+[dictionary.masked]
+
+[dictionary.masks]
+
+[dictionary.match]
+
+[dictionary.matches]
+
+[dictionary.matching]
+
+[dictionary.math]
+
+[dictionary.matrix]
+kana = [
+    "マトリックス",
+    "メイトリックス",
+]
+japanese = ["行列"]
+
+[dictionary.max]
+
+[dictionary.maximum]
+
+[dictionary.maxnumf]
+
+[dictionary.maybe]
+
+[dictionary.mce]
+
+[dictionary.media]
+
+[dictionary.medium]
+
+[dictionary.mem]
+
+[dictionary.member]
+plural = "members"
+kana = [
+    "メンバ",
+    "メンバー",
+]
+
+[dictionary.members]
+singular = "member"
+
+[dictionary.memory]
+kana = [
+    "メモリ",
+    "メモリー",
+]
+
+[dictionary.merge]
+
+[dictionary.mesa]
+
+[dictionary.mesh]
+
+[dictionary.meshlet]
+
+[dictionary.message]
+
+[dictionary."message loop"]
+
+[dictionary.messages]
+
+[dictionary.messenger]
+
+[dictionary.messengers]
+
+[dictionary.meta]
+
+[dictionary.metadata]
+kana = ["メタデータ"]
+
+[dictionary.metal]
+
+[dictionary.metaprogramming]
+kana = ["メタプログラミング"]
+
+[dictionary.method]
+
+[dictionary.methods]
+
+[dictionary.metric]
+plural = "metrics"
+
+[dictionary.metrics]
+singular = "metric"
+kana = ["メトリクス"]
+japanese = [
+    "測定基準",
+    "測定手法",
+]
+
+[dictionary.mhz]
+
+[dictionary.micromap]
+
+[dictionary.micros]
+
+[dictionary.microsecond]
+japanese = ["マイクロ秒"]
+description = "100万分の1秒。1000分の1ミリ秒。1000ナノ秒。"
+
+[dictionary.mid]
+unshortened = ["middle"]
+
+[dictionary.midpoint]
+
+[dictionary.millis]
+
+[dictionary.millisecond]
+
+[dictionary.min]
+
+[dictionary.minimum]
+
+[dictionary.minmax]
+description = "最小値と最大値を同時に求める関数。またはminmax法のこと。"
+
+[dictionary.minnumf]
+
+[dictionary.minor]
+
+[dictionary.minus]
+
+[dictionary.mip]
+
+[dictionary.mipmap]
+kana = ["ミップマップ"]
+
+[dictionary.mips]
+
+[dictionary.miptail]
+
+[dictionary.mir]
+
+[dictionary.mirror]
+
+[dictionary.mirrored]
+
+[dictionary.miss]
+
+[dictionary.missing]
+
+[dictionary.mix]
+
+[dictionary.mixed]
+
+[dictionary.mm]
+
+[dictionary.mnemonic]
+kana = ["ニーモニック"]
+description = "機械語命令に与えられた文字列・命令語。"
+
+[dictionary.mod]
+unshortened = ["module"]
+
+[dictionary.mode]
+
+[dictionary.model]
+
+[dictionary.modes]
+
+[dictionary.modified]
+
+[dictionary.modifier]
+
+[dictionary.modifiers]
+
+[dictionary.modify]
+
+[dictionary.modifying]
+
+[dictionary.modulation]
+
+[dictionary.module]
+shortened = ["mod"]
+
+[dictionary.molten]
+
+[dictionary.monitor]
+
+[dictionary.motion]
+
+[dictionary.mout]
+
+[dictionary.move]
+kana = [
+    "ムーブ",
+    "ムーヴ",
+]
+japanese = [
+    "移動",
+    "移動する",
+]
+description = "オブジェクトの所有権が移動すること。"
+
+[dictionary.mpipe]
+
+[dictionary.mpsc]
+
+[dictionary.ms]
+
+[dictionary.msaa]
+english = "MSAA"
+unshortened = ["Multi-Sample Anti-Aliasing"]
+
+[dictionary.msb]
+
+[dictionary.msg]
+
+[dictionary.mtim]
+
+[dictionary.mtime]
+
+[dictionary.mul]
+
+[dictionary.multi]
+
+[dictionary.multiaddr]
+
+[dictionary.multicast]
+
+[dictionary.multiple]
+
+[dictionary.multiplied]
+
+[dictionary.multiply]
+
+[dictionary.multisample]
+
+[dictionary.multisampled]
+
+[dictionary.multiview]
+
+[dictionary.must]
+
+[dictionary.mut]
+unshortened = ["mutable"]
+description = "mutableの略。"
+
+[dictionary.mutable]
+shortened = ["mut"]
+kana = ["ミュータブル"]
+japanese = [
+    "変異性の",
+    "可変の",
+]
+description = ""
+
+[dictionary.mutex]
+
+[dictionary.mvk]
+
+[dictionary.n]
+description = "numberの略。"
+
+[dictionary.name]
+
+[dictionary.named]
+
+[dictionary.namespace]
+kana = ["ネームスペース"]
+japanese = ["名前空間"]
+
+[dictionary.nan]
+english = "NaN"
+unshortened = ["Not a Number"]
+japanese = ["非数"]
+description = """
+浮動小数点数型で、ゼロ除算など不正なオペランドの結果を保存するための値。IEEE 754では、指数部を1、仮数部を全て0以外の任意の値と定義する。
+"""
+
+[dictionary.nand]
+kana = ["ナンド"]
+description = """
+ANDの否定(NOT)のこと。`!(a&b)`に等しい。
+"""
+
+[dictionary.nanos]
+
+[dictionary.nanosecond]
+
+[dictionary.narrow]
+
+[dictionary.native]
+kana = ["ネイティブ"]
+
+[dictionary.nd]
+
+[dictionary.ne]
+unshortened = ["not equal"]
+
+[dictionary.nearbyintf]
+
+[dictionary.nearest]
+
+[dictionary.needed]
+
+[dictionary.needle]
+
+[dictionary.needs]
+
+[dictionary.neg]
+unshortened = [
+    "negative",
+    "negation",
+]
+
+[dictionary.negate]
+
+[dictionary.negation]
+shortened = ["neg"]
+japanese = ["否定"]
+
+[dictionary.negative]
+shortened = ["neg"]
+japanese = [
+    "負",
+    "負の",
+]
+
+[dictionary.neighbor]
+
+[dictionary.neighbour]
+
+[dictionary.net]
+kana = ["ネット"]
+
+[dictionary.network]
+kana = ["ネットワーク"]
+
+[dictionary.never]
+
+[dictionary.new]
+kana = ["ニュー"]
+
+[dictionary.next]
+
+[dictionary.nil]
+kana = ["ニル"]
+
+[dictionary.nintel]
+
+[dictionary.nl]
+
+[dictionary.nlink]
+
+[dictionary.nn]
+
+[dictionary.no]
+
+[dictionary.nocheck]
+
+[dictionary.node]
+category = [
+    "computer network",
+    "data structure",
+]
+kana = ["ノード"]
+japanese = [
+    "節点",
+    "頂点",
+]
+description = """
+通信ネットワークの文脈では、再配布ポイントまたはエンドポイントを指す。
+グラフ理論の文脈では、ネットワークまたは木の頂点を指す。
+"""
+
+[dictionary.nodelay]
+
+[dictionary.non]
+
+[dictionary.nonblock]
+
+[dictionary.nonblocking]
+
+[dictionary.noncoherent]
+
+[dictionary.none]
+
+[dictionary.nonnegative]
+
+[dictionary.nonoverlapping]
+
+[dictionary.nonstandard]
+
+[dictionary.nontemporal]
+
+[dictionary.nonzero]
+
+[dictionary.noop]
+
+[dictionary.nop]
+
+[dictionary.nor]
+
+[dictionary.norm]
+kana = ["ノルム"]
+
+[dictionary.normal]
+kana = ["ノーマル"]
+japanese = ["法線"]
+
+[dictionary.normalize]
+japanese = [
+    "正規化",
+    "正規化する",
+]
+
+[dictionary.not]
+
+[dictionary.nothing]
+
+[dictionary.notify]
+
+[dictionary.now]
+
+[dictionary.ns]
+unshortened = ["nano seconds"]
+
+[dictionary.nsec]
+unshortened = ["nano seconds"]
+
+[dictionary.nsz]
+
+[dictionary.nth]
+japanese = [
+    "n番目",
+    "n番目の",
+]
+
+[dictionary.nul]
+kana = ["ヌル"]
+
+[dictionary.null]
+kana = ["ヌル"]
+
+[dictionary.num]
+
+[dictionary.numbanks]
+
+[dictionary.number]
+
+[dictionary.numeric]
+antonym = ["analytic"]
+japanese = [
+    "数値的",
+    "数値的な",
+]
+
+[dictionary.numerical]
+antonym = ["analytical"]
+japanese = [
+    "数値的",
+    "数値的な",
+]
+
+[dictionary."numerical calculation"]
+japanese = ["数値計算"]
+
+[dictionary.nv]
+
+[dictionary.nvidia]
+
+[dictionary.nvx]
+
+[dictionary.nzsl]
+
+[dictionary.o]
+
+[dictionary.object]
+
+[dictionary."object oriented"]
+japanese = [
+    "オブジェクト指向",
+    "オブジェクト指向の",
+]
+
+[dictionary.objects]
+
+[dictionary.occlusion]
+
+[dictionary.occupied]
+antonym = ["vacant"]
+japanese = [
+    "占有した",
+    "埋まった",
+    "使用中の",
+]
+
+[dictionary.octal]
+
+[dictionary.octdigit]
+
+[dictionary.octets]
+
+[dictionary.odd]
+
+[dictionary.odr]
+
+[dictionary.of]
+
+[dictionary.off]
+antonym = ["on"]
+
+[dictionary.offset]
+kana = ["オフセット"]
+
+[dictionary.offsets]
+
+[dictionary.ok]
+
+[dictionary.old]
+
+[dictionary.omit]
+
+[dictionary.omitted]
+
+[dictionary.on]
+antonym = ["off"]
+
+[dictionary.once]
+
+[dictionary.one]
+
+[dictionary.ones]
+
+[dictionary.only]
+
+[dictionary.op]
+plural = "ops"
+unshortened = [
+    "operation",
+    "operator",
+    "operand",
+]
+
+[dictionary.opacity]
+kana = ["オパシティ"]
+japanese = ["不透明度"]
+
+[dictionary.opaque]
+category = ["graphics"]
+kana = ["オペーク"]
+japanese = [
+    "不透過",
+    "不透過な",
+    "不透明",
+    "不透明な",
+]
+description = """
+オブジェクトの内部データが外部に公開されていないことをいう。例えばIDクラスが内部でIDを整数で管理していたとしても、外部にその整数値を公開していない場合、それを不透過なIDクラスであるという。
+グラフィックスの文脈では、テクスチャーや色が不透明であることをいう。"""
+
+[dictionary.opcode]
+kana = ["オペコード"]
+
+[dictionary.open]
+
+[dictionary.operand]
+plural = "operands"
+shortened = ["op"]
+kana = ["オペランド"]
+
+[dictionary.operands]
+singular = "operand"
+
+[dictionary.operation]
+plural = "operations"
+shortened = ["op"]
+kana = ["オペレーション"]
+
+[dictionary.operations]
+singular = "operation"
+
+[dictionary.operator]
+shortened = ["op"]
+kana = [
+    "オペレータ",
+    "オペレーター",
+]
+japanese = ["演算子"]
+
+[dictionary.ops]
+singular = "op"
+
+[dictionary.opt]
+unshortened = ["optimization"]
+
+[dictionary.optb]
+
+[dictionary.optical]
+
+[dictionary.optimal]
+
+[dictionary.optimization]
+shortened = ["opt"]
+japanese = ["最適化"]
+
+[dictionary.optimize]
+japanese = ["最適化する"]
+
+[dictionary.optimizer]
+
+[dictionary.option]
+
+[dictionary.options]
+
+[dictionary.or]
+
+[dictionary.ord]
+
+[dictionary.order]
+
+[dictionary.ordered]
+
+[dictionary.ordering]
+
+[dictionary.organization]
+
+[dictionary.orig]
+
+[dictionary.origin]
+
+[dictionary.original]
+
+[dictionary.os]
+
+[dictionary.other]
+
+[dictionary.out]
+
+[dictionary.outer]
+antonym = ["inner"]
+
+[dictionary.outline]
+
+[dictionary.output]
+antonym = ["input"]
+plural = "outputs"
+
+[dictionary.outputs]
+singular = "output"
+
+[dictionary.overallocation]
+
+[dictionary.overestimation]
+
+[dictionary.overflow]
+
+[dictionary.overflowing]
+
+[dictionary.overlap]
+kana = ["オーバーラップ"]
+
+[dictionary.override]
+kana = ["オーバーライド"]
+
+[dictionary.owned]
+
+[dictionary.ownership]
+kana = ["オーナーシップ"]
+japanese = ["所有権"]
+
+[dictionary.p]
+unshortened = ["point"]
+
+[dictionary.p2p]
+
+[dictionary.pack]
+
+[dictionary.packed]
+
+[dictionary.packet]
+plural = "packets"
+kana = ["パケット"]
+
+[dictionary.packets]
+singular = "packet"
+
+[dictionary.pad]
+
+[dictionary.padded]
+
+[dictionary.padding]
+kana = ["パディング"]
+
+[dictionary.pageable]
+
+[dictionary.pair]
+
+[dictionary.palette]
+
+[dictionary.pan]
+unshortened = ["panorama"]
+
+[dictionary.panic]
+
+[dictionary.panicked]
+
+[dictionary.panicking]
+
+[dictionary.parallel]
+category = ["concurrent programming"]
+japanese = [
+    "並列",
+    "並列の",
+]
+
+[dictionary.parallelism]
+
+[dictionary.param]
+plural = "params"
+unshortened = ["parameter"]
+
+[dictionary.parameter]
+plural = "parameters"
+shortened = ["param"]
+
+[dictionary.parameters]
+singular = "parameter"
+shortened = ["params"]
+
+[dictionary.params]
+singular = "param"
+unshortened = ["parameters"]
+
+[dictionary.parent]
+japanese = ["親"]
+
+[dictionary.parenthesis]
+plural = "parentheses"
+japanese = [
+    "括弧",
+    "丸括弧",
+]
+description = "\"()\"のこと。"
+
+[dictionary.park]
+antonym = ["unpark"]
+
+[dictionary.parse]
+kana = ["パース"]
+
+[dictionary.parser]
+kana = [
+    "パーサ",
+    "パーサー",
+]
+
+[dictionary.part]
+
+[dictionary.partial]
+
+[dictionary.partially]
+
+[dictionary.partition]
+
+[dictionary.partitioned]
+
+[dictionary.parts]
+
+[dictionary.pass]
+
+[dictionary.passcred]
+
+[dictionary.passes]
+
+[dictionary.passthrough]
+
+[dictionary.pat]
+unshortened = ["pattern"]
+
+[dictionary.patch]
+
+[dictionary.patches]
+
+[dictionary.path]
+plural = "paths"
+
+[dictionary.pathname]
+
+[dictionary.paths]
+singular = "path"
+
+[dictionary.pattern]
+shortened = ["pat"]
+
+[dictionary.payload]
+description = "通信ネットワークにおいて、送信データのうちメタデータやヘッダを除いた、実際に意図して送信されるデータ。"
+
+[dictionary.payloads]
+
+[dictionary.pc]
+
+[dictionary.pci]
+
+[dictionary.pdx]
+
+[dictionary.pdy]
+
+[dictionary.peek]
+description = "スタックやキューから値を取り除かずに値を覗き見ること。"
+
+[dictionary.peekable]
+
+[dictionary.peel]
+
+[dictionary.peer]
+
+[dictionary."peer to peer"]
+
+[dictionary.penalty]
+
+[dictionary.pending]
+
+[dictionary.per]
+
+[dictionary.percent]
+
+[dictionary.performance]
+
+[dictionary.period]
+
+[dictionary.perm]
+
+[dictionary.permission]
+
+[dictionary.permissions]
+
+[dictionary.permitted]
+
+[dictionary.persistent]
+
+[dictionary.persp]
+
+[dictionary.perspective]
+
+[dictionary.pfn]
+
+[dictionary.pgroup]
+
+[dictionary.phantom]
+
+[dictionary.phases]
+
+[dictionary.phi]
+japanese = ["φ"]
+
+[dictionary.physical]
+
+[dictionary.pi]
+japanese = ["π"]
+
+[dictionary.picture]
+
+[dictionary.pid]
+unshortened = ["process id"]
+
+[dictionary.pidfd]
+
+[dictionary.pin]
+
+[dictionary.pinned]
+
+[dictionary.pipe]
+
+[dictionary.piped]
+
+[dictionary.pipeline]
+kana = ["パイプライン"]
+
+[dictionary.pipelining]
+
+[dictionary.pipes]
+
+[dictionary.pitch]
+
+[dictionary.pixel]
+kana = ["ピクセル"]
+
+[dictionary.pixels]
+
+[dictionary.place]
+
+[dictionary.plane]
+
+[dictionary.planes]
+
+[dictionary.platform]
+kana = ["プラットフォーム"]
+
+[dictionary.plus]
+
+[dictionary.point]
+shortened = ["p"]
+
+[dictionary.pointee]
+description = "ポインターが指し示す値、あるいはその型。"
+
+[dictionary.pointer]
+japanese = [
+    "ポインタ",
+    "ポインター",
+]
+description = "メモリアドレスの型。ポインター型。"
+
+[dictionary.pointers]
+
+[dictionary.points]
+
+[dictionary.poison]
+
+[dictionary.poisoned]
+
+[dictionary.poisoning]
+
+[dictionary.polarities]
+
+[dictionary.polarity]
+
+[dictionary.poll]
+
+[dictionary.polling]
+
+[dictionary.polygon]
+
+[dictionary.polygons]
+
+[dictionary.polymorphism]
+kana = ["ポリモーフィズム"]
+japanese = ["多態性"]
+
+[dictionary.pool]
+
+[dictionary.pools]
+
+[dictionary.pop]
+
+[dictionary.populate]
+japanese = ["追加する"]
+description = """
+「データを入力する」や「データを埋める」などの意味を持つ。データベースやリストなどにデータを追加したり、フィールドを埋めたりする行為を指す。
+スタックの操作である\"pop\"とは無関係。"""
+
+[dictionary.port]
+
+[dictionary.portability]
+
+[dictionary.pos]
+
+[dictionary.position]
+
+[dictionary.positions]
+
+[dictionary.positive]
+
+[dictionary.possible]
+
+[dictionary.post]
+
+[dictionary.potential]
+
+[dictionary.pow]
+
+[dictionary.power]
+
+[dictionary.powerpc]
+
+[dictionary.powf]
+
+[dictionary.powi]
+
+[dictionary.powif]
+
+[dictionary.practices]
+
+[dictionary.pre]
+
+[dictionary.precise]
+
+[dictionary.precision]
+
+[dictionary.pred]
+
+[dictionary.predicate]
+
+[dictionary.pref]
+
+[dictionary.prefer]
+
+[dictionary.preference]
+
+[dictionary.preferred]
+
+[dictionary.prefers]
+
+[dictionary.prefetch]
+
+[dictionary.prefetcher]
+
+[dictionary.prefix]
+
+[dictionary.preinitialized]
+
+[dictionary.prelude]
+
+[dictionary.premultiplied]
+
+[dictionary.preprocess]
+
+[dictionary.present]
+
+[dictionary.presentable]
+
+[dictionary.presentation]
+
+[dictionary.preserve]
+
+[dictionary.preserves]
+
+[dictionary.pretty]
+
+[dictionary.prev]
+
+[dictionary.previous]
+
+[dictionary.primary]
+
+[dictionary.primitive]
+
+[dictionary.primitives]
+
+[dictionary.print]
+
+[dictionary.printf]
+
+[dictionary.println]
+
+[dictionary.priorities]
+
+[dictionary.priority]
+
+[dictionary.private]
+
+[dictionary.probe]
+
+[dictionary.problem]
+
+[dictionary.proc]
+
+[dictionary.procedural]
+kana = ["プロシージャル"]
+
+[dictionary.procedure]
+kana = ["プロシージャ"]
+
+[dictionary.proceed]
+
+[dictionary.process]
+
+[dictionary.processed]
+
+[dictionary.processing]
+
+[dictionary.product]
+
+[dictionary.profile]
+
+[dictionary.profiling]
+
+[dictionary.program]
+kana = ["プログラム"]
+
+[dictionary.programming]
+kana = ["プログラミング"]
+
+[dictionary.proj]
+
+[dictionary.propagate]
+
+[dictionary.propertary]
+
+[dictionary.properties]
+
+[dictionary.property]
+
+[dictionary.proprietary]
+
+[dictionary.protected]
+
+[dictionary.protocol]
+kana = ["プロトコル"]
+
+[dictionary.provide]
+
+[dictionary.provided]
+
+[dictionary.provisional]
+
+[dictionary.provoking]
+
+[dictionary.proxy]
+
+[dictionary.pthread]
+
+[dictionary.ptr]
+
+[dictionary.pub]
+
+[dictionary.pull]
+
+[dictionary.punctuation]
+
+[dictionary.pure]
+
+[dictionary.purposes]
+
+[dictionary.push]
+
+[dictionary.pvrtc]
+
+[dictionary.q]
+
+[dictionary.qcom]
+
+[dictionary.qnx]
+
+[dictionary.qos]
+
+[dictionary.qp]
+
+[dictionary.quad]
+
+[dictionary.quads]
+
+[dictionary.qualcomm]
+
+[dictionary.qualification]
+
+[dictionary.qualifier]
+japanese = ["修飾子"]
+
+[dictionary.qualify]
+
+[dictionary.quantization]
+
+[dictionary.quantize]
+
+[dictionary.quants]
+unshortened = ["quantitative analysts"]
+kana = ["クオンツ"]
+
+[dictionary.queries]
+
+[dictionary.query]
+kana = [
+    "クエリ",
+    "クエリー",
+]
+
+[dictionary.question]
+
+[dictionary.queue]
+kana = ["キュー"]
+
+[dictionary.queues]
+
+[dictionary.quickack]
+
+[dictionary.quota]
+
+[dictionary.quotation]
+kana = ["クォーテーション"]
+japanese = ["引用符"]
+
+[dictionary.quotes]
+
+[dictionary.qword]
+unshortened = ["quad word"]
+description = "wordが16ビットのことであり、qwordはその4倍の64ビットのこと、あるいは64ビットの型のこと。"
+
+[dictionary.r]
+
+[dictionary.ra]
+
+[dictionary.rad]
+unshortened = ["radian"]
+
+[dictionary.radian]
+plural = "radians"
+shortened = ["rad"]
+kana = [
+    "ラジアン",
+    "レイディアン",
+]
+description = "角度の単位。180度はπラジアンである。"
+
+[dictionary.radians]
+singular = "radian"
+
+[dictionary.radius]
+kana = ["レイディアス"]
+japanese = ["半径"]
+
+[dictionary.radix]
+kana = ["レイディクス"]
+japanese = ["基数"]
+
+[dictionary.radv]
+
+[dictionary.ram]
+english = "RAM"
+unshortened = ["Random-access memory"]
+japanese = ["ラム"]
+
+[dictionary.random]
+kana = ["ランダム"]
+japanese = [
+    "無作為",
+    "無作為な",
+]
+
+[dictionary.range]
+plural = "ranges"
+kana = ["レンジ"]
+japanese = ["区間"]
+
+[dictionary.ranges]
+singular = "range"
+
+[dictionary.raster]
+category = ["computer graphics"]
+antonym = ["vector"]
+
+[dictionary.rasterization]
+category = ["computer graphics"]
+kana = [
+    "ラスタライゼーション",
+    "ラスタリゼーション",
+]
+japanese = ["ラスター化"]
+
+[dictionary.rasterize]
+category = ["computer graphics"]
+kana = ["ラスタライズ"]
+japanese = ["ラスター化する"]
+
+[dictionary.rasterized]
+category = ["computer graphics"]
+
+[dictionary.rasterizer]
+category = ["computer graphics"]
+kana = [
+    "ラスタライザ",
+    "ラスタライザー",
+]
+
+[dictionary.rate]
+
+[dictionary.rates]
+
+[dictionary.ratio]
+kana = ["レシオ"]
+japanese = [
+    "率",
+    "比率",
+]
+
+[dictionary.raw]
+kana = ["ロー"]
+japanese = [
+    "生",
+    "生の",
+]
+
+[dictionary.ray]
+kana = ["レイ"]
+japanese = ["光線"]
+
+[dictionary.raygen]
+
+[dictionary.rays]
+
+[dictionary.rc]
+
+[dictionary.rchunks]
+
+[dictionary.rdev]
+
+[dictionary.rdma]
+
+[dictionary.reached]
+
+[dictionary.read]
+
+[dictionary.readable]
+
+[dictionary.reader]
+
+[dictionary.readonly]
+
+[dictionary.ready]
+
+[dictionary.realloc]
+
+[dictionary.realm]
+
+[dictionary.reason]
+
+[dictionary.reassoc]
+
+[dictionary.reborrow]
+
+[dictionary.receiver]
+
+[dictionary.recip]
+
+[dictionary.reconstruction]
+
+[dictionary.record]
+
+[dictionary.recreate]
+
+[dictionary.rect]
+
+[dictionary.rectangle]
+japanese = [
+    "矩形",
+    "長方形",
+]
+
+[dictionary.rectangles]
+
+[dictionary.rectangular]
+
+[dictionary.rects]
+
+[dictionary.recursion]
+
+[dictionary.recursions]
+
+[dictionary.recursive]
+
+[dictionary.recv]
+
+[dictionary.red]
+
+[dictionary.reduce]
+
+[dictionary.reduction]
+
+[dictionary.redundancy]
+japanese = ["冗長性"]
+
+[dictionary.redundant]
+japanese = [
+    "冗長な",
+    "詳細な",
+]
+description = "「同じ事を何度も」という意味。否定的な意味合いも肯定的な意味合いもある。冗長な関数呼び出し。冗長性を担保する。"
+
+[dictionary.ref]
+
+[dictionary.reference]
+japanese = ["参照、参照する"]
+
+[dictionary."reference count"]
+japanese = ["参照カウント"]
+
+[dictionary."reference cycles"]
+japanese = ["循環参照"]
+
+[dictionary.referenced]
+
+[dictionary.references]
+
+[dictionary.reflect]
+
+[dictionary.reflection]
+kana = ["リフレクション"]
+
+[dictionary.refresh]
+
+[dictionary.refused]
+
+[dictionary.reg]
+
+[dictionary.region]
+
+[dictionary.regions]
+
+[dictionary.register]
+
+[dictionary.reinterpret]
+
+[dictionary.reinterpretation]
+
+[dictionary.reinvocation]
+
+[dictionary.reject]
+
+[dictionary.rel]
+
+[dictionary."relational operation"]
+japanese = ["比較演算"]
+
+[dictionary."relational operator"]
+japanese = ["比較演算子"]
+
+[dictionary.relative]
+
+[dictionary.relaxed]
+
+[dictionary.release]
+antonym = [
+    "allocate",
+    "acquire",
+]
+
+[dictionary.rem]
+unshortened = [
+    "remainder",
+    "remaining",
+]
+
+[dictionary.remainder]
+shortened = ["rem"]
+japanese = ["剰余"]
+
+[dictionary.remaining]
+shortened = ["rem"]
+
+[dictionary.remove]
+
+[dictionary.rename]
+
+[dictionary.render]
+category = ["computer graphics"]
+kana = ["レンダー"]
+
+[dictionary.rendering]
+category = ["computer graphics"]
+kana = ["レンダリング"]
+
+[dictionary.renderpass]
+
+[dictionary.reorder]
+
+[dictionary.reordering]
+
+[dictionary.repeat]
+
+[dictionary.repeater]
+
+[dictionary.replace]
+kana = ["リプレース"]
+japanese = ["置換する"]
+
+[dictionary.replacement]
+kana = ["リプレースメント"]
+japanese = ["置換"]
+
+[dictionary.replacen]
+
+[dictionary.replacing]
+
+[dictionary.replay]
+
+[dictionary.replicates]
+
+[dictionary.report]
+
+[dictionary.reporting]
+
+[dictionary.repr]
+
+[dictionary.representative]
+
+[dictionary.reprogram]
+
+[dictionary.request]
+kana = ["リクエスト"]
+japanese = ["要求"]
+
+[dictionary.requested]
+infinitive = "request"
+
+[dictionary.require]
+kana = [
+    "リクワイア",
+    "リクワイアー",
+]
+japanese = [
+    "要求する",
+    "必要とする",
+]
+
+[dictionary.required]
+infinitive = "require"
+
+[dictionary.requirement]
+plural = "requirements"
+japanese = [
+    "要件",
+    "必要条件",
+    "必要なもの",
+]
+
+[dictionary.requirements]
+singular = "requirement"
+
+[dictionary.requires]
+infinitive = "require"
+
+[dictionary.res]
+unshortened = [
+    "response",
+    "result",
+]
+
+[dictionary.reserve]
+japanese = ["予約する"]
+
+[dictionary.reserved]
+infinitive = "reserve"
+
+[dictionary."reserved word"]
+japanese = ["予約語"]
+
+[dictionary.reset]
+
+[dictionary.residency]
+category = ["memory management"]
+kana = ["レジデンシー"]
+japanese = ["常駐"]
+description = "データがメモリ上に配置されていること。特にグラフィックスの文脈において、データがVRAMにコミットされていること。"
+
+[dictionary.resident]
+
+[dictionary.residual]
+
+[dictionary.resize]
+kana = ["リサイズ"]
+
+[dictionary.resolution]
+kana = ["レゾリューション"]
+
+[dictionary.resolve]
+
+[dictionary.resource]
+plural = "resources"
+kana = ["リソース"]
+japanese = ["資源"]
+
+[dictionary.resources]
+singular = "resource"
+
+[dictionary.rest]
+
+[dictionary.restart]
+
+[dictionary.restore]
+
+[dictionary.restrict]
+japanese = [
+    "制限",
+    "制限する",
+]
+
+[dictionary.result]
+plural = "results"
+shortened = ["res"]
+kana = ["リザルト"]
+japanese = ["結果"]
+
+[dictionary.results]
+singular = "result"
+
+[dictionary.resume]
+kana = ["リズーム"]
+japanese = [
+    "再開",
+    "再開する",
+]
+
+[dictionary.ret]
+unshortened = ["return"]
+
+[dictionary.retag]
+
+[dictionary.retain]
+japanese = [
+    "保持する",
+    "維持する",
+    "留める",
+]
+
+[dictionary.retrieve]
+japanese = [
+    "取り戻す",
+    "回収する",
+]
+
+[dictionary.return]
+shortened = ["ret"]
+kana = ["リターン"]
+japanese = [
+    "戻す",
+    "返す",
+]
+
+[dictionary."return value"]
+japanese = [
+    "戻り値",
+    "返り値",
+]
+
+[dictionary.rev]
+
+[dictionary.reverse]
+
+[dictionary.rewind]
+
+[dictionary.rfind]
+
+[dictionary.rfold]
+
+[dictionary.rg]
+
+[dictionary.rgb]
+
+[dictionary.rgba]
+
+[dictionary.rhs]
+category = ["compiler"]
+antonym = ["lhs"]
+unshortened = ["right-hand side"]
+japanese = ["右手側"]
+description = "二項演算子の右側の式。"
+
+[dictionary.right]
+plural = "rights"
+kana = ["ライト"]
+japanese = ["右"]
+
+[dictionary.rights]
+singular = "right"
+
+[dictionary.rintel]
+
+[dictionary.rintf]
+
+[dictionary.riscv]
+
+[dictionary.rmatch]
+
+[dictionary.rmatches]
+
+[dictionary.rnd]
+
+[dictionary.rng]
+unshortened = [
+    "random number generation",
+    "random number generator",
+]
+japanese = [
+    "乱数生成",
+    "乱数生成器",
+]
+
+[dictionary.robust]
+kana = ["ロバスト"]
+japanese = ["堅牢な"]
+description = "仕様変更・セキュリティ・メモリリークなどに対して堅牢なこと。"
+
+[dictionary.robustness]
+kana = ["ロバストネス"]
+japanese = ["堅牢性"]
+
+[dictionary.root]
+category = [
+    "mathmatics",
+    "data structure",
+]
+kana = ["ルート"]
+japanese = ["根"]
+description = "平方根、あるいは木構造の根のこと。"
+
+[dictionary.rotate]
+category = ["mathmatics"]
+japanese = [
+    "回転させる",
+    "回転",
+]
+description = """
+配列やビット列を回転させる、すなわち前方と後方を入れ替えること。
+例：
+[0, 1, 2, 3, 4, 5]
+↓ 右に2回転
+[4, 5, 0, 1, 2, 3]
+
+またベクトル解析の文脈において、ベクトル場の回転のこと、その演算子。
+またデータ構造の文脈において、二分木の子ノードを別の枝に付け替える操作のこと。
+"""
+
+[dictionary.rotated]
+
+[dictionary.rotation]
+japanese = ["回転"]
+
+[dictionary.round]
+japanese = [
+    "丸める",
+    "丸め",
+]
+description = "四捨五入などで少数を丸めること。"
+
+[dictionary.rounded]
+
+[dictionary.roundevenf]
+
+[dictionary.roundf]
+
+[dictionary.rounding]
+
+[dictionary.row]
+antonym = ["column"]
+plural = "rows"
+japanese = ["列"]
+description = "行列・表・レイアウトの「行」。横方向の一連のグリッド。"
+
+[dictionary.rows]
+singular = "row"
+
+[dictionary.rposition]
+
+[dictionary.rsplit]
+
+[dictionary.rsplitn]
+
+[dictionary.rsqrt]
+
+[dictionary.rsync]
+
+[dictionary.rt]
+
+[dictionary.rte]
+
+[dictionary.rtn]
+
+[dictionary.rtnintel]
+
+[dictionary.rtp]
+
+[dictionary.rtpintel]
+
+[dictionary.rtz]
+
+[dictionary.runtime]
+kana = ["ランタイム"]
+
+[dictionary.rust]
+
+[dictionary.rustc]
+
+[dictionary.rw]
+
+[dictionary.rx]
+
+[dictionary.s]
+
+[dictionary.sad]
+
+[dictionary.sadqcom]
+
+[dictionary.sads]
+
+[dictionary.safe]
+
+[dictionary.safety]
+
+[dictionary.same]
+
+[dictionary.sample]
+
+[dictionary.sampled]
+
+[dictionary.sampler]
+
+[dictionary.samplers]
+
+[dictionary.samples]
+
+[dictionary.sampling]
+
+[dictionary.samsung]
+
+[dictionary.sat]
+
+[dictionary.satisfied]
+
+[dictionary.saturate]
+
+[dictionary.saturated]
+
+[dictionary.saturating]
+
+[dictionary.save]
+
+[dictionary.sbt]
+
+[dictionary.scalar]
+
+[dictionary.scaled]
+
+[dictionary.scaling]
+
+[dictionary.scan]
+
+[dictionary.scatter]
+
+[dictionary.scheduler]
+
+[dictionary.schema]
+kana = ["スキーマ"]
+
+[dictionary.scheme]
+kana = ["スキーム"]
+
+[dictionary.scissor]
+
+[dictionary.scissors]
+
+[dictionary.scm]
+
+[dictionary.scope]
+
+[dictionary.scoped]
+
+[dictionary.scopes]
+
+[dictionary.scraper]
+
+[dictionary.scraping]
+
+[dictionary.scratch]
+
+[dictionary.screen]
+
+[dictionary.sealed]
+
+[dictionary.seamless]
+
+[dictionary.search]
+
+[dictionary.searcher]
+
+[dictionary.sec]
+
+[dictionary.second]
+
+[dictionary.secondary]
+
+[dictionary.secs]
+
+[dictionary.section]
+
+[dictionary.security]
+
+[dictionary.seek]
+
+[dictionary.seekable]
+
+[dictionary.segments]
+
+[dictionary.select]
+
+[dictionary.selection]
+
+[dictionary.selector]
+
+[dictionary.self]
+
+[dictionary.semantic]
+
+[dictionary.semantics]
+
+[dictionary.semaphore]
+kana = ["セマフォ"]
+
+[dictionary.semaphores]
+
+[dictionary.semicolon]
+
+[dictionary.send]
+
+[dictionary.sender]
+
+[dictionary.sep]
+
+[dictionary.separate]
+
+[dictionary.separator]
+
+[dictionary.seq]
+
+[dictionary.seqcst]
+
+[dictionary.sequence]
+kana = [
+    "シークエンス",
+    "シーケンス",
+]
+japanese = [
+    "列",
+    "数列",
+]
+description = "配列やスライスなど連続したもの、一連のもの。"
+
+[dictionary.sequences]
+
+[dictionary.sequential]
+description = "シーケンシャルアクセスの対義語はランダムアクセスである。"
+
+[dictionary.sequentially]
+
+[dictionary.serial]
+
+[dictionary.serializable]
+
+[dictionary.serialization]
+japanese = ["シリアル化"]
+
+[dictionary.serialize]
+antonym = ["deserialize"]
+kana = ["シリアライズ"]
+japanese = ["シリアル化する"]
+
+[dictionary.serializer]
+antonym = ["deserializer"]
+kana = [
+    "シリアライザ",
+    "シリアライザー",
+]
+
+[dictionary.set]
+
+[dictionary.sets]
+
+[dictionary.setting]
+
+[dictionary.severity]
+
+[dictionary.sext]
+
+[dictionary.sfloat]
+
+[dictionary.sgpr]
+
+[dictionary.sgprs]
+
+[dictionary.shader]
+
+[dictionary.shaders]
+
+[dictionary.shading]
+
+[dictionary."shallow copy"]
+antonym = ["deep copy"]
+
+[dictionary.shape]
+
+[dictionary.shapes]
+
+[dictionary.share]
+
+[dictionary.shared]
+
+[dictionary.shares]
+
+[dictionary.sharing]
+
+[dictionary.shift]
+
+[dictionary.shl]
+
+[dictionary.short]
+
+[dictionary.show]
+
+[dictionary.shr]
+
+[dictionary.shrink]
+
+[dictionary.shuffle]
+
+[dictionary.shutdown]
+
+[dictionary.sic]
+
+[dictionary.side]
+
+[dictionary.sided]
+
+[dictionary.sign]
+
+[dictionary.signal]
+
+[dictionary.signaled]
+
+[dictionary.signed]
+
+[dictionary.signedness]
+
+[dictionary.signum]
+
+[dictionary.silicon]
+
+[dictionary.simd]
+
+[dictionary.simple]
+
+[dictionary.simt]
+
+[dictionary.simultaneous]
+
+[dictionary.sin]
+
+[dictionary.since]
+
+[dictionary.sinf]
+
+[dictionary.single]
+description = "IEEE 754で定められる32ビットの浮動小数点数型を指す。"
+
+[dictionary.singlepump]
+
+[dictionary.singlethreadfence]
+
+[dictionary.sinh]
+
+[dictionary.sink]
+
+[dictionary.sint]
+
+[dictionary.sip]
+
+[dictionary.site]
+
+[dictionary.size]
+
+[dictionary.sized]
+
+[dictionary.sizes]
+
+[dictionary.skc]
+
+[dictionary.skip]
+
+[dictionary.sleep]
+
+[dictionary.slice]
+
+[dictionary.sliced]
+
+[dictionary.slices]
+
+[dictionary.slope]
+
+[dictionary.slot]
+
+[dictionary.sm]
+
+[dictionary.small]
+
+[dictionary.smidnv]
+
+[dictionary.smnv]
+
+[dictionary.smooth]
+
+[dictionary.snorm]
+
+[dictionary.sock]
+
+[dictionary.socket]
+
+[dictionary.soft]
+
+[dictionary.software]
+kana = ["ソフトウェア"]
+
+[dictionary.solid]
+
+[dictionary.solidus]
+
+[dictionary.some]
+
+[dictionary.sort]
+
+[dictionary.sorted]
+
+[dictionary.source]
+antonym = ["destination"]
+shortened = ["src"]
+
+[dictionary.sources]
+
+[dictionary.space]
+
+[dictionary.spacing]
+
+[dictionary.spare]
+
+[dictionary.sparse]
+
+[dictionary.spawn]
+
+[dictionary.spec]
+
+[dictionary.specialization]
+
+[dictionary.specialize]
+
+[dictionary.specialized]
+
+[dictionary.specification]
+
+[dictionary.specifier]
+japanese = ["指定子"]
+
+[dictionary.specify]
+
+[dictionary.speculated]
+
+[dictionary.spin]
+
+[dictionary.spirv]
+
+[dictionary.splat]
+
+[dictionary.splice]
+
+[dictionary.split]
+
+[dictionary.splitn]
+
+[dictionary.sqrt]
+unshortened = ["square root"]
+japanese = ["平方根"]
+
+[dictionary.sqrtf]
+
+[dictionary.square]
+kana = [
+    "スクエア",
+    "スクエアー",
+]
+japanese = [
+    "正方形",
+    "2乗",
+]
+
+[dictionary.src]
+antonym = [
+    "dest",
+    "dst",
+]
+unshortened = ["source"]
+
+[dictionary.sret]
+
+[dictionary.srgb]
+
+[dictionary.ssaa]
+english = "SSAA"
+unshortened = ["Super-Sample Anti-Aliasing"]
+
+[dictionary.ssao]
+english = "SSAO"
+unshortened = ["screen space ambient occlusion"]
+
+[dictionary.sscaled]
+
+[dictionary.ssdqcom]
+
+[dictionary.st]
+
+[dictionary.stable]
+
+[dictionary.stack]
+kana = ["スタック"]
+
+[dictionary.stage]
+
+[dictionary.stages]
+
+[dictionary.stale]
+japanese = [
+    "古い",
+    "更新されていない",
+]
+description = "キャッシュやレプリカなどのコピーが元のデータと同期していない状態を指す。つまり、元のデータが更新され、コピーがその更新を反映していない場合、そのコピーは\"stale\"（陳腐化）している。"
+
+[dictionary.stall]
+
+[dictionary.standard]
+
+[dictionary.start]
+
+[dictionary.starts]
+
+[dictionary.stat]
+
+[dictionary.state]
+
+[dictionary.statement]
+category = ["compiler"]
+kana = ["ステートメント"]
+
+[dictionary.states]
+
+[dictionary.static]
+antonym = ["dynamic"]
+kana = ["スタティック"]
+japanese = [
+    "静的",
+    "静的な",
+]
+description = """
+多くの場合、プロセスやスレッドなどに対してインスタンスが1つしかなく、固定メモリアドレスでどこからでもアクセスできることを指す。
+多くのプログラミング言語でキーワードである。"""
+
+[dictionary.statically]
+
+[dictionary.statistic]
+
+[dictionary.statistics]
+
+[dictionary.status]
+
+[dictionary.std]
+
+[dictionary.stderr]
+
+[dictionary.stdin]
+
+[dictionary.stdio]
+
+[dictionary.stdout]
+
+[dictionary.stem]
+
+[dictionary.stencil]
+
+[dictionary.step]
+
+[dictionary.steps]
+
+[dictionary.stereo]
+
+[dictionary.stipple]
+
+[dictionary.stippled]
+
+[dictionary.stochastic]
+antonym = ["deterministic"]
+japanese = ["確率論的な"]
+
+[dictionary.stop]
+
+[dictionary.stopped]
+
+[dictionary.storage]
+
+[dictionary.store]
+
+[dictionary.stores]
+
+[dictionary.str]
+
+[dictionary.strata]
+
+[dictionary.stratum]
+japanese = [
+    "層",
+    "階層",
+]
+
+[dictionary.stream]
+
+[dictionary.streamin]
+
+[dictionary.streaming]
+
+[dictionary.streaminout]
+
+[dictionary.streamout]
+
+[dictionary.streams]
+
+[dictionary.stretch]
+
+[dictionary.strict]
+
+[dictionary.stride]
+
+[dictionary.string]
+
+[dictionary.stringify]
+
+[dictionary.strip]
+
+[dictionary.stroke]
+
+[dictionary.strong]
+
+[dictionary.struct]
+
+[dictionary.structural]
+
+[dictionary.structure]
+
+[dictionary.structures]
+
+[dictionary.style]
+
+[dictionary.su]
+
+[dictionary.sub]
+
+[dictionary.suballocation]
+
+[dictionary.suballocator]
+
+[dictionary.subbuffer]
+
+[dictionary.subdivision]
+
+[dictionary.subgroup]
+
+[dictionary.subgroups]
+
+[dictionary.subminor]
+
+[dictionary.submission]
+japanese = [
+    "送信",
+    "投稿",
+]
+
+[dictionary.submit]
+japanese = [
+    "送信する",
+    "投稿する",
+]
+
+[dictionary.submitted]
+
+[dictionary.subnormal]
+
+[dictionary.subnormals]
+
+[dictionary.suboptimal]
+
+[dictionary.subpass]
+
+[dictionary.subpasses]
+
+[dictionary.subresource]
+
+[dictionary.subsampled]
+
+[dictionary.subsec]
+
+[dictionary.subset]
+antonym = ["superset"]
+kana = ["サブセット"]
+japanese = ["部分集合"]
+
+[dictionary.substitute]
+
+[dictionary.subtract]
+
+[dictionary.subtracted]
+
+[dictionary.succ]
+
+[dictionary.success]
+
+[dictionary.successors]
+
+[dictionary.suffix]
+
+[dictionary.sum]
+
+[dictionary.super]
+
+[dictionary."super sampling"]
+
+[dictionary.supersample]
+
+[dictionary.superset]
+antonym = ["subset"]
+kana = ["スーパーセット"]
+japanese = ["上位集合"]
+
+[dictionary.support]
+
+[dictionary.supported]
+
+[dictionary.supports]
+
+[dictionary.surface]
+
+[dictionary.surfaceless]
+
+[dictionary.surrogate]
+
+[dictionary.swap]
+
+[dictionary.swapchain]
+
+[dictionary.swiftshader]
+
+[dictionary.switch]
+
+[dictionary.swizzle]
+japanese = ["並べ替える"]
+
+[dictionary.sycl]
+
+[dictionary.sym]
+
+[dictionary.symlink]
+
+[dictionary.symmetric]
+
+[dictionary.sync]
+
+[dictionary.synchronization]
+
+[dictionary.synchronous]
+
+[dictionary.syntax]
+kana = ["シンタックス"]
+japanese = ["構文"]
+
+[dictionary."syntax highlighter"]
+
+[dictionary."syntax highlighting"]
+
+[dictionary.sys]
+unshortened = ["system"]
+
+[dictionary.system]
+shortened = ["sys"]
+kana = ["システム"]
+japanese = ["系"]
+
+[dictionary.t]
+
+[dictionary.table]
+kana = ["テーブル"]
+japanese = ["表"]
+
+[dictionary.tabulation]
+
+[dictionary.tail]
+
+[dictionary.take]
+
+[dictionary.tan]
+
+[dictionary.tanh]
+
+[dictionary.target]
+
+[dictionary.targets]
+
+[dictionary.task]
+
+[dictionary.tasks]
+
+[dictionary.tcp]
+
+[dictionary.tell]
+
+[dictionary.temp]
+unshortened = ["temporary"]
+
+[dictionary.template]
+
+[dictionary.temporary]
+shortened = ["temp"]
+
+[dictionary.terminal]
+
+[dictionary.terminate]
+
+[dictionary.termination]
+
+[dictionary.terminator]
+
+[dictionary.tess]
+
+[dictionary.tessellation]
+kana = ["テッセレーション"]
+
+[dictionary.test]
+
+[dictionary.tests]
+
+[dictionary.texel]
+plural = "texels"
+kana = ["テクセル"]
+
+[dictionary.texels]
+singular = "texel"
+
+[dictionary.text]
+kana = [
+    "テキスト",
+    "テクスト",
+]
+
+[dictionary.texture]
+kana = [
+    "テクスチャ",
+    "テクスチャー",
+]
+
+[dictionary.than]
+
+[dictionary.then]
+
+[dictionary.thin]
+
+[dictionary.this]
+
+[dictionary.thread]
+kana = ["スレッド"]
+
+[dictionary.three]
+
+[dictionary.threshold]
+
+[dictionary.through]
+
+[dictionary.ties]
+
+[dictionary.tilde]
+
+[dictionary.tile]
+
+[dictionary.tiling]
+
+[dictionary.time]
+
+[dictionary.timed]
+
+[dictionary.timeline]
+
+[dictionary.timeout]
+
+[dictionary.times]
+
+[dictionary.timestamp]
+
+[dictionary.timestamps]
+
+[dictionary.timing]
+
+[dictionary.tkhr]
+
+[dictionary.tmax]
+
+[dictionary.tmin]
+
+[dictionary.tnv]
+
+[dictionary.to]
+
+[dictionary.todo]
+
+[dictionary.token]
+
+[dictionary.toml]
+
+[dictionary.too]
+
+[dictionary.tool]
+
+[dictionary.tooling]
+
+[dictionary.top]
+antonym = ["bottom"]
+
+[dictionary.topology]
+
+[dictionary.total]
+
+[dictionary.trace]
+
+[dictionary.tracing]
+
+[dictionary.track]
+
+[dictionary.trailing]
+
+[dictionary.trait]
+
+[dictionary.trajectory]
+kana = [
+    "トラジェクトリ",
+    "トラジェクトリー",
+]
+japanese = [
+    "軌道",
+    "軌跡",
+]
+
+[dictionary.transfer]
+
+[dictionary.transference]
+
+[dictionary.transform]
+
+[dictionary.transforms]
+
+[dictionary.transient]
+
+[dictionary.translucence]
+
+[dictionary.translucency]
+
+[dictionary.translucent]
+
+[dictionary.transmission]
+
+[dictionary.transmutability]
+
+[dictionary.transmute]
+
+[dictionary.transparent]
+
+[dictionary.transpose]
+
+[dictionary.traversal]
+
+[dictionary.tree]
+category = ["data structure"]
+kana = ["ツリー"]
+japanese = ["木"]
+description = "木構造のこと。ノードからノードまでの経路がただ1つに定まるようなネットワーク。"
+
+[dictionary.tri]
+
+[dictionary.triangle]
+
+[dictionary.triangles]
+
+[dictionary.trigger]
+
+[dictionary.trim]
+
+[dictionary.trinary]
+
+[dictionary.trivial]
+
+[dictionary.trn]
+
+[dictionary.true]
+
+[dictionary.trunc]
+
+[dictionary.truncate]
+
+[dictionary.truncated]
+
+[dictionary.truncf]
+
+[dictionary.trusted]
+
+[dictionary.try]
+
+[dictionary.ttl]
+
+[dictionary.tuple]
+
+[dictionary.turnip]
+
+[dictionary.tween]
+unshortened = ["in-betweening"]
+description = "アニメーションの文脈で、2つのキーフレームの間のフレームを補間・生成すること。"
+
+[dictionary.two]
+
+[dictionary.ty]
+unshortened = ["type"]
+
+[dictionary.type]
+plural = "types"
+shortened = ["ty"]
+kana = ["タイプ"]
+japanese = ["型"]
+
+[dictionary.typed]
+infinitive = "type"
+
+[dictionary.types]
+singular = "type"
+
+[dictionary.u]
+unshortened = ["unsigned"]
+
+[dictionary.ucred]
+
+[dictionary.udp]
+
+[dictionary.ufloat]
+
+[dictionary.ui]
+
+[dictionary.uid]
+
+[dictionary.uint]
+
+[dictionary.umax]
+
+[dictionary.umin]
+
+[dictionary.unaligned]
+
+[dictionary."unary operator"]
+japanese = ["単項演算子"]
+
+[dictionary.unbound]
+
+[dictionary.unbounded]
+
+[dictionary.unc]
+
+[dictionary.uncached]
+
+[dictionary.unchanged]
+
+[dictionary.unchecked]
+
+[dictionary.undef]
+
+[dictionary.undefined]
+
+[dictionary.underestimation]
+
+[dictionary.undo]
+
+[dictionary.unequal]
+
+[dictionary.unexpected]
+
+[dictionary.unfilled]
+
+[dictionary.unguarded]
+
+[dictionary.unicast]
+
+[dictionary.unicode]
+kana = ["ユニコード"]
+description = "広義ではUTF-8・UTF-16・UTF-32を含む、符号化文字集合や文字符号化方式などを定めた、文字コードの標準規格。狭義ではUTF-16を指す。"
+
+[dictionary.unidirectional]
+
+[dictionary.uniform]
+
+[dictionary.unimplemented]
+
+[dictionary.uninit]
+
+[dictionary.uninitialized]
+
+[dictionary.union]
+
+[dictionary.unique]
+
+[dictionary.unit]
+
+[dictionary.units]
+
+[dictionary.unix]
+
+[dictionary.unknown]
+
+[dictionary.unlikely]
+
+[dictionary.unlit]
+category = ["computer graphics"]
+
+[dictionary.unlock]
+
+[dictionary.unmap]
+
+[dictionary.unnamed]
+
+[dictionary.unnormalized]
+
+[dictionary.unord]
+
+[dictionary.unordered]
+
+[dictionary.unorm]
+
+[dictionary.unpack]
+
+[dictionary.unpaired]
+
+[dictionary.unpark]
+antonym = ["park"]
+
+[dictionary.unparsed]
+
+[dictionary.unpin]
+
+[dictionary.unreachable]
+
+[dictionary.unrestricted]
+
+[dictionary.unroll]
+
+[dictionary.unsafe]
+
+[dictionary.unsigned]
+shortened = ["u"]
+kana = ["アンサインド"]
+japanese = ["符号なし"]
+
+[dictionary.unsize]
+
+[dictionary.unsized]
+
+[dictionary.unspecified]
+
+[dictionary.unstable]
+
+[dictionary.unstructured]
+
+[dictionary.unsupported]
+
+[dictionary.until]
+
+[dictionary.unused]
+
+[dictionary.unv]
+
+[dictionary.unwind]
+kana = ["アンワインド"]
+description = "巻き戻すこと。例外が発生したとき、コールスタックを順に遡ることをスタック・アンワインディングという。"
+
+[dictionary.unwinding]
+infinitive = "unwind"
+kana = ["アンワインディング"]
+
+[dictionary.unwrap]
+
+[dictionary.unzip]
+
+[dictionary.up]
+
+[dictionary.update]
+
+[dictionary.upgrade]
+
+[dictionary.upper]
+
+[dictionary.uppercase]
+japanese = ["大文字"]
+
+[dictionary.uri]
+
+[dictionary.url]
+
+[dictionary.usage]
+
+[dictionary.uscaled]
+
+[dictionary.use]
+
+[dictionary.used]
+
+[dictionary.user]
+
+[dictionary.usize]
+
+[dictionary.usm]
+
+[dictionary.utf]
+english = "UTF"
+unshortened = ["UCS Transformation Format"]
+
+[dictionary.utf16]
+english = "UTF-16"
+description = ""
+
+[dictionary.utf32]
+english = "UTF-32"
+description = ""
+
+[dictionary.utf8]
+english = "UTF-8"
+description = ""
+
+[dictionary.util]
+
+[dictionary.utility]
+kana = ["ユーティリティ"]
+
+[dictionary.utilization]
+
+[dictionary.utilize]
+
+[dictionary.utils]
+
+[dictionary.uuid]
+english = "UUID"
+unshortened = ["Universally Unique Identifier"]
+description = "ソフトウェア上でオブジェクトを一意に識別するための識別子。128ビットの数値で、分散システムで並列に生成しても衝突する確率を極めて低くすることができる。マイクロソフトによるUUID実装がGUIDである。"
+
+[dictionary.v]
+
+[dictionary.va]
+
+[dictionary.vacant]
+antonym = ["occupied"]
+kana = ["ヴェイキャント"]
+japanese = ["空の"]
+
+[dictionary.val]
+unshortened = [
+    "value",
+    "validate",
+    "validation",
+]
+
+[dictionary.valid]
+
+[dictionary.validated]
+
+[dictionary.validation]
+shortened = ["val"]
+
+[dictionary.validity]
+
+[dictionary.value]
+plural = "values"
+shortened = ["val"]
+japanese = ["値"]
+
+[dictionary.values]
+singular = "value"
+
+[dictionary.valve]
+
+[dictionary.var]
+
+[dictionary.variable]
+japanese = ["変数"]
+
+[dictionary.variant]
+
+[dictionary.variants]
+
+[dictionary.vars]
+
+[dictionary.vec]
+
+[dictionary.vector]
+antonym = ["raster"]
+kana = [
+    "ベクター",
+    "ベクトル",
+]
+
+[dictionary.vectored]
+
+[dictionary.vectors]
+
+[dictionary.vendor]
+
+[dictionary.venus]
+
+[dictionary.verbatim]
+
+[dictionary.verbose]
+
+[dictionary.veri]
+
+[dictionary.version]
+
+[dictionary.vertex]
+
+[dictionary.vertical]
+
+[dictionary.vertices]
+
+[dictionary.vgpr]
+
+[dictionary.vgprs]
+
+[dictionary.vi]
+
+[dictionary.via]
+
+[dictionary.video]
+
+[dictionary.view]
+
+[dictionary.viewport]
+
+[dictionary.viewports]
+
+[dictionary.views]
+
+[dictionary.virtual]
+
+[dictionary.visibility]
+
+[dictionary.visible]
+
+[dictionary.vision]
+
+[dictionary.visual]
+
+[dictionary.visualid]
+
+[dictionary.vk]
+
+[dictionary.vme]
+
+[dictionary.vmo]
+
+[dictionary.void]
+kana = [
+    "ボイド",
+    "ヴォイド",
+]
+
+[dictionary.volatile]
+
+[dictionary.volume]
+
+[dictionary.vote]
+
+[dictionary.voxel]
+kana = ["ボクセル"]
+
+[dictionary.vram]
+english = "VRAM"
+japanese = [
+    "ビデオメモリ",
+    "ビデオメモリー",
+]
+
+[dictionary.vtable]
+
+[dictionary.vuids]
+
+[dictionary.vulkan]
+
+[dictionary.w]
+
+[dictionary.wait]
+
+[dictionary.waitrequest]
+
+[dictionary.wake]
+
+[dictionary.waker]
+
+[dictionary.warning]
+
+[dictionary.warp]
+
+[dictionary.warping]
+
+[dictionary.warps]
+
+[dictionary.wasi]
+
+[dictionary.wavefront]
+
+[dictionary.wavefronts]
+
+[dictionary.wayland]
+
+[dictionary.weak]
+
+[dictionary.web]
+
+[dictionary.weight]
+
+[dictionary.weighted]
+
+[dictionary.weighting]
+
+[dictionary.weights]
+
+[dictionary.wgsl]
+
+[dictionary.where]
+
+[dictionary.while]
+
+[dictionary.white]
+
+[dictionary.whitespace]
+
+[dictionary.wide]
+kana = ["ワイド"]
+
+[dictionary.widening]
+
+[dictionary.width]
+kana = ["ウィドゥス"]
+japanese = ["幅"]
+
+[dictionary.will]
+
+[dictionary.win]
+
+[dictionary.window]
+
+[dictionary.windows]
+
+[dictionary.winrt]
+
+[dictionary.with]
+
+[dictionary.within]
+
+[dictionary.without]
+
+[dictionary.word]
+
+[dictionary.words]
+
+[dictionary.work]
+
+[dictionary.workgroup]
+
+[dictionary.workgroups]
+
+[dictionary.workitems]
+
+[dictionary.world]
+
+[dictionary.would]
+
+[dictionary.wrap]
+
+[dictionary.wrapping]
+
+[dictionary.writable]
+
+[dictionary.write]
+
+[dictionary.writeln]
+
+[dictionary.writer]
+
+[dictionary.writes]
+
+[dictionary.writing]
+
+[dictionary.written]
+
+[dictionary.www]
+english = "WWW"
+unshortened = ["world wide web"]
+
+[dictionary.x]
+
+[dictionary.xadd]
+
+[dictionary.xcb]
+
+[dictionary.xchg]
+unshortened = ["exchange"]
+
+[dictionary.xfb]
+
+[dictionary.xlib]
+
+[dictionary.xor]
+
+[dictionary.xsub]
+
+[dictionary.y]
+
+[dictionary.ycbcr]
+english = "YCbCr"
+
+[dictionary.yeet]
+
+[dictionary.yes]
+
+[dictionary.yield]
+
+[dictionary.yielded]
+
+[dictionary.z]
+
+[dictionary.zero]
+
+[dictionary.zeroable]
+
+[dictionary.zeroed]
+
+[dictionary.zeros]
+
+[dictionary.zext]
+
+[dictionary.zip]
+
+[dictionary.zircon]
+
+[dictionary.zx]
+
+[dictionary."ⓘ"]
