@@ -1,3 +1,4 @@
+use std::collections::BTreeMap;
 use leptos::*;
 use leptos_meta::*;
 use leptos_router::*;
@@ -32,5 +33,36 @@ pub fn App() -> impl IntoView {
                 <Route path="/*" view=Home/>
             </Routes>
         </Router>
+    }
+}
+
+#[derive(serde::Serialize, serde::Deserialize, Debug, Clone)]
+pub struct Vocabulary {
+    pub dictionary: BTreeMap<String, Word>,
+}
+
+#[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
+pub struct Word {
+    pub disabled: Option<bool>,
+    pub english: Option<String>,
+    pub category: Option<Vec<String>>,
+    pub antonym: Option<Vec<String>>,
+    pub infinitive: Option<String>,
+    pub singular: Option<String>,
+    pub plural: Option<String>,
+    pub shortened: Option<Vec<String>>,
+    pub unshortened: Option<Vec<String>>,
+    pub kana: Option<Vec<String>>,
+    pub japanese: Option<Vec<String>>,
+    pub description: Option<String>,
+}
+
+impl Word {
+    pub fn disabled(&self) -> bool {
+        self.disabled.unwrap_or_default()
+    }
+
+    pub fn enabled(&self) -> bool {
+        !self.disabled()
     }
 }

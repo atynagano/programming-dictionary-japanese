@@ -1,6 +1,7 @@
 use std::collections::BTreeMap;
 use crate::components::counter_btn::Button;
 use leptos::*;
+use crate::{Vocabulary, Word};
 
 /// Default Home Page
 #[component]
@@ -52,7 +53,7 @@ pub fn Home2() -> impl IntoView {
     }
 }
 
-// #[component]
+#[component]
 pub fn Home() -> impl IntoView {
     use leptos::html::*;
 
@@ -63,7 +64,7 @@ pub fn Home() -> impl IntoView {
         None => return view!(<p>"Loading..."</p>).into_view(),
         Some(s) => s,
     };*/
-    let text = include_str!("../../public/dict.toml");
+    let text = include_str!("../../public/dict.min.toml");
 
     let data = toml::from_str::<Vocabulary>(&text).map_err(|e| panic!("{}", e)).unwrap();
 
@@ -78,27 +79,6 @@ pub fn Home() -> impl IntoView {
                 </div>
             }.into_view()
         }).collect_view()
-}
-
-#[derive(serde::Serialize, serde::Deserialize, Debug, Clone)]
-struct Vocabulary {
-    dictionary: BTreeMap<String, Word>,
-}
-
-#[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
-struct Word {
-    disabled: Option<bool>,
-    english: Option<String>,
-    category: Option<Vec<String>>,
-    antonym: Option<Vec<String>>,
-    infinitive: Option<String>,
-    singular: Option<String>,
-    plural: Option<String>,
-    shortened: Option<Vec<String>>,
-    unshortened: Option<Vec<String>>,
-    kana: Option<Vec<String>>,
-    japanese: Option<Vec<String>>,
-    description: Option<String>,
 }
 
 impl Word {
