@@ -12,7 +12,7 @@ fn main() {
             data.dictionary.entry(line.to_owned()).or_insert_with(|| Word::default());
         }
     }
-    if true {
+    if false {
         // todo: 複数形と三人称単数の区別
         let cloned = data.dictionary.clone();
         for (key, word) in &cloned {
@@ -94,7 +94,7 @@ fn main() {
         std::fs::write("assets/dict.toml", data).unwrap();
     }
     {
-        data.dictionary.retain(|_, w| !w.disabled.unwrap_or_default());
+        data.dictionary.retain(|_, w| !w.enabled() && w.singular.is_none());
         let data_min = toml::to_string(&data).unwrap();
         std::fs::write("public/dict.min.toml", data_min).unwrap();
     }
