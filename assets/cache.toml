@@ -1353,7 +1353,6 @@ description = "関数呼び出しなど特定の操作を特定のデータに�
 
 [dictionary.bindable]
 
-[dictionary."data binding"]
 [dictionary.binding]
 plural = "bindings"
 kana = ["バインディング"]
@@ -1501,6 +1500,9 @@ unshortened = ["bool"]
 
 [dictionary.boost]
 
+[dictionary.bootstrap]
+description = "システムを起動する初期の一連の操作や、小さな初期投資で大きなプロジェクトを開始すること。"
+
 [dictionary.border]
 plural = "borders"
 
@@ -1586,11 +1588,6 @@ description = "\"[]\"のこと。"
 
 [dictionary.braking]
 
-[dictionary.vcs]
-english = "VCS"
-unshortened = ["version control system"]
-japanese = ["バージョン管理システム"]
-
 [dictionary.branch]
 kana = ["ブランチ"]
 description = "バージョン管理システムでの開発の異なる路線を指す。"
@@ -1602,6 +1599,14 @@ english = "BRDF"
 category = ["computer graphics"]
 unshortened = ["bidirectional reflectance distribution function"]
 japanese = ["双方向反射率分布関数"]
+
+[dictionary.breadth]
+antonym = ["depth"]
+kana = ["ブレッドス"]
+
+[dictionary.breadth-first]
+category = ["algorithm"]
+japanese = ["幅優先"]
 
 [dictionary.break]
 
@@ -1680,6 +1685,13 @@ kana = [
     "バッファ",
     "バッファー",
 ]
+
+[dictionary."buffer overflow"]
+kana = [
+    "バッファオーバーフロー",
+    "バッファーオーバーフロー",
+]
+description = "バッファに割り当てられた領域を超えてデータを書き込むことで発生する問題を指す。"
 
 [dictionary.buffered]
 
@@ -1901,9 +1913,11 @@ shortened = ["cap"]
 
 [dictionary.capacity]
 shortened = ["cap"]
-kana = ["キャパシティ", "キャパシティー"]
+kana = [
+    "キャパシティ",
+    "キャパシティー",
+]
 japanese = ["容量"]
-
 
 [dictionary.capital]
 shortened = ["cap"]
@@ -2107,13 +2121,16 @@ plural = "children"
 description = "親要素に関連付けられた下位の要素。"
 
 [dictionary.children]
+singular = "child"
 
 [dictionary.chinese]
 disabled = true
 
 [dictionary.choice]
 plural = "choices"
+
 [dictionary.choices]
+singular = "choice"
 
 [dictionary.chorus]
 
@@ -2226,7 +2243,10 @@ japanese = [
 [dictionary.closing]
 
 [dictionary.closure]
-kana = ["クロージャ", "クロージャー"]
+kana = [
+    "クロージャ",
+    "クロージャー",
+]
 description = "関数とその関数が作成されたレキシカルスコープの組み合わせを指す。関数は捕捉(capture)した外部スコープの変数にアクセスすることができる。"
 
 [dictionary.cloth]
@@ -2514,7 +2534,10 @@ disabled = true
 
 [dictionary.concurrency]
 category = ["concurrent programming"]
-japanese = ["並行", "並行性"]
+japanese = [
+    "並行",
+    "並行性",
+]
 description = "複数の計算が重複して行われることを指す。並列性(parallelism)とは異なり、同時に実行される必要はない。"
 
 [dictionary.concurrent]
@@ -2555,7 +2578,6 @@ japanese = ["円錐"]
 
 [dictionary.config]
 unshortened = ["configuration"]
-
 
 [dictionary.configurable]
 
@@ -2948,6 +2970,10 @@ singular = "cred"
 plural = "crosses"
 japanese = ["クロス積"]
 
+[dictionary."cross-site scripting"]
+kana = ["クロスサイトスクリプティング"]
+description = "ウェブアプリケーションの脆弱性を利用して、悪意のあるスクリプトを他のユーザーのブラウザ上で実行する攻撃を指す。"
+
 [dictionary.crosses]
 singular = "cross"
 
@@ -3028,6 +3054,10 @@ unshortened = ["current"]
 [dictionary.current]
 shortened = ["cur"]
 
+[dictionary.currying]
+japanese = ["カリー化"]
+description = "複数の引数を取る関数を、一度に一つの引数だけを取る一連の関数に変換するテクニック。部分的に適用された関数を作成し、コードの再利用性を向上させることができる。"
+
 [dictionary.cursor]
 
 [dictionary.curvature]
@@ -3087,6 +3117,10 @@ disabled = true
 [dictionary.d]
 disabled = true
 
+[dictionary.daemon]
+kana = ["デーモン"]
+description = "バックグラウンドで実行されるプロセス。"
+
 [dictionary.damp]
 kana = ["ダンプ"]
 
@@ -3100,6 +3134,13 @@ kana = ["ダンプ"]
 japanese = ["宙ぶらりんの"]
 description = "どこからも参照されないこと。dangling pointer。"
 
+[dictionary."dangling pointer"]
+kana = [
+    "ダングリングポインタ",
+    "ダングリングポインター",
+]
+description = "解放されたメモリ領域を指すポインタを指す。メモリ管理の問題を引き起こす可能性がある。"
+
 [dictionary.danish]
 
 [dictionary.dark]
@@ -3110,6 +3151,8 @@ description = "どこからも参照されないこと。dangling pointer。"
 
 [dictionary.data]
 singular = "datum"
+
+[dictionary."data binding"]
 
 [dictionary.datagram]
 
@@ -3138,6 +3181,10 @@ disabled = true
 
 [dictionary.dead]
 
+[dictionary."dead code"]
+kana = ["デッドコード"]
+description = "プログラムの実行中に決して実行されないコードを指す。"
+
 [dictionary.deadline]
 
 [dictionary.deadlock]
@@ -3154,6 +3201,10 @@ shortened = ["dealloc"]
 [dictionary.deallocated]
 
 [dictionary.death]
+
+[dictionary.debounce]
+kana = ["デバウンス"]
+description = "キー入力やスクロールなどの高頻度で発生するイベントを制御するため、関数の実行を遅延させ、特定の時間が経過するまで再度実行しないようにするテクニック。"
 
 [dictionary.debug]
 shortened = ["dbg"]
@@ -3352,7 +3403,6 @@ shortened = ["di"]
 japanese = ["依存性注入"]
 description = "オブジェクトが他のオブジェクトに依存する場合に、その依存関係を外部から供給するテクニックを指す。"
 
-
 [dictionary.dependent]
 
 [dictionary.depends]
@@ -3369,15 +3419,19 @@ kana = ["デプロイ"]
 [dictionary.deprecated]
 synonym = ["obsolete"]
 
-
 [dictionary.deprecation]
 
 [dictionary.deps]
 singular = "dep"
 
 [dictionary.depth]
-kana = ["デプス"]
+antonym = ["breadth"]
 plural = "depths"
+kana = ["デプス"]
+
+[dictionary.depth-first]
+category = ["algorithm"]
+japanese = ["深さ優先"]
 
 [dictionary.depths]
 singular = "depth"
@@ -4017,6 +4071,10 @@ disabled = true
 
 [dictionary.each]
 
+[dictionary.eager]
+antonym = ["lazy"]
+description = "計算の結果が必要となる前にすぐに計算を行う評価戦略を指す。"
+
 [dictionary.earlier]
 
 [dictionary.early]
@@ -4066,8 +4124,8 @@ japanese = [
 ]
 
 [dictionary.elastic]
-japanese = ["弾性の"]
 kana = ["エラスティック"]
+japanese = ["弾性の"]
 description = "システムのリソースが需要に応じて自動的にスケールアップ・ダウンする能力を指す。"
 
 [dictionary.elasticity]
@@ -4173,6 +4231,10 @@ description = "endianあるいはbyte orderとは、マルチバイトデータ�
 
 [dictionary.endianness]
 description = "little endianかbig endianか。"
+
+[dictionary.endpoint]
+kana = ["エンドポイント"]
+description = "通信の終点を指す。例えば、APIのURLはエンドポイントと呼ばれ、クライアントはこのエンドポイントにリクエストを送信する。"
 
 [dictionary.ends]
 disabled = true
@@ -4362,6 +4424,10 @@ singular = "event"
 [dictionary.exception]
 plural = "exceptions"
 japanese = ["例外"]
+
+[dictionary."exception handling"]
+japanese = ["例外処理"]
+description = "プログラムの実行中に発生するエラーを捕捉し、適切に処理するためのメカニズムを指す。"
 
 [dictionary.exceptions]
 singular = "exception"
@@ -4922,6 +4988,10 @@ singular = "force"
 
 [dictionary.forgive]
 
+[dictionary.fork]
+kana = ["フォーク"]
+description = "ソースコードをコピーして新しい開発ラインを作成すること。"
+
 [dictionary.form]
 
 [dictionary.format]
@@ -5144,7 +5214,6 @@ kana = ["ガンマ"]
 [dictionary.garbage]
 kana = ["ガベージ"]
 description = "参照されていないメモリ領域のこと。ガベージコレクションによってこれらの領域は自動的に解放される。"
-[dictionary."mark and sweep"]
 
 [dictionary."garbage collection"]
 unshortened = ["gc"]
@@ -5372,6 +5441,13 @@ japanese = ["重力"]
 [dictionary.grayscale]
 
 [dictionary.greater]
+
+[dictionary.greedy]
+kana = [
+    "グリーディ",
+    "グリーディー",
+]
+description = "常に最善の選択をすぐに行うアルゴリズムを指す。最適解を求めるために使用されるが、全ての問題に対して最適解を得られるとは限らない。"
 
 [dictionary.greek]
 disabled = true
@@ -5793,6 +5869,10 @@ unshortened = ["interactive disassembler"]
 [dictionary.idarm]
 disabled = true
 
+[dictionary.idempotent]
+kana = ["イデンポテント"]
+description = "同じ操作を何度実行しても結果が変わらない性質を指す。特に分散システムやネットワークプロトコルの設計において重要な概念。"
+
 [dictionary.ident]
 plural = "idents"
 
@@ -5875,6 +5955,14 @@ japanese = ["即時"]
 
 [dictionary.immutable]
 japanese = ["不変"]
+
+[dictionary."immutable object"]
+description = "作成後にその状態が変更されないオブジェクト。"
+
+[dictionary.immutablity]
+antonym = ["mutability"]
+kana = ["イミュータビリティ"]
+description = "オブジェクトの状態が変更不可能であることを指す。プログラムの状態管理・バグの防止・コンパイル最適化などで重要な役割を果たす。"
 
 [dictionary.impact]
 
@@ -6189,9 +6277,12 @@ japanese = [
 [dictionary.interest]
 
 [dictionary.interface]
+synonym = [
+    "trait",
+    "concept",
+]
 plural = "interfaces"
 kana = ["インターフェース"]
-synonym = ["trait", "concept"]
 description = "クラスやオブジェクトがどのように操作されるべきかを定義したものを指す。異なるクラスやオブジェクトを同じ方法で操作できる。"
 
 [dictionary.interfaces]
@@ -6308,6 +6399,10 @@ antonym = ["valid"]
 shortened = ["inv"]
 
 [dictionary.inversed]
+
+[dictionary."inversion of controll"]
+japanese = ["制御の反転"]
+description = "カスタムの制御フローをフレームワークに委譲するデザイン原則を指す。"
 
 [dictionary.invert]
 
@@ -6619,8 +6714,13 @@ singular = "layout"
 [dictionary.lazily]
 
 [dictionary.lazy]
+antonym = ["eager"]
 kana = ["レイジー"]
 description = "不必要な計算を避けるために、計算の結果が必要となるまで計算を遅延させる評価戦略。"
+
+[dictionary."lazy evaluation"]
+japanese = ["遅延評価"]
+description = "式の評価を必要になるまで遅延させる評価戦略。不必要な計算を省くことができ、パフォーマンスを向上させることが可能。"
 
 [dictionary.lchown]
 disabled = true
@@ -6831,6 +6931,12 @@ singular = "link"
 unshortened = ["language integrated query"]
 kana = ["リンク"]
 japanese = ["統合言語クエリ"]
+
+[dictionary.lint]
+kana = ["リント"]
+description = "プログラムのソースコードを静的に解析し、エラーやバグ、スタイルの問題などを検出するツールのこと。"
+
+[dictionary.linter]
 
 [dictionary.linux]
 
@@ -7070,6 +7176,10 @@ singular = "macro"
 kana = ["マジック"]
 description = "明確な説明や理由なく動作するコード。"
 
+[dictionary."magic method"]
+
+[dictionary."magic number"]
+
 [dictionary.magnetic]
 
 [dictionary.magnification]
@@ -7138,6 +7248,8 @@ singular = "map"
 [dictionary.margin]
 
 [dictionary.mark]
+
+[dictionary."mark and sweep"]
 
 [dictionary.marked]
 
@@ -7277,6 +7389,10 @@ kana = [
 [dictionary.members]
 singular = "member"
 
+[dictionary.memoization]
+japanese = ["メモ化"]
+description = "高コストの関数呼び出しの結果をキャッシュして再利用する最適化技術。同じ引数で何度も関数を呼び出す際のパフォーマンスを向上させることができる。"
+
 [dictionary.memory]
 shortened = ["mem"]
 kana = [
@@ -7387,6 +7503,10 @@ unshortened = ["middle"]
 
 [dictionary.middle]
 shortened = ["mid"]
+
+[dictionary.middleware]
+kana = ["ミドルウェア"]
+description = "ソフトウェアの異なる部分をつなぐソフトウェアを指す。例えば、ウェブアプリケーションでは、リクエストとレスポンスの間に位置する関数をミドルウェアと呼ぶ。"
 
 [dictionary.midphase]
 
@@ -7512,6 +7632,10 @@ shortened = ["mod"]
 
 [dictionary.molten]
 disabled = true
+
+[dictionary.monad]
+kana = ["モナド"]
+description = "計算の連鎖を抽象化する概念で、特に関数型プログラミングで使用される。"
 
 [dictionary.monitor]
 
@@ -7680,6 +7804,10 @@ japanese = [
 ]
 description = ""
 
+[dictionary.mutablity]
+kana = ["ミュータビリティ"]
+description = "オブジェクトの状態が変更可能であることを指す。"
+
 [dictionary.mute]
 disabled = true
 
@@ -7709,9 +7837,6 @@ description = "numberの略。"
 plural = "names"
 
 [dictionary.named]
-[dictionary.naming]
-[dictionary."naming convention"]
-japanese = ["命名規則"]
 
 [dictionary.names]
 singular = "name"
@@ -7720,6 +7845,11 @@ singular = "name"
 kana = ["ネームスペース"]
 japanese = ["名前空間"]
 description = "識別子の集合を定義し、それらが他の項目と衝突しないようにするための抽象的な容器を指す。"
+
+[dictionary.naming]
+
+[dictionary."naming convention"]
+japanese = ["命名規則"]
 
 [dictionary.nan]
 english = "NaN"
@@ -8539,11 +8669,12 @@ singular = "pass"
 [dictionary.pat]
 unshortened = ["pattern"]
 
-[dictionary.patcher]
 [dictionary.patch]
 plural = "patches"
 kana = ["パッチ"]
 description = "ソフトウェアのバグを修正したり、機能を追加したりするためのコードの変更のこと。"
+
+[dictionary.patcher]
 
 [dictionary.patches]
 singular = "patch"
@@ -8830,6 +8961,9 @@ singular = "plugin"
 
 [dictionary.plus]
 
+[dictionary.plymorphic]
+kana = ["ポリモーフィック"]
+
 [dictionary.png]
 disabled = true
 
@@ -8927,8 +9061,9 @@ description = """
 kana = ["ポート"]
 description = "ネットワークサービスがコンピュータ上で提供される特定の接続点を指す。ポート番号によって特定のサービスやプロトコルを識別する。"
 
-[dictionary.portable]
 [dictionary.portability]
+
+[dictionary.portable]
 
 [dictionary.portal]
 
@@ -9459,6 +9594,10 @@ disabled = true
 [dictionary.ra]
 disabled = true
 
+[dictionary."race condition"]
+kana = ["レースコンディション"]
+description = "複数のプロセスまたはスレッドが共有のリソースに同時にアクセスし、その結果が実行順序に依存する状況を指す。バグや予期しない動作を引き起こすため、適切な同期メカニズムを用いて防ぐ必要がある。"
+
 [dictionary.rad]
 unshortened = ["radian"]
 
@@ -9819,6 +9958,16 @@ description = "「同じ事を何度も」という意味。否定的な意味�
 [dictionary.ref]
 unshortened = ["reference"]
 
+[dictionary.refactor]
+kana = [
+    "リファクタ",
+    "リファクター",
+]
+
+[dictionary.refactoring]
+kana = ["リファクタリング"]
+description = "コードの外部の動作を変えずに内部の構造を改善するプロセスを指す。特に変数名や型名の変更のこと。"
+
 [dictionary.reference]
 plural = "references"
 shortened = ["ref"]
@@ -9876,6 +10025,10 @@ singular = "register"
 [dictionary.registration]
 
 [dictionary.regular]
+
+[dictionary."regular expression"]
+shortened = ["regex"]
+japanese = ["正規表現"]
 
 [dictionary.reinit]
 
@@ -10531,6 +10684,10 @@ antonym = ["unsafe"]
 
 [dictionary.safety]
 
+[dictionary.salt]
+kana = ["ソルト"]
+description = "パスワードや暗号化キーをハッシュ化する際に追加するランダムなデータ。ソルトを使用すると、同じパスワードでも異なるハッシュ値が生成され、レインボーテーブル攻撃を防ぐことができる。"
+
 [dictionary.same]
 disabled = true
 
@@ -10837,8 +10994,11 @@ description = "シーケンシャルアクセスの対義語はランダムア�
 [dictionary.serializable]
 
 [dictionary.serialization]
+kana = [
+    "シリアライゼーション",
+    "シリアリゼーション",
+]
 japanese = ["シリアル化"]
-kana = ["シリアライゼーション", "シリアリゼーション"]
 description = "オブジェクトの状態をバイトストリームや文字列に変換するプロセス。オブジェクトの状態を保存したり、ネットワーク経由で送信したりすることが可能となる。"
 
 [dictionary.serialize]
@@ -11184,6 +11344,7 @@ disabled = true
 unshortened = ["socket"]
 
 [dictionary.socket]
+shortened = ["sock"]
 kana = ["ソケット"]
 description = "ネットワーク上での通信を行うためのエンドポイントを指す。ソケットを使用することで、異なるコンピュータ間でもデータのやり取りが可能になる。"
 
@@ -11230,6 +11391,15 @@ singular = "source"
 [dictionary.spacer]
 
 [dictionary.spacing]
+
+[dictionary.spaghetti]
+kana = [
+    "スパゲティ",
+    "スパゲッティ",
+    "スパゲティー",
+    "スパゲッティー",
+]
+description = "制御構造が複雑に絡み合ったコードを指す。スパゲッティコードは読みにくく保守が困難なため、否定的な意味合いを持つ。"
 
 [dictionary.span]
 
@@ -12132,6 +12302,10 @@ japanese = ["閾値"]
 [dictionary.thresholds]
 singular = "threshold"
 
+[dictionary.throttling]
+kana = ["スロットリング"]
+description = "リソースの消費を抑えたり、サービスの品質を維持したりするために、特定の操作の実行頻度を制限するためのプロセス。"
+
 [dictionary.through]
 
 [dictionary.throughput]
@@ -12525,6 +12699,9 @@ japanese = ["型"]
 [dictionary."type annotation"]
 japanese = ["型アノテーション"]
 
+[dictionary."type casting"]
+description = "あるデータ型を別のデータ型に変換するプロセスを指す。"
+
 [dictionary.typed]
 infinitive = "type"
 
@@ -12595,6 +12772,7 @@ japanese = ["単項演算子"]
 [dictionary.unbiased]
 
 [dictionary.unbind]
+antonym = ["bind"]
 
 [dictionary.unbound]
 
@@ -12975,6 +13153,11 @@ singular = "variant"
 singular = "var"
 
 [dictionary.varying]
+
+[dictionary.vcs]
+english = "VCS"
+unshortened = ["version control system"]
+japanese = ["バージョン管理システム"]
 
 [dictionary.vdecl]
 disabled = true
@@ -13518,6 +13701,10 @@ antonym = ["unzip"]
 [dictionary.zircon]
 disabled = true
 
+[dictionary.zombie]
+kana = ["ゾンビ"]
+description = "親プロセスによってまだ回収されていない終了した子プロセスを指す。"
+
 [dictionary.zone]
 plural = "zones"
 
@@ -13531,110 +13718,3 @@ disabled = true
 
 [dictionary."ⓘ"]
 disabled = true
-
-[dictionary.fork]
-kana = ["フォーク"]
-description = "ソースコードをコピーして新しい開発ラインを作成すること。"
-[dictionary.throttling]
-kana = ["スロットリング"]
-description = "リソースの消費を抑えたり、サービスの品質を維持したりするために、特定の操作の実行頻度を制限するためのプロセス。"
-[dictionary.debounce]
-kana = ["デバウンス"]
-description = "キー入力やスクロールなどの高頻度で発生するイベントを制御するため、関数の実行を遅延させ、特定の時間が経過するまで再度実行しないようにするテクニック。"
-[dictionary.memoization]
-japanese = ["メモ化"]
-description = "高コストの関数呼び出しの結果をキャッシュして再利用する最適化技術。同じ引数で何度も関数を呼び出す際のパフォーマンスを向上させることができる。"
-[dictionary.currying]
-japanese = ["カリー化"]
-description = "複数の引数を取る関数を、一度に一つの引数だけを取る一連の関数に変換するテクニック。部分的に適用された関数を作成し、コードの再利用性を向上させることができる。"
-[dictionary.mutablity]
-kana = ["ミュータビリティ"]
-description = "オブジェクトの状態が変更可能であることを指す。"
-[dictionary.immutablity]
-kana = ["イミュータビリティ"]
-antonym = ["mutability"]
-description = "オブジェクトの状態が変更不可能であることを指す。プログラムの状態管理・バグの防止・コンパイル最適化などで重要な役割を果たす。"
-[dictionary.idempotent]
-kana = ["イデンポテント"]
-description = "同じ操作を何度実行しても結果が変わらない性質を指す。特に分散システムやネットワークプロトコルの設計において重要な概念。"
-[dictionary.lint]
-kana = ["リント"]
-description = "プログラムのソースコードを静的に解析し、エラーやバグ、スタイルの問題などを検出するツールのこと。"
-[dictionary.linter]
-[dictionary.endpoint]
-kana = ["エンドポイント"]
-description = "通信の終点を指す。例えば、APIのURLはエンドポイントと呼ばれ、クライアントはこのエンドポイントにリクエストを送信する。"
-[dictionary.plymorphic]
-kana = ["ポリモーフィック"]
-[dictionary.middleware]
-kana = ["ミドルウェア"]
-description = "ソフトウェアの異なる部分をつなぐソフトウェアを指す。例えば、ウェブアプリケーションでは、リクエストとレスポンスの間に位置する関数をミドルウェアと呼ぶ。"
-[dictionary.refactor]
-kana = ["リファクタ", "リファクター"]
-[dictionary.monad]
-kana = ["モナド"]
-description = "計算の連鎖を抽象化する概念で、特に関数型プログラミングで使用される。"
-[dictionary."regular expression"]
-japanese = ["正規表現"]
-[dictionary."type casting"]
-description = "あるデータ型を別のデータ型に変換するプロセスを指す。"
-[dictionary."inversion of controll"]
-japanese = ["制御の反転"]
-description = "カスタムの制御フローをフレームワークに委譲するデザイン原則を指す。"
-[dictionary."cross-site scripting"]
-kana = ["クロスサイトスクリプティング"]
-description = "ウェブアプリケーションの脆弱性を利用して、悪意のあるスクリプトを他のユーザーのブラウザ上で実行する攻撃を指す。"
-[dictionary."dangling pointer"]
-kana = ["ダングリングポインタ", "ダングリングポインター"]
-description = "解放されたメモリ領域を指すポインタを指す。メモリ管理の問題を引き起こす可能性がある。"
-[dictionary."buffer overflow"]
-kana = ["バッファオーバーフロー", "バッファーオーバーフロー"]
-description = "バッファに割り当てられた領域を超えてデータを書き込むことで発生する問題を指す。"
-[dictionary."dead code"]
-kana = ["デッドコード"]
-description = "プログラムの実行中に決して実行されないコードを指す。"
-[dictionary."exception handling"]
-japanese = ["例外処理"]
-description = "プログラムの実行中に発生するエラーを捕捉し、適切に処理するためのメカニズムを指す。"
-[dictionary.refactoring]
-kana = ["リファクタリング"]
-description = "コードの外部の動作を変えずに内部の構造を改善するプロセスを指す。特に変数名や型名の変更のこと。"
-[dictionary."race condition"]
-kana = ["レースコンディション"]
-description = "複数のプロセスまたはスレッドが共有のリソースに同時にアクセスし、その結果が実行順序に依存する状況を指す。バグや予期しない動作を引き起こすため、適切な同期メカニズムを用いて防ぐ必要がある。"
-[dictionary."lazy evaluation"]
-japanese = ["遅延評価"]
-description = "式の評価を必要になるまで遅延させる評価戦略。不必要な計算を省くことができ、パフォーマンスを向上させることが可能。"
-[dictionary."immutable object"]
-description = "作成後にその状態が変更されないオブジェクト。"
-[dictionary.salt]
-kana = ["ソルト"]
-description = "パスワードや暗号化キーをハッシュ化する際に追加するランダムなデータ。ソルトを使用すると、同じパスワードでも異なるハッシュ値が生成され、レインボーテーブル攻撃を防ぐことができる。"
-[dictionary.spaghetti]
-kana = ["スパゲティ", "スパゲッティ", "スパゲティー", "スパゲッティー"]
-description = "制御構造が複雑に絡み合ったコードを指す。スパゲッティコードは読みにくく保守が困難なため、否定的な意味合いを持つ。"
-[dictionary.zombie]
-kana = ["ゾンビ"]
-description = "親プロセスによってまだ回収されていない終了した子プロセスを指す。"
-[dictionary.daemon]
-kana = ["デーモン"]
-description = "バックグラウンドで実行されるプロセス。"
-[dictionary."magic number"]
-[dictionary."magic method"]
-[dictionary.eager]
-antonym = ["lazy"]
-description = "計算の結果が必要となる前にすぐに計算を行う評価戦略を指す。"
-[dictionary.greedy]
-kana = ["グリーディ", "グリーディー"]
-description = "常に最善の選択をすぐに行うアルゴリズムを指す。最適解を求めるために使用されるが、全ての問題に対して最適解を得られるとは限らない。"
-[dictionary."breadth-first"]
-category = ["algorithm"]
-japanese = ["幅優先"]
-[dictionary."depth-first"]
-category = ["algorithm"]
-japanese = ["深さ優先"]
-[dictionary.breadth]
-kana = ["ブレッドス"]
-antonym = ["depth"]
-[dictionary.bootstrap]
-description = "システムを起動する初期の一連の操作や、小さな初期投資で大きなプロジェクトを開始すること。"

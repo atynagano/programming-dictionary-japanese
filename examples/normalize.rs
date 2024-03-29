@@ -94,7 +94,7 @@ fn main() {
         std::fs::write("assets/dict.toml", data).unwrap();
     }
     {
-        data.dictionary.retain(|_, w| !w.enabled() && w.singular.is_none());
+        data.dictionary.retain(|_, w| w.enabled() && w.singular.is_none());
         let data_min = toml::to_string(&data).unwrap();
         std::fs::write("public/dict.min.toml", data_min).unwrap();
     }
