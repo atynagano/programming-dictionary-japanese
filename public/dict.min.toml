@@ -11,6 +11,11 @@ singular = "aabb"
 english = "AArch"
 unshortened = ["ARM architecture"]
 
+[dictionary.abbreviated]
+
+[dictionary.abbreviation]
+kana = ["アブリビエーション"]
+
 [dictionary.abgr]
 
 [dictionary.abi]
@@ -26,6 +31,9 @@ infinitive = "abort"
 unshortened = ["absolute"]
 japanese = ["絶対値"]
 
+[dictionary.absent]
+antonym = ["present"]
+
 [dictionary.absolute]
 shortened = ["abs"]
 japanese = ["絶対値"]
@@ -33,6 +41,8 @@ japanese = ["絶対値"]
 [dictionary.abstract]
 kana = ["アブストラクト"]
 japanese = ["抽象"]
+
+[dictionary."abstract factory"]
 
 [dictionary."abstract syntax tree"]
 shortened = ["ast"]
@@ -55,11 +65,22 @@ unshortened = ["acceleration"]
 kana = ["アクセラレーテッド"]
 
 [dictionary.acceleration]
+plural = "accelerations"
 shortened = ["acc", "accel", "ac"]
 kana = ["アクセラレーション"]
 japanese = ["加速", "加速度"]
 
+[dictionary.accelerations]
+singular = "acceleration"
+
+[dictionary.accelerometer]
+japanese = ["加速度計"]
+
 [dictionary.accept]
+plural = "accepts"
+
+[dictionary.accepts]
+singular = "accept"
 
 [dictionary.access]
 plural = "accesses"
@@ -70,9 +91,18 @@ kana = ["アクセス"]
 [dictionary.accesses]
 singular = "access"
 
+[dictionary.accessibility]
+
+[dictionary.accesss]
+singular = "access"
+
+[dictionary.account]
+
 [dictionary.accumulate]
 kana = ["アキュムレート"]
 japanese = ["蓄積する"]
+
+[dictionary.accumulated]
 
 [dictionary.accumulating]
 
@@ -82,6 +112,16 @@ japanese = ["蓄積する"]
 
 [dictionary.accuracy]
 japanese = ["正解率", "正確性", "精度"]
+
+[dictionary.accurate]
+
+[dictionary.achieved]
+
+[dictionary.achievement]
+plural = "achievements"
+
+[dictionary.achievements]
+singular = "achievement"
 
 [dictionary.acknowledge]
 description = "U+0006。文字化けする可能性のある文字。"
@@ -107,12 +147,47 @@ antonym = ["release"]
 [dictionary.acquired]
 
 [dictionary.action]
+plural = "actions"
+
+[dictionary.actions]
+singular = "action"
+
+[dictionary.activate]
+
+[dictionary.activated]
+
+[dictionary.activation]
+
+[dictionary.activator]
+plural = "activators"
+
+[dictionary.activators]
+singular = "activator"
 
 [dictionary.active]
 
+[dictionary."active object"]
+category = ["design pattern"]
+
+[dictionary.activity]
+
+[dictionary.actual]
+
+[dictionary.ad]
+
 [dictionary.adapter]
+plural = "adapters"
+
+[dictionary.adapters]
+singular = "adapter"
+
+[dictionary.adaptive]
 
 [dictionary.add]
+
+[dictionary.added]
+
+[dictionary.addition]
 
 [dictionary.additional]
 
@@ -137,11 +212,21 @@ shortened = ["addrs"]
 singular = "addr"
 unshortened = ["addresses"]
 
+[dictionary.adhoc]
+kana = ["アドホック"]
+description = "必要に応じて、その場限りの、一時的な、特定の目的のためだけに、の意。"
+
 [dictionary.adjacency]
+
+[dictionary.adjacent]
 
 [dictionary.adjust]
 
 [dictionary.adjustment]
+plural = "adjustments"
+
+[dictionary.adjustments]
+singular = "adjustment"
 
 [dictionary.admin]
 unshortened = ["administrator"]
@@ -159,10 +244,36 @@ description = "進める、あるいは進んだ量。"
 [dictionary.advanced]
 infinitive = "advance"
 
+[dictionary.advertising]
+
+[dictionary.affect]
+plural = "affects"
+
+[dictionary.affected]
+
+[dictionary.affects]
+singular = "affect"
+
+[dictionary.affine]
+kana = ["アフィン", "アファイン"]
+
+[dictionary."affine transformation"]
+japanese = ["アフィン変換"]
+
+[dictionary.agent]
+
+[dictionary.ai]
+unshortened = ["artificial intelligence"]
+
+[dictionary.albedo]
+
+[dictionary.alert]
+
 [dictionary.algorithm]
 kana = ["アルゴリズム"]
 
 [dictionary.alias]
+kana = ["エイリアス"]
 
 [dictionary.aliased]
 
@@ -179,9 +290,14 @@ antonym = ["unaligned"]
 [dictionary.alignment]
 kana = ["アラインメント"]
 
+[dictionary.alive]
+description = "オブジェクトがガベージコレクション等によって破棄されずにまだ存在していること。"
+
 [dictionary.alloc]
 unshortened = ["allocate", "allocation"]
 kana = ["アロック"]
+
+[dictionary.allocatable]
 
 [dictionary.allocate]
 antonym = ["deallocate", "delete", "release"]
@@ -206,6 +322,14 @@ kana = ["アロケータ", "アロケーター"]
 plural = "alphas"
 kana = ["アルファ"]
 
+[dictionary.alphablended]
+
+[dictionary.alphamap]
+plural = "alphamaps"
+
+[dictionary.alphamaps]
+singular = "alphamap"
+
 [dictionary.alphas]
 singular = "alpha"
 
@@ -214,20 +338,51 @@ unshortened = ["alternative"]
 
 [dictionary.alternate]
 
+[dictionary.alternating]
+
+[dictionary.alternative]
+shortened = ["alt"]
+
+[dictionary.altitude]
+
+[dictionary.ambient]
+
+[dictionary.ambisonic]
+
+[dictionary.amount]
+shortened = ["amt"]
+
 [dictionary.ampersand]
 kana = ["アンパサンド"]
 description = "'&'記号のこと。ラテン語の\"εt\"から。"
 
+[dictionary.amplitude]
+japanese = ["振幅"]
+
 [dictionary.amt]
 unshortened = ["amount"]
 
+[dictionary.analysis]
+
 [dictionary.analytic]
 antonym = ["numeric"]
+plural = "analytics"
 japanese = ["解析的", "解析的な"]
 
 [dictionary.analytical]
 antonym = ["numerical"]
 japanese = ["解析的", "解析的な"]
+
+[dictionary.analytics]
+singular = "analytic"
+
+[dictionary.analyze]
+
+[dictionary.anamorphism]
+kana = ["アナモルフィズム"]
+
+[dictionary.ancestor]
+plural = "ancestors"
 
 [dictionary.ancestors]
 category = ["data structure"]
@@ -236,22 +391,77 @@ singular = "ancestor"
 japanese = ["先祖"]
 description = "木構造において親と親より上のノードのこと。先祖ノード。"
 
+[dictionary.anchor]
+plural = "anchors"
+kana = ["アンカー"]
+
+[dictionary.anchored]
+
+[dictionary.anchors]
+singular = "anchor"
+
 [dictionary.ancillary]
 kana = ["アンサレリ", "アンサレリー"]
 description = "通信ネットワークにおいて、プライマリサービスを補助する付随サービスのこと。"
 
 [dictionary.and]
 
+[dictionary.angle]
+plural = "angles"
+japanese = ["角度"]
+
+[dictionary.angles]
+singular = "angle"
+
+[dictionary.angular]
+
+[dictionary.anim]
+unshortened = ["animate", "animation", "animator"]
+
+[dictionary.animate]
+shortened = ["anim"]
+
+[dictionary.animated]
+
+[dictionary.animation]
+plural = "animations"
+shortened = ["anim"]
+kana = ["アニメーション"]
+
+[dictionary.animations]
+singular = "animation"
+
+[dictionary.animator]
+plural = "animators"
+shortened = ["anim"]
+
+[dictionary.animators]
+singular = "animator"
+
+[dictionary.aniso]
+unshortened = ["anisotropic", "anisotropy"]
+
 [dictionary.anisotropic]
+shortened = ["aniso"]
 japanese = ["異方性の", "異等方性の"]
 
 [dictionary.anisotropy]
+shortened = ["aniso"]
 japanese = ["異方性", "異等方性"]
+
+[dictionary.annotation]
+plural = "annotations"
+kana = ["アノテーション"]
+
+[dictionary.annotations]
+singular = "annotation"
 
 [dictionary.ansi]
 english = "ANSI"
 unshortened = ["American National Standards Institute"]
 description = "Windowsシステムの標準コードページ。各文字は8ビットの固定長シーケンスである。ASCIIのスーパーセットで、UTF-8のサブセットではない。"
+
+[dictionary.anti]
 
 [dictionary."anti aliasing"]
 category = ["computer graphics"]
@@ -261,6 +471,18 @@ kana = ["アンチエイリアシング"]
 kana = ["エニー"]
 description = "任意の型・任意の値。"
 
+[dictionary.ao]
+unshortened = ["ambient occlusion"]
+
+[dictionary.aot]
+english = "AOT"
+category = ["compiler"]
+antonym = ["jit"]
+unshortened = ["ahead of time"]
+
+[dictionary.aperture]
+description = "(レンズの)口径。"
+
 [dictionary.api]
 english = "API"
 unshortened = ["application programming interface"]
@@ -269,15 +491,31 @@ kana = ["エーピーアイ"]
 [dictionary.apostrophe]
 kana = ["アポストロフィ"]
 
+[dictionary.app]
+unshortened = ["application"]
+
+[dictionary.apparent]
+
 [dictionary.append]
 kana = ["アペンド"]
 
 [dictionary.application]
+shortened = ["app"]
 kana = ["アプリケーション"]
+
+[dictionary."application framework"]
 
 [dictionary.apply]
 kana = ["アプライ"]
 japanese = ["適用する"]
+
+[dictionary.approximate]
+
+[dictionary.approximately]
+
+[dictionary.ar]
+english = "AR"
+unshortened = ["augmented reality"]
 
 [dictionary.arbitrary]
 japanese = ["任意の", "恣意的な"]
@@ -288,6 +526,17 @@ japanese = ["弧", "円弧"]
 
 [dictionary.arch]
 unshortened = ["architecture"]
+
+[dictionary.architecture]
+shortened = ["arch"]
+kana = ["アーキテクチャ", "アーキテクチャー"]
+
+[dictionary.archive]
+plural = "archives"
+kana = ["アーカイブ"]
+
+[dictionary.archives]
+singular = "archive"
 
 [dictionary.area]
 plural = "areas"
@@ -333,7 +582,17 @@ japanese = ["配列"]
 [dictionary.arrays]
 singular = "array"
 
+[dictionary.arrow]
+japanese = ["矢印"]
+
+[dictionary.articulation]
+
 [dictionary.as]
+
+[dictionary.ascending]
+antonym = ["descending"]
+
+[dictionary.ascent]
 
 [dictionary.ascii]
 english = "ASCII"
@@ -347,7 +606,13 @@ description = "1963年に制定された、ラテン文字を中心とする文�
 
 [dictionary.asinh]
 
+[dictionary.ask]
+antonym = ["bid"]
+
+[dictionary.asleep]
+
 [dictionary.asm]
+unshortened = ["assembly"]
 
 [dictionary.aspect]
 plural = "aspects"
@@ -355,21 +620,51 @@ plural = "aspects"
 [dictionary.aspects]
 singular = "aspect"
 
+[dictionary.assemble]
+antonym = ["disassemble"]
+
+[dictionary.assembler]
+antonym = ["disassembler"]
+
+[dictionary.assemblies]
+
 [dictionary.assembly]
+antonym = ["disassembly"]
+shortened = ["asm"]
 kana = ["アセンブリ"]
 
 [dictionary.assert]
 kana = ["アサート"]
 
+[dictionary.assertion]
+plural = "assertions"
+
+[dictionary.assertions]
+singular = "assertion"
+
+[dictionary.asset]
+plural = "assets"
+kana = ["アセット"]
+
+[dictionary.assets]
+singular = "asset"
+
 [dictionary.assign]
 kana = ["アサイン"]
 japanese = ["代入する"]
+
+[dictionary.assignable]
 
 [dictionary.assignment]
 kana = ["アサインメント"]
 japanese = ["代入"]
 
 [dictionary.assisted]
+
+[dictionary.associated]
+japanese = ["関連する"]
+
+[dictionary.association]
 
 [dictionary."associative array"]
 japanese = ["連想配列"]
@@ -384,6 +679,10 @@ unshortened = ["Adaptive Scalable Texture Compression"]
 
 [dictionary.asterisk]
 kana = ["アスタリスク"]
+
+[dictionary.asymptote]
+kana = ["アシンプトート", "アッシンプトート"]
+japanese = ["漸近線"]
 
 [dictionary.async]
 unshortened = ["asynchronous", "asynchronicity"]
@@ -400,6 +699,7 @@ japanese = ["非同期の"]
 description = "並行プログラミングの文脈において、同期的に実行(シンクロ)しないという意味。対義語はシンクロではなくブロッキング。"
 
 [dictionary.at]
+description = "配列のあるインデックスにあること。"
 
 [dictionary.atan]
 
@@ -408,6 +708,9 @@ description = "並行プログラミングの文脈において、同期的に�
 [dictionary.atim]
 
 [dictionary.atime]
+
+[dictionary.atlas]
+kana = ["アトラス"]
 
 [dictionary.atom]
 
@@ -420,6 +723,13 @@ kana = ["アトミック"]
 [dictionary.atomics]
 singular = "atomic"
 
+[dictionary.atrac]
+
+[dictionary.atrous]
+
+[dictionary.attach]
+antonym = ["detach"]
+
 [dictionary.attached]
 
 [dictionary.attachment]
@@ -428,9 +738,19 @@ plural = "attachments"
 [dictionary.attachments]
 singular = "attachment"
 
+[dictionary.attenuate]
+
+[dictionary.attenuation]
+japanese = ["減衰"]
+description = "デジタル信号の歪みや電気信号の振幅の減少など、伝送される信号が弱まること。"
+
+[dictionary.attitude]
+
 [dictionary.attr]
 plural = "attrs"
 unshortened = ["attribute"]
+
+[dictionary.attraction]
 
 [dictionary.attrib]
 unshortened = ["attribute"]
@@ -444,16 +764,49 @@ japanese = ["属性"]
 singular = "attribute"
 shortened = ["attrs"]
 
-[dictionary.attributesv]
-
 [dictionary.attrs]
 singular = "attr"
 unshortened = ["attributes"]
 
+[dictionary.audio]
+
+[dictionary.audioqueue]
+
+[dictionary.auditorium]
+
 [dictionary.augmented]
 kana = ["オーグメンテッド"]
 
+[dictionary.authenticate]
+
+[dictionary.authenticated]
+
+[dictionary.authentication]
+
+[dictionary.authorization]
+
+[dictionary.authorized]
+
 [dictionary.auto]
+unshortened = ["automatic"]
+kana = ["オート"]
+japanese = ["自動"]
+
+[dictionary.autocorrection]
+
+[dictionary.autodestruct]
+
+[dictionary.autohint]
+
+[dictionary.automatic]
+shortened = ["auto"]
+
+[dictionary.automatically]
+
+[dictionary.automaton]
+kana = ["オートマトン"]
+
+[dictionary.autorotate]
 
 [dictionary.availability]
 
@@ -461,31 +814,110 @@ kana = ["オーグメンテッド"]
 
 [dictionary.available]
 
+[dictionary.avatar]
+kana = ["アバター"]
+
 [dictionary.avc]
 
 [dictionary.average]
 
 [dictionary.avi]
 
+[dictionary.avoidance]
+
 [dictionary.await]
+
+[dictionary.awake]
 
 [dictionary.aware]
 
+[dictionary.away]
+
+[dictionary.axes]
+singular = "axis"
+
+[dictionary.axis]
+plural = "axes"
+japanese = ["軸"]
+
+[dictionary.azimuth]
+japanese = ["方位角", "方位"]
+
 [dictionary.back]
+
+[dictionary.backbuffer]
+
+[dictionary.backface]
+plural = "backfaces"
+kana = ["バックフェース"]
+japanese = ["背面"]
+
+[dictionary."backface culling"]
+category = ["computer graphics"]
+kana = ["バックフェースカリング"]
+
+[dictionary.backfaces]
+singular = "backface"
+
+[dictionary.backfacing]
+
+[dictionary.background]
+plural = "backgrounds"
+shortened = ["bg"]
+kana = ["バックグラウンド"]
+japanese = ["背景"]
+
+[dictionary.backgrounds]
+singular = "background"
 
 [dictionary.backpropagation]
 category = ["machine learning"]
 kana = ["バックプロパゲーション"]
 japanese = ["逆伝播", "誤差逆伝播法"]
-description = "ニューラルネットワークにおいて、モデルの出力とground truthの誤差から各ニューロンの重みを調整すること。"
+description = "ニューラルネットワークにおいて、モデルの出力とground truthの誤差から各ニューロンの重みを調整するアルゴリズム。"
+
+[dictionary.backslash]
+kana = ["バックスラッシュ"]
 
 [dictionary.backspace]
+kana = ["バックスペース"]
 
 [dictionary.backtrace]
+kana = ["バックトレース"]
+
+[dictionary.backup]
+kana = ["バックアップ"]
 
 [dictionary.backward]
 
+[dictionary.badge]
+
+[dictionary.bag]
+plural = "bags"
+
+[dictionary.bags]
+singular = "bag"
+
+[dictionary.bake]
+category = ["computer graphics"]
+kana = ["ベイク"]
+description = "法線や大域照明などを事前計算してテクスチャに焼き付けること。"
+
+[dictionary.baked]
+
+[dictionary.baketype]
+
+[dictionary.baking]
+
+[dictionary.balanced]
+
+[dictionary.balking]
+category = ["design pattern"]
+
 [dictionary.ballot]
+
+[dictionary.bandwidth]
+japanese = ["帯域幅"]
 
 [dictionary.bank]
 plural = "banks"
@@ -495,7 +927,11 @@ singular = "bank"
 
 [dictionary.bankwidth]
 
+[dictionary.banner]
+
 [dictionary.bar]
+
+[dictionary.barrel]
 
 [dictionary.barrier]
 plural = "barriers"
@@ -520,34 +956,104 @@ japanese = ["基底"]
 [dictionary.based]
 infinitive = "base"
 
+[dictionary.baseline]
+
+[dictionary.basemap]
+
 [dictionary.basic]
 
+[dictionary.basis]
+
+[dictionary.basque]
+
+[dictionary.batch]
+plural = "batches"
+kana = ["バッチ"]
+
+[dictionary.batched]
+
+[dictionary.batches]
+singular = "batch"
+
+[dictionary.batching]
+kana = ["バッチング"]
+
+[dictionary.battery]
+
+[dictionary.baumgarte]
+
 [dictionary.baz]
+
+[dictionary.bb]
+unshortened = ["building block", "bounding box"]
 
 [dictionary.be]
 unshortened = ["big endian"]
 
-[dictionary.before]
+[dictionary.bearing]
 
 [dictionary.begin]
 
 [dictionary.behavior]
 
+[dictionary.behaviour]
+plural = "behaviours"
+
+[dictionary.behaviours]
+singular = "behaviour"
+
 [dictionary.bell]
+description = "🔔アイコンのこと。通知に用いられる。"
 
 [dictionary.benchmark]
+kana = ["ベンチマーク"]
 
 [dictionary.benchmarking]
+
+[dictionary.bend]
+
+[dictionary.bending]
+
+[dictionary.beta]
+kana = ["ベータ"]
+
+[dictionary.bevel]
+category = ["computer graphics"]
+kana = ["ベベル"]
+description = "端に射角をつけること、面取り。"
+
+[dictionary."bevel edge"]
+japanese = ["はす縁"]
+
+[dictionary.bezier]
+kana = ["ベジェ"]
+
+[dictionary.bg]
+unshortened = ["background"]
+
+[dictionary.bgr]
 
 [dictionary.bgra]
 english = "BGRA"
 description = "色のメモリレイアウトがblue-green-red-alphaの順に並んでいること。"
 
+[dictionary.bi]
+kana = ["バイ"]
+
 [dictionary.bias]
+kana = ["バイアス"]
 
 [dictionary.bidirectional]
+japanese = ["双方向", "双方向の"]
 
 [dictionary.bilinear]
+kana = ["バイリニア"]
+
+[dictionary.billboard]
+plural = "billboards"
+
+[dictionary.billboards]
+singular = "billboard"
 
 [dictionary.binary]
 kana = ["バイナリ", "バイナリー"]
@@ -563,6 +1069,8 @@ japanese = ["二項演算子"]
 plural = "binds"
 kana = ["バインド"]
 
+[dictionary.bindable]
+
 [dictionary.binding]
 plural = "bindings"
 kana = ["バインディング"]
@@ -572,10 +1080,18 @@ singular = "binding"
 
 [dictionary.bindless]
 
+[dictionary.bindpose]
+plural = "bindposes"
+
+[dictionary.bindposes]
+singular = "bindpose"
+
 [dictionary.binds]
 singular = "bind"
 
 [dictionary.binop]
+
+[dictionary.binormal]
 
 [dictionary.bit]
 plural = "bits"
@@ -595,6 +1111,9 @@ plural = "bitflags"
 [dictionary.bitflags]
 singular = "bitflag"
 
+[dictionary.bitmap]
+kana = ["ビットマップ"]
+
 [dictionary.bitmask]
 
 [dictionary.bitor]
@@ -605,6 +1124,7 @@ singular = "bitflag"
 singular = "bit"
 
 [dictionary.bitwise]
+kana = ["ビットワイズ"]
 
 [dictionary."bitwise operation"]
 japanese = ["ビット演算"]
@@ -614,12 +1134,25 @@ japanese = ["ビット演算子"]
 
 [dictionary.bitxor]
 
+[dictionary.blackman]
+
+[dictionary.blade]
+
 [dictionary.blend]
+
+[dictionary.blending]
+
+[dictionary.blind]
 
 [dictionary.blit]
 unshortened = ["block bit transfer"]
 
+[dictionary.blittable]
+
 [dictionary.blksize]
+
+[dictionary.blob]
+unshortened = ["binary large object"]
 
 [dictionary.block]
 plural = "blocks"
@@ -630,20 +1163,51 @@ antonym = ["asynchronous"]
 [dictionary.blocks]
 singular = "block"
 
-[dictionary.blue]
-
 [dictionary.blur]
+kana = ["ブラー"]
+
+[dictionary.board]
+
+[dictionary.bodies]
+
+[dictionary.body]
+
+[dictionary.boilerplate]
+kana = ["ボイラープレート"]
+
+[dictionary.bokeh]
+kana = ["ボケ"]
+
+[dictionary.bold]
+japanese = ["太字"]
 
 [dictionary.bom]
 english = "BOM"
 unshortened = ["byte order mark"]
+
+[dictionary.bone]
+plural = "bones"
+
+[dictionary.bones]
+singular = "bone"
 
 [dictionary.bool]
 shortened = ["boolean"]
 kana = ["ブール"]
 description = "trueまたはfalseの真偽値を持つ値またはその型。命名はブール代数から。19世紀の数学者ジョージ・ブールに由来する。"
 
+[dictionary.boolean]
+unshortened = ["bool"]
+
+[dictionary.boost]
+
 [dictionary.border]
+plural = "borders"
+
+[dictionary.borderless]
+
+[dictionary.borders]
+singular = "border"
 
 [dictionary.borrow]
 
@@ -659,6 +1223,17 @@ antonym = ["top"]
 kana = ["ボトム"]
 description = "矩形の下の辺、もしくは下側の領域。"
 
+[dictionary.bounce]
+plural = "bounces"
+kana = ["バウンス"]
+
+[dictionary.bounces]
+singular = "bounce"
+
+[dictionary.bounciness]
+
+[dictionary.bouncyness]
+
 [dictionary.bound]
 infinitive = "bind"
 plural = "bounds"
@@ -668,6 +1243,8 @@ japanese = ["境界"]
 [dictionary.boundary]
 japanese = ["境界"]
 
+[dictionary.bounding]
+
 [dictionary.bounds]
 singular = "bound"
 
@@ -675,10 +1252,13 @@ singular = "bound"
 kana = ["ボックス"]
 description = "スタック領域にあるオブジェクトをヒープ領域に割り当てること。ボックス化。"
 
+[dictionary.boxcast]
+
 [dictionary.boxed]
 infinitive = "box"
 
 [dictionary.bpp]
+unshortened = ["bits per pixel"]
 
 [dictionary.braces]
 japanese = ["括弧", "波括弧"]
@@ -688,18 +1268,42 @@ description = "\"{}\"のこと。"
 japanese = ["括弧", "角括弧"]
 description = "\"[]\"のこと。"
 
+[dictionary.brains]
+
+[dictionary.brake]
+
+[dictionary.braking]
+
 [dictionary.branch]
 
+[dictionary.brdf]
+english = "BRDF"
+category = ["computer graphics"]
+unshortened = ["bidirectional reflectance distribution function"]
+japanese = ["双方向反射率分布関数"]
+
 [dictionary.break]
+
+[dictionary.breaking]
 
 [dictionary.breakpoint]
 
 [dictionary.bresenham]
+category = ["algorithm"]
 kana = ["ブレゼンハム"]
+
+[dictionary.bridge]
+category = ["design pattern"]
+
+[dictionary.brightness]
 
 [dictionary.broadcast]
 
+[dictionary.broadcasting]
+
 [dictionary.broadcom]
+
+[dictionary.broadphase]
 
 [dictionary.broken]
 
@@ -707,8 +1311,20 @@ kana = ["ブレゼンハム"]
 
 [dictionary."brute force"]
 
+[dictionary.bsdf]
+english = "BSDF"
+category = ["computer graphics"]
+unshortened = ["bidirectional scattering distribution function"]
+japanese = ["双方向散乱分布関数"]
+
 [dictionary.btree]
 unshortened = ["binary tree"]
+
+[dictionary.bubble]
+plural = "bubbles"
+
+[dictionary.bubbles]
+singular = "bubble"
 
 [dictionary.bucket]
 
@@ -728,6 +1344,8 @@ unshortened = ["buffer"]
 plural = "buffers"
 shortened = ["buf"]
 kana = ["バッファ", "バッファー"]
+
+[dictionary.buffered]
 
 [dictionary.bufferless]
 
@@ -755,16 +1373,49 @@ plural = "builtins"
 singular = "builtin"
 
 [dictionary.bulk]
+japanese = ["大量の"]
+
+[dictionary."bulk data"]
+
+[dictionary."bulk insert"]
+
+[dictionary."bulk update"]
 
 [dictionary.bump]
 
+[dictionary.bundle]
+plural = "bundles"
+
+[dictionary.bundles]
+singular = "bundle"
+
+[dictionary.buoyancy]
+japanese = ["浮力"]
+
+[dictionary.burn]
+
 [dictionary.burst]
+plural = "bursts"
+
+[dictionary.bursts]
+singular = "burst"
 
 [dictionary.bus]
 
 [dictionary.busy]
+description = "スレッドやプロセスが処理中で応答する余裕がないこと。"
 
 [dictionary.but]
+
+[dictionary.butt]
+
+[dictionary.button]
+plural = "buttons"
+
+[dictionary.buttons]
+singular = "button"
+
+[dictionary.bypass]
 
 [dictionary.byte]
 plural = "bytes"
@@ -787,14 +1438,32 @@ infinitive = "cache"
 infinitive = "cache"
 singular = "cache"
 
+[dictionary.caching]
+
+[dictionary.calc]
+unshortened = ["calculate", "calculation"]
+
+[dictionary.calculate]
+shortened = ["calc"]
+
+[dictionary.calculated]
+
+[dictionary.calculation]
+shortened = ["calc"]
+
 [dictionary.calibrated]
 
 [dictionary.call]
+plural = "calls"
 
 [dictionary.callable]
 
 [dictionary.callback]
+plural = "callbacks"
 kana = ["コールバック"]
+
+[dictionary.callbacks]
+singular = "callback"
 
 [dictionary.called]
 
@@ -803,7 +1472,33 @@ description = "callerにcallされる関数・オブジェクト。"
 
 [dictionary.caller]
 
+[dictionary.calls]
+singular = "call"
+
+[dictionary.callstack]
+plural = "callstacks"
+kana = ["コールスタック"]
+
+[dictionary.callstacks]
+singular = "callstack"
+
+[dictionary.cam]
+unshortened = ["camera"]
+
+[dictionary.camera]
+plural = "cameras"
+shortened = ["cam"]
+
+[dictionary.cameras]
+singular = "camera"
+
 [dictionary.cancel]
+
+[dictionary.canceled]
+
+[dictionary.cancellation]
+
+[dictionary.cancelled]
 
 [dictionary.candidate]
 plural = "candidates"
@@ -811,6 +1506,8 @@ japanese = ["候補"]
 
 [dictionary.candidates]
 singular = "candidate"
+
+[dictionary.cannot]
 
 [dictionary.canonical]
 
@@ -821,22 +1518,54 @@ description = "データの冗長性をなくしたり、等価な表現を統�
 [dictionary.canonicalize]
 japanese = ["正規化する"]
 
+[dictionary.canvas]
+plural = "canvases"
+
+[dictionary.canvases]
+singular = "canvas"
+
+[dictionary.cap]
+plural = "caps"
+unshortened = ["capital", "capability", "capacity"]
+
 [dictionary.capabilities]
 
 [dictionary.capability]
+shortened = ["cap"]
 
 [dictionary.capable]
 
 [dictionary.capacity]
+shortened = ["cap"]
 
 [dictionary.capital]
+shortened = ["cap"]
 japanese = ["頭文字", "大文字"]
+
+[dictionary.caps]
+singular = "cap"
+
+[dictionary.capsule]
+
+[dictionary.capsulecast]
 
 [dictionary.capture]
 
 [dictionary.captured]
 
+[dictionary.capturing]
+
+[dictionary.card]
+
+[dictionary.caret]
+
+[dictionary.carpet]
+
+[dictionary.carpeted]
+
 [dictionary.carriage]
+
+[dictionary.carrier]
 
 [dictionary.carry]
 kana = ["キャリー"]
@@ -844,22 +1573,48 @@ description = "整数の加算・乗算でオーバーフローした値。キ�
 
 [dictionary.carrying]
 
+[dictionary.carve]
+
+[dictionary.carving]
+
+[dictionary.cascade]
+plural = "cascades"
+
+[dictionary.cascades]
+singular = "cascade"
+
 [dictionary.case]
 
 [dictionary.cast]
 
+[dictionary.caster]
+plural = "casters"
+
+[dictionary.casters]
+singular = "caster"
+
+[dictionary.casting]
+
 [dictionary.catch]
+
+[dictionary.catchup]
+
+[dictionary.categories]
 
 [dictionary.category]
 
 [dictionary.cause]
 
+[dictionary.cave]
+
 [dictionary.cb]
-unshortened = ["counte bytes"]
+unshortened = ["count bytes"]
 
 [dictionary.cbrt]
 unshortened = ["cube root"]
 japanese = ["立方根"]
+
+[dictionary.ccd]
 
 [dictionary.ceil]
 antonym = ["floor"]
@@ -877,8 +1632,15 @@ singular = "cell"
 
 [dictionary.centered]
 
+[dictionary.centrifugal]
+
+[dictionary."centrifugal force"]
+japanese = ["遠心力"]
+
 [dictionary.centroid]
 japanese = ["重心"]
+
+[dictionary.certificate]
 
 [dictionary.cfg]
 unshortened = ["configration"]
@@ -895,50 +1657,100 @@ japanese = ["鎖"]
 singular = "chain"
 
 [dictionary.change]
+plural = "changes"
+
+[dictionary.changed]
+
+[dictionary.changes]
+singular = "change"
 
 [dictionary.channel]
+plural = "channels"
 kana = ["チャネル", "チャンネル"]
+
+[dictionary.channels]
+singular = "channel"
 
 [dictionary.char]
 plural = "chars"
 unshortened = ["character"]
 
 [dictionary.character]
+plural = "characters"
 shortened = ["char", "ch"]
 kana = ["キャラクター"]
 japanese = ["文字"]
 description = "'A'や'あ'など1文字のこと。"
 
+[dictionary.characteristics]
+
+[dictionary.characters]
+singular = "character"
+
+[dictionary.charging]
+
 [dictionary.chars]
 singular = "char"
+
+[dictionary.charting]
 
 [dictionary.check]
 plural = "checks"
 
 [dictionary.checked]
 
+[dictionary.checkmark]
+
 [dictionary.checkpoints]
 
 [dictionary.checks]
 singular = "check"
 
+[dictionary.chest]
+
 [dictionary.child]
+
+[dictionary.children]
+
+[dictionary.choices]
+
+[dictionary.chorus]
+
+[dictionary.chosen]
 
 [dictionary.chown]
 
 [dictionary.chroma]
+
+[dictionary."chroma key"]
+kana = ["クロマキー"]
+
+[dictionary.chrome]
 
 [dictionary.chroot]
 
 [dictionary.chunk]
 plural = "chunks"
 
+[dictionary.chunked]
+
 [dictionary.chunks]
 singular = "chunk"
 
+[dictionary.circ]
+
+[dictionary.circle]
+
+[dictionary.circular]
+
 [dictionary.circumflex]
+japanese = ["曲折的な"]
+
+[dictionary.city]
 
 [dictionary.clamp]
+
+[dictionary.clamped]
 
 [dictionary.class]
 plural = "classes"
@@ -949,19 +1761,38 @@ singular = "class"
 [dictionary.classify]
 japanese = ["分類する"]
 
+[dictionary.classname]
+
+[dictionary.clazz]
+
+[dictionary.clean]
+
+[dictionary.cleaning]
+
 [dictionary.cleanup]
 
 [dictionary.clear]
 
+[dictionary.cli]
+unshortened = ["command line interface"]
+
+[dictionary.click]
+
+[dictionary.clickable]
+
+[dictionary.clicked]
+
 [dictionary.client]
 
 [dictionary.clip]
+plural = "clips"
 
 [dictionary.clipped]
 
 [dictionary.clipping]
 
-[dictionary.clobber]
+[dictionary.clips]
+singular = "clip"
 
 [dictionary.clock]
 
@@ -974,7 +1805,20 @@ japanese = ["時計回り", "時計回りの"]
 
 [dictionary.close]
 
+[dictionary.closed]
+
 [dictionary.closest]
+
+[dictionary.closing]
+
+[dictionary.closure]
+
+[dictionary.cloth]
+
+[dictionary.cloud]
+
+[dictionary.cls]
+unshortened = ["common language specification", "clears the monitor screen"]
 
 [dictionary.cluster]
 
@@ -986,12 +1830,14 @@ japanese = ["時計回り", "時計回りの"]
 unshortened = ["count leading zeros"]
 
 [dictionary.cmd]
+plural = "cmds"
 unshortened = ["command"]
+
+[dictionary.cmds]
+singular = "cmd"
 
 [dictionary.cmp]
 unshortened = ["compare"]
-
-[dictionary.cmsg]
 
 [dictionary.coalesce]
 
@@ -1014,12 +1860,20 @@ singular = "coefficient"
 
 [dictionary.coerce]
 
+[dictionary.coff]
+unshortened = ["common object file format"]
+
 [dictionary.coherent]
 
 [dictionary.col]
 unshortened = ["color", "colomn"]
 
+[dictionary.collapse]
+antonym = ["expand"]
+
 [dictionary.collect]
+
+[dictionary.collecting]
 
 [dictionary.collection]
 plural = "collections"
@@ -1028,6 +1882,31 @@ description = "配列や辞書など複数の値をまとめる型。"
 
 [dictionary.collections]
 singular = "collection"
+
+[dictionary.collector]
+
+[dictionary.collide]
+plural = "collides"
+
+[dictionary.collided]
+
+[dictionary.collider]
+plural = "colliders"
+kana = ["コライダ", "コライダー"]
+
+[dictionary.colliders]
+singular = "collider"
+
+[dictionary.collides]
+singular = "collide"
+
+[dictionary.collision]
+plural = "collisions"
+
+[dictionary.collisions]
+singular = "collision"
+
+[dictionary.colocated]
 
 [dictionary.colon]
 kana = ["コロン"]
@@ -1057,6 +1936,8 @@ singular = "column"
 english = "COM"
 unshortened = ["component object model"]
 
+[dictionary.combine]
+
 [dictionary.combined]
 
 [dictionary.combiner]
@@ -1072,6 +1953,10 @@ kana = ["コマンド"]
 [dictionary.commands]
 singular = "command"
 
+[dictionary.comment]
+
+[dictionary."comment out"]
+
 [dictionary.commercial]
 
 [dictionary.commit]
@@ -1085,6 +1970,8 @@ kana = ["コミット"]
 kana = ["コモン"]
 japanese = ["共通"]
 
+[dictionary.comp]
+
 [dictionary.compact]
 
 [dictionary.compacted]
@@ -1094,23 +1981,39 @@ category = ["memory management"]
 kana = ["コンパクション"]
 description = "メモリ管理の文脈において、断片化したメモリブロックを連続したメモリ領域に再割り当てすること。"
 
+[dictionary.company]
+
 [dictionary.comparator]
 
 [dictionary.compare]
 shortened = ["cmp"]
 japanese = ["比較する"]
 
+[dictionary.comparer]
+plural = "comparers"
+
+[dictionary.comparers]
+singular = "comparer"
+
 [dictionary.comparison]
 japanese = ["比較"]
+
+[dictionary.compass]
 
 [dictionary.compatibility]
 
 [dictionary.compatible]
 japanese = ["互換性のある", "適合可能な"]
 
+[dictionary.compensate]
+
+[dictionary.compilation]
+
 [dictionary.compile]
 kana = ["コンパイル"]
 description = "高級言語を機械語に変換しコンピュータが実行できる形式にすること。"
+
+[dictionary.compiled]
 
 [dictionary.compiler]
 kana = ["コンパイラ", "コンパイラー"]
@@ -1122,6 +2025,10 @@ description = "コンパイルするプログラム。"
 
 [dictionary.completed]
 
+[dictionary.completely]
+
+[dictionary.completion]
+
 [dictionary.component]
 plural = "components"
 kana = ["コンポーネント"]
@@ -1130,6 +2037,12 @@ kana = ["コンポーネント"]
 singular = "component"
 
 [dictionary.composite]
+
+[dictionary.composition]
+
+[dictionary."composition over inheritance"]
+
+[dictionary.compositor]
 
 [dictionary.compress]
 kana = ["コンプレス"]
@@ -1143,12 +2056,18 @@ japanese = ["圧縮する"]
 kana = ["コンピュート"]
 japanese = ["計算する"]
 
+[dictionary.computer]
+
 [dictionary.concat]
 unshortened = ["concatenate"]
 
 [dictionary.concatenate]
 shortened = ["concat"]
 japanese = ["連結する", "鎖状に繋ぐ"]
+
+[dictionary.concept]
+
+[dictionary.concrete]
 
 [dictionary.concurrency]
 category = ["concurrent programming"]
@@ -1176,13 +2095,26 @@ description = "通信ネットワークにおいて、データパケットが�
 [dictionary.condvar]
 unshortened = ["conditional variable"]
 
+[dictionary.cone]
+japanese = ["円錐"]
+
+[dictionary.confidence]
+
 [dictionary.config]
 unshortened = ["configration"]
 
 [dictionary.configration]
 shortened = ["cfg", "config"]
 
+[dictionary.configurable]
+
+[dictionary.configuration]
+
 [dictionary.configure]
+
+[dictionary.configured]
+
+[dictionary.confined]
 
 [dictionary.confirm]
 
@@ -1193,14 +2125,31 @@ japanese = ["衝突する"]
 [dictionary.conformance]
 
 [dictionary.connect]
+antonym = ["disconnect"]
 
 [dictionary.connected]
+antonym = ["disconnected"]
 
 [dictionary.connection]
+antonym = ["disconnection"]
+plural = "connections"
+kana = ["コネクション"]
+japanese = ["接続"]
+
+[dictionary.connections]
+singular = "connection"
+
+[dictionary.connectivity]
+
+[dictionary.consent]
 
 [dictionary.conservative]
 
+[dictionary.consistency]
+
 [dictionary.consistent]
+
+[dictionary.console]
 
 [dictionary.const]
 plural = "consts"
@@ -1228,6 +2177,7 @@ singular = "constraint"
 [dictionary.construct]
 
 [dictionary.constructor]
+shortened = ["ctor"]
 kana = ["コンストラクタ", "コンストラクター"]
 description = "オブジェクトの初期化時に1度だけ呼ばれる特殊な関数。主にフィールド・メンバ・プロパティの初期化を行う。"
 
@@ -1235,14 +2185,31 @@ description = "オブジェクトの初期化時に1度だけ呼ばれる特殊�
 singular = "const"
 
 [dictionary.consume]
+plural = "consumes"
 kana = ["コンスーム"]
 japanese = ["消費する"]
+
+[dictionary.consumer]
+category = ["design pattern"]
+antonym = ["producer"]
+
+[dictionary.consumes]
+singular = "consume"
+
+[dictionary.contact]
+plural = "contacts"
+
+[dictionary.contacts]
+singular = "contact"
 
 [dictionary.contain]
 plural = "contains"
 japanese = ["含む", "含有する"]
 
 [dictionary.contained]
+
+[dictionary.container]
+kana = ["コンテナ", "コンテナー"]
 
 [dictionary.contains]
 infinitive = "contain"
@@ -1256,9 +2223,11 @@ singular = "content"
 kana = ["コンテンツ"]
 
 [dictionary.context]
-shortened = ["cx"]
+shortened = ["cx", "ctx"]
 kana = ["コンテクスト", "コンテキスト"]
 japanese = ["文脈"]
+
+[dictionary.contextual]
 
 [dictionary.contiguous]
 
@@ -1268,6 +2237,17 @@ description = "多くのプログラミング言語で、ループ内の残り�
 
 [dictionary.continued]
 
+[dictionary.continuity]
+
+[dictionary.continuous]
+
+[dictionary.contour]
+plural = "contours"
+japanese = ["輪郭", "外形"]
+
+[dictionary.contours]
+singular = "contour"
+
 [dictionary.contract]
 
 [dictionary.contraction]
@@ -1275,8 +2255,17 @@ description = "多くのプログラミング言語で、ループ内の残り�
 [dictionary.contravariance]
 japanese = ["反変性"]
 
+[dictionary.contravariant]
+
+[dictionary.contribute]
+
+[dictionary.contribution]
+
+[dictionary.contributor]
+
 [dictionary.control]
 plural = "controls"
+shortened = ["ctrl"]
 kana = ["コントロール"]
 japanese = ["制御"]
 
@@ -1285,6 +2274,8 @@ japanese = ["制御フロー"]
 
 [dictionary.controlled]
 
+[dictionary.controller]
+
 [dictionary.controls]
 infinitive = "control"
 singular = "control"
@@ -1292,12 +2283,31 @@ singular = "control"
 [dictionary.conv]
 unshortened = ["convert"]
 
+[dictionary.converged]
+
+[dictionary.convergence]
+
 [dictionary.conversion]
 
 [dictionary.convert]
-shortened = ["conv"]
+shortened = ["conv", "cvt"]
 kana = ["コンバート"]
 japanese = ["変換する"]
+
+[dictionary.converter]
+
+[dictionary.convex]
+
+[dictionary."convex hull"]
+japanese = ["凸包"]
+
+[dictionary.cook]
+
+[dictionary.cookbook]
+
+[dictionary.cookie]
+
+[dictionary.cooking]
 
 [dictionary.cooperative]
 
@@ -1321,6 +2331,7 @@ singular = "coord"
 [dictionary.copies]
 
 [dictionary.copy]
+shortened = ["cpy"]
 kana = ["コピー"]
 
 [dictionary.copysign]
@@ -1330,14 +2341,29 @@ kana = ["コピー"]
 [dictionary.core]
 kana = ["コア"]
 
+[dictionary.coriolis]
+kana = ["コリオリ"]
+
 [dictionary.corner]
+plural = "corners"
 kana = ["コーナー"]
 japanese = ["角"]
 
+[dictionary.corners]
+singular = "corner"
+
 [dictionary.coroutine]
+plural = "coroutines"
 kana = ["コルーチン"]
 
+[dictionary.coroutines]
+singular = "coroutine"
+
+[dictionary.correction]
+
 [dictionary.correlated]
+
+[dictionary.corridor]
 
 [dictionary.cos]
 
@@ -1346,6 +2372,10 @@ kana = ["コルーチン"]
 [dictionary.cosited]
 
 [dictionary.cost]
+plural = "costs"
+
+[dictionary.costs]
+singular = "cost"
 
 [dictionary.count]
 plural = "counts"
@@ -1357,6 +2387,8 @@ singular = "count"
 
 [dictionary.covariance]
 japanese = ["共変性"]
+
+[dictionary.cover]
 
 [dictionary.coverage]
 
@@ -1370,6 +2402,11 @@ english = "CPU"
 unshortened = ["Central Processing Unit"]
 japanese = ["中央処理装置", "中央演算処理装置"]
 
+[dictionary.cpy]
+unshortened = ["copy"]
+
+[dictionary.crash]
+
 [dictionary.crate]
 
 [dictionary.crawler]
@@ -1379,6 +2416,8 @@ description = "ウェブ上のデータを周期的に取得し、自動的に�
 [dictionary.create]
 
 [dictionary.created]
+
+[dictionary.creating]
 
 [dictionary.creation]
 
@@ -1396,6 +2435,14 @@ singular = "credential"
 [dictionary.creds]
 singular = "cred"
 
+[dictionary.criteria]
+
+[dictionary.critical]
+
+[dictionary."critical section"]
+
+[dictionary.croatian]
+
 [dictionary.crop]
 
 [dictionary.cross]
@@ -1405,18 +2452,40 @@ japanese = ["クロス積"]
 [dictionary.crosses]
 singular = "cross"
 
+[dictionary.crunch]
+
+[dictionary.crunched]
+
+[dictionary.crypto]
+
 [dictionary.csr]
 english = "CSR"
 unshortened = ["client side rendering"]
+
+[dictionary.ctor]
+unshortened = ["constructor"]
+
+[dictionary.ctrl]
+unshortened = ["control"]
+
+[dictionary.ctx]
+unshortened = ["context"]
 
 [dictionary.ctz]
 unshortened = ["count trailing zeros"]
 
 [dictionary.cube]
 
+[dictionary.cubemap]
+
 [dictionary.cubic]
 
+[dictionary.cui]
+unshortened = ["command-line user interface", "character user interface"]
+
 [dictionary.cull]
+
+[dictionary.culled]
 
 [dictionary.culling]
 kana = ["カリング"]
@@ -1428,15 +2497,39 @@ unshortened = ["current"]
 
 [dictionary.curly]
 
+[dictionary.currency]
+
 [dictionary.current]
 shortened = ["cur"]
 
 [dictionary.cursor]
 
+[dictionary.curvature]
+
+[dictionary.curve]
+plural = "curves"
+
+[dictionary.curves]
+singular = "curve"
+
 [dictionary.custom]
+
+[dictionary.cut]
+
+[dictionary.cutoff]
+
+[dictionary.cutouts]
+
+[dictionary.cutting]
+
+[dictionary.cvt]
+unshortened = ["convert"]
 
 [dictionary.cx]
 unshortened = ["context"]
+
+[dictionary.cyan]
+kana = ["シアン"]
 
 [dictionary.cycle]
 plural = "cycles"
@@ -1450,9 +2543,26 @@ singular = "cycle"
 kana = ["シリンダ", "シリンダー"]
 japanese = ["円柱"]
 
+[dictionary.damp]
+kana = ["ダンプ"]
+
+[dictionary.dampen]
+
+[dictionary.damper]
+
+[dictionary.damping]
+
 [dictionary.dangling]
 japanese = ["宙ぶらりんの"]
 description = "どこからも参照されないこと。dangling pointer。"
+
+[dictionary.danish]
+
+[dictionary.dark]
+
+[dictionary.darken]
+
+[dictionary.dashboard]
 
 [dictionary.data]
 singular = "datum"
@@ -1466,6 +2576,12 @@ plural = "data"
 
 [dictionary.dbg]
 unshortened = ["debug"]
+
+[dictionary.dbl]
+
+[dictionary.deactivate]
+
+[dictionary.deactivated]
 
 [dictionary.dead]
 
@@ -1481,8 +2597,23 @@ unshortened = ["deallocate"]
 antonym = ["allocate"]
 shortened = ["dealloc"]
 
+[dictionary.deallocated]
+
+[dictionary.death]
+
 [dictionary.debug]
 shortened = ["dbg"]
+
+[dictionary.debugger]
+
+[dictionary.debugging]
+
+[dictionary.decay]
+
+[dictionary.deceleration]
+
+[dictionary.decimal]
+japanese = ["十進法", "十進法の"]
 
 [dictionary.decl]
 unshortened = ["declare", "declaration"]
@@ -1495,7 +2626,15 @@ japanese = ["宣言"]
 shortened = ["decl"]
 japanese = ["宣言する"]
 
+[dictionary.declared]
+
 [dictionary.decode]
+
+[dictionary.decoder]
+
+[dictionary.decompile]
+
+[dictionary.decompose]
 
 [dictionary.decompress]
 
@@ -1511,17 +2650,31 @@ plural = "decorations"
 [dictionary.decorations]
 singular = "decoration"
 
+[dictionary.decorator]
+category = ["design pattern"]
+
+[dictionary.decrease]
+
 [dictionary.decrement]
+antonym = ["increment"]
 
 [dictionary.dedicated]
 
 [dictionary.dedup]
 
+[dictionary.deep]
+
 [dictionary."deep copy"]
 antonym = ["shallow copy"]
 
 [dictionary.default]
+plural = "defaults"
 kana = ["デフォルト"]
+
+[dictionary.defaults]
+singular = "default"
+
+[dictionary.defer]
 
 [dictionary.deferred]
 kana = ["ディファード"]
@@ -1529,12 +2682,18 @@ kana = ["ディファード"]
 [dictionary.define]
 japanese = ["定義する"]
 
+[dictionary.defined]
+
 [dictionary.definition]
 japanese = ["定義"]
+
+[dictionary.deformable]
 
 [dictionary.defrag]
 category = ["memory management"]
 kana = ["デフラグ"]
+
+[dictionary.deg]
 
 [dictionary.degenerate]
 
@@ -1548,10 +2707,25 @@ singular = "degree"
 
 [dictionary.deinterleave]
 
+[dictionary.del]
+unshortened = ["delete", "delimiter"]
+
+[dictionary.delaunay]
+
 [dictionary.delay]
 
+[dictionary.delayed]
+
+[dictionary.delaying]
+
 [dictionary.delegate]
+plural = "delegates"
 kana = ["デリゲート"]
+
+[dictionary.delegated]
+
+[dictionary.delegates]
+singular = "delegate"
 
 [dictionary.delegation]
 kana = ["デリゲーション"]
@@ -1559,25 +2733,81 @@ japanese = ["委譲"]
 
 [dictionary.delete]
 antonym = ["allocate"]
+shortened = ["del"]
 
 [dictionary.delimiter]
+shortened = ["del"]
+
+[dictionary.deliver]
 
 [dictionary.delta]
 kana = ["デルタ"]
+
+[dictionary.demand]
 
 [dictionary.demote]
 
 [dictionary.denied]
 
+[dictionary.denoise]
+
+[dictionary.denoised]
+
+[dictionary.denoiser]
+
+[dictionary.denominator]
+
 [dictionary.denorm]
 
+[dictionary.denormal]
+
+[dictionary.dense]
+
 [dictionary.density]
+japanese = ["密度"]
+
+[dictionary.deoptimize]
+
+[dictionary.dep]
+plural = "deps"
+unshortened = ["dependency"]
+
+[dictionary.dependant]
 
 [dictionary.dependencies]
 
 [dictionary.dependency]
+shortened = ["dep"]
+japanese = ["依存", "依存関係"]
+
+[dictionary."dependency injection"]
+shortened = ["di"]
+
+[dictionary.dependent]
+
+[dictionary.depends]
+
+[dictionary.depenetration]
+
+[dictionary.deploy]
+kana = ["デプロイ"]
+
+[dictionary.deployment]
+
+[dictionary.deprecate]
+
+[dictionary.deprecated]
+
+[dictionary.deprecation]
+
+[dictionary.deps]
+singular = "dep"
 
 [dictionary.depth]
+plural = "depths"
+
+[dictionary.depths]
+singular = "depth"
 
 [dictionary.deque]
 
@@ -1589,11 +2819,15 @@ unshortened = ["dereference"]
 [dictionary.dereference]
 shortened = ["deref"]
 
+[dictionary.dering]
+
 [dictionary.derivative]
 plural = "derivatives"
 
 [dictionary.derivatives]
 singular = "derivative"
+
+[dictionary.derived]
 
 [dictionary.desc]
 plural = "descs"
@@ -1606,8 +2840,21 @@ singular = "descendant"
 japanese = ["子孫"]
 description = "木構造において子と子より下のノードのこと。子孫ノード。"
 
+[dictionary.descendents]
+
+[dictionary.descending]
+antonym = ["ascending"]
+
+[dictionary.descent]
+
+[dictionary.describe]
+
 [dictionary.description]
+plural = "descriptions"
 shortened = ["desc"]
+
+[dictionary.descriptions]
+singular = "description"
 
 [dictionary.descriptor]
 plural = "descriptors"
@@ -1628,6 +2875,13 @@ kana = ["デシリアライズ"]
 antonym = ["serializer"]
 kana = ["デシリアライザ", "デシリアライザー"]
 
+[dictionary."design patterns"]
+category = ["design pattern"]
+
+[dictionary.desired]
+
+[dictionary.desktop]
+
 [dictionary.dest]
 antonym = ["src"]
 shortened = ["dst"]
@@ -1638,13 +2892,31 @@ antonym = ["source"]
 shortened = ["dest", "dst"]
 description = "原義は「目的地」。データをコピー・送信する元をsource、宛先をdestinationという。"
 
+[dictionary.destroy]
+
+[dictionary.destroyed]
+
+[dictionary.destroying]
+
 [dictionary.destruct]
 
+[dictionary.detach]
+antonym = ["attach"]
+
 [dictionary.detail]
+plural = "details"
+
+[dictionary.details]
+singular = "detail"
 
 [dictionary.detect]
 
 [dictionary.detected]
+
+[dictionary.detection]
+
+[dictionary.determinant]
+japanese = ["行列式"]
 
 [dictionary.deterministic]
 antonym = ["stochastic"]
@@ -1656,6 +2928,8 @@ unshortened = ["develop", "development"]
 [dictionary.develop]
 shortened = ["dev"]
 japanese = ["開発する"]
+
+[dictionary.developer]
 
 [dictionary.development]
 shortened = ["dev"]
@@ -1669,6 +2943,9 @@ description = "GPUのこと。"
 [dictionary.devices]
 singular = "device"
 
+[dictionary.di]
+unshortened = ["dependency injection"]
+
 [dictionary.diagnostic]
 plural = "diagnostics"
 japanese = ["診断"]
@@ -1681,9 +2958,13 @@ singular = "diagnostic"
 [dictionary.dict]
 unshortened = ["dictionary"]
 
+[dictionary.dictation]
+
 [dictionary.dictionary]
 shortened = ["dict"]
 japanese = ["辞書"]
+
+[dictionary.die]
 
 [dictionary.diff]
 plural = "diffs"
@@ -1691,10 +2972,18 @@ japanese = ["差分を求める"]
 
 [dictionary.difference]
 
+[dictionary.different]
+
 [dictionary.diffing]
 
 [dictionary.diffs]
 singular = "diff"
+
+[dictionary.diffuse]
+japanese = ["拡散"]
+
+[dictionary.diffusion]
+japanese = ["拡散"]
 
 [dictionary.digit]
 plural = "digits"
@@ -1702,6 +2991,11 @@ japanese = ["桁"]
 
 [dictionary.digits]
 singular = "digit"
+
+[dictionary.dijkstra]
+kana = ["ダイクストラ"]
+
+[dictionary.dilate]
 
 [dictionary.dim]
 unshortened = ["dimension"]
@@ -1713,17 +3007,27 @@ shortened = ["dim"]
 [dictionary.dimensions]
 singular = "dimension"
 
+[dictionary.dimming]
+
 [dictionary.dir]
 unshortened = ["direction", "directory"]
 
 [dictionary.direct]
+japanese = ["直接", "直接的", "直接的な"]
 
 [dictionary.direction]
 plural = "directions"
 shortened = ["dir"]
 
+[dictionary.directional]
+japanese = ["方向の", "指向性の"]
+
+[dictionary.directionality]
+
 [dictionary.directions]
 singular = "direction"
+
+[dictionary.director]
 
 [dictionary.directory]
 shortened = ["dir"]
@@ -1735,26 +3039,56 @@ description = """
 例えば、ユーザーがフォームに情報を入力したが、まだデータベースに保存されていない場合、そのデータは\"dirty\"である。"""
 
 [dictionary.disable]
+antonym = ["enable"]
+plural = "disables"
 
 [dictionary.disabled]
+antonym = ["enabled"]
+
+[dictionary.disables]
+singular = "disable"
+
+[dictionary.disassemble]
+antonym = ["assemble"]
+
+[dictionary.disassembler]
+antonym = ["assembler"]
 
 [dictionary.disassembly]
+antonym = ["assembly"]
+
+[dictionary.disc]
 
 [dictionary.discard]
 
+[dictionary.discharging]
+
+[dictionary.disconnect]
+antonym = ["connect"]
+
 [dictionary.disconnected]
+antonym = ["connected"]
+
+[dictionary.disconnection]
+antonym = ["connection"]
 
 [dictionary.discrete]
 
 [dictionary.discriminant]
+japanese = ["判別子"]
+description = "列挙型の各バリアント、またそれぞれに割り当てられる値。"
 
 [dictionary.disjoint]
 
 [dictionary.disk]
 
+[dictionary.dismissed]
+
 [dictionary.dispatch]
 
 [dictionary.dispatcher]
+
+[dictionary.dispatching]
 
 [dictionary.displacement]
 
@@ -1766,17 +3100,30 @@ singular = "display"
 
 [dictionary.dispose]
 
+[dictionary.disposed]
+
+[dictionary.distal]
+antonym = ["proximal"]
+
 [dictionary.distance]
 plural = "distances"
 
 [dictionary.distances]
 singular = "distance"
 
+[dictionary.distort]
+
 [dictionary.distortion]
 plural = "distortions"
 
 [dictionary.distortions]
 singular = "distortion"
+
+[dictionary.distribute]
+
+[dictionary.distribution]
+
+[dictionary.dither]
 
 [dictionary.dithering]
 japanese = ["ディザリング"]
@@ -1791,20 +3138,53 @@ description = "ベクトル解析。"
 
 [dictionary.divergent]
 
+[dictionary.divide]
+shortened = ["div"]
+
+[dictionary.divide-and-conquer]
+japanese = ["分割統治法"]
+
 [dictionary.dividend]
 japanese = ["被除数"]
+
+[dictionary.division]
+shortened = ["div"]
 
 [dictionary.divisor]
 shortened = ["div"]
 japanese = ["除数"]
 
+[dictionary.dizzy]
+
+[dictionary.do]
+
+[dictionary.doc]
+plural = "docs"
+
 [dictionary."doc comments"]
 unshortened = ["documentation comments"]
+
+[dictionary.docs]
+singular = "doc"
+unshortened = ["documents"]
+
+[dictionary.document]
+plural = "documents"
 
 [dictionary.documentation]
 
 [dictionary."documentation comments"]
 shortened = ["doc comments"]
+
+[dictionary.documents]
+singular = "document"
+shortened = ["docs"]
+
+[dictionary.dodge]
+
+[dictionary.dof]
+unshortened = ["depth of field"]
+japanese = ["被写界深度"]
 
 [dictionary.dollar]
 description = "\"$\"記号のこと。"
@@ -1816,6 +3196,10 @@ unshortened = ["document object model"]
 [dictionary.domain]
 
 [dictionary.done]
+
+[dictionary.donut]
+
+[dictionary.doppler]
 
 [dictionary.dot]
 
@@ -1832,11 +3216,37 @@ description = "IEEE 754で定められる64ビットの浮動小数点数型を�
 
 [dictionary.downgrade]
 
+[dictionary.download]
+
+[dictionary.downloaded]
+
+[dictionary.downloading]
+
+[dictionary.dp]
+unshortened = ["dynamic programming"]
+
+[dictionary.dpad]
+
+[dictionary.dpi]
+unshortened = ["dots per inch"]
+
 [dictionary.draft]
+
+[dictionary.drag]
+
+[dictionary.dragger]
+
+[dictionary.dragging]
 
 [dictionary.drain]
 
 [dictionary.draw]
+
+[dictionary.drawing]
+
+[dictionary.drawn]
+
+[dictionary.drive]
 
 [dictionary.driven]
 infinitive = "drive"
@@ -1847,6 +3257,15 @@ japanese = ["駆動"]
 
 [dictionary.drop]
 
+[dictionary.dropdown]
+
+[dictionary.dropped]
+
+[dictionary.drugged]
+
+[dictionary.dry]
+unshortened = ["don't repeat yourself"]
+
 [dictionary.dst]
 antonym = ["src"]
 unshortened = ["dest", "destination"]
@@ -1855,15 +3274,22 @@ unshortened = ["dest", "destination"]
 
 [dictionary.dummy]
 
+[dictionary.dump]
+kana = ["ダンプ"]
+
 [dictionary.dumped]
 
 [dictionary.duplicate]
+
+[dictionary.duplication]
 
 [dictionary.dur]
 unshortened = ["duration"]
 
 [dictionary.duration]
 shortened = ["dur"]
+
+[dictionary.during]
 
 [dictionary.dword]
 unshortened = ["double word"]
@@ -1874,8 +3300,22 @@ unshortened = ["dynamic"]
 
 [dictionary.dynamic]
 antonym = ["static"]
+plural = "dynamics"
 shortened = ["dyn"]
 japanese = ["動的"]
+
+[dictionary."dynamic allocation"]
+
+[dictionary."dynamic dispatch"]
+
+[dictionary."dynamic programming"]
+shortened = ["dp"]
+japanese = ["動的計画法"]
+
+[dictionary.dynamically]
+
+[dictionary.dynamics]
+singular = "dynamic"
 
 [dictionary.e]
 unshortened = ["epsilon", "exponent"]
@@ -1886,55 +3326,128 @@ unshortened = ["epsilon", "exponent"]
 
 [dictionary.early]
 
+[dictionary.ease]
+
+[dictionary.easing]
+
+[dictionary.echo]
+
 [dictionary.edge]
+plural = "edges"
+
+[dictionary.edges]
+singular = "edge"
+
+[dictionary.edit]
+
+[dictionary.editable]
+
+[dictionary.editing]
+
+[dictionary.edition]
+
+[dictionary.editor]
 
 [dictionary.effect]
 plural = "effects"
 
+[dictionary.effective]
+
+[dictionary.effector]
+
 [dictionary.effects]
 singular = "effect"
 
+[dictionary.egl]
+
 [dictionary.elapsed]
+infinitive = "elapse"
+japanese = ["経過した", "経過時間"]
+
+[dictionary.elastic]
+japanese = ["弾性の"]
+
+[dictionary.elasticity]
 
 [dictionary.elect]
 
+[dictionary.elem]
+unshortened = ["element"]
+
 [dictionary.element]
 plural = "elements"
+shortened = ["elem"]
 kana = ["エレメント"]
 japanese = ["要素"]
 
 [dictionary.elements]
 singular = "element"
 
+[dictionary.elided]
+
+[dictionary.ellipse]
+japanese = ["楕円"]
+
+[dictionary.ellipsis]
+japanese = ["省略", "省略符号"]
+
 [dictionary.else]
 
 [dictionary.elt]
+
+[dictionary.em]
+kana = ["エム"]
+description = "1文字のグリフの幅の単位。"
+
+[dictionary.email]
 
 [dictionary.embed]
 
 [dictionary.embedded]
 
+[dictionary."embedded system"]
+japanese = ["組み込みシステム"]
+
+[dictionary.emission]
+
+[dictionary.emissive]
+
 [dictionary.emit]
+
+[dictionary.emitter]
+plural = "emitters"
+
+[dictionary.emitters]
+singular = "emitter"
+
+[dictionary.emitting]
 
 [dictionary.empty]
 
+[dictionary.emulate]
+
+[dictionary.emulator]
+
 [dictionary.enable]
-plural = "enables"
+antonym = ["disable"]
 
 [dictionary.enabled]
+antonym = ["disabled"]
 
-[dictionary.enables]
-singular = "enable"
+[dictionary.encapsulate]
 
 [dictionary.encapsulation]
 japanese = ["カプセル化"]
+
+[dictionary.enclosing]
 
 [dictionary.encode]
 
 [dictionary.encoded]
 
+[dictionary.encoding]
+
 [dictionary.end]
-plural = "ends"
 
 [dictionary.ended]
 
@@ -1945,10 +3458,11 @@ description = "endianあるいはbyte orderとは、マルチバイトデータ�
 [dictionary.endianness]
 description = "little endianかbig endianか。"
 
-[dictionary.ends]
-singular = "end"
+[dictionary.enforce]
 
 [dictionary.engine]
+
+[dictionary.enlighten]
 
 [dictionary.enqueue]
 
@@ -1957,6 +3471,14 @@ singular = "end"
 [dictionary.enquiry]
 
 [dictionary.ensure]
+
+[dictionary.enter]
+
+[dictionary.enterprise]
+
+[dictionary.entities]
+
+[dictionary.entity]
 
 [dictionary.entries]
 
@@ -1967,12 +3489,18 @@ plural = "enums"
 unshortened = ["enumerate"]
 japanese = ["列挙", "列挙型"]
 
+[dictionary.enumerable]
+
 [dictionary.enumerant]
 
 [dictionary.enumerate]
 shortened = ["enum"]
 
+[dictionary.enumerater]
+
 [dictionary.enumeration]
+
+[dictionary.enumerator]
 
 [dictionary.enums]
 singular = "enum"
@@ -1980,6 +3508,9 @@ singular = "enum"
 [dictionary.env]
 plural = "envs"
 unshortened = ["environment"]
+
+[dictionary.environment]
+shortened = ["env"]
 
 [dictionary.envs]
 singular = "env"
@@ -1989,10 +3520,7 @@ english = "EoF"
 unshortened = ["End of File"]
 
 [dictionary.epoch]
-
-[dictionary.eprint]
-
-[dictionary.eprintln]
+kana = ["エポック"]
 
 [dictionary.epsilon]
 shortened = ["e"]
@@ -2004,14 +3532,26 @@ unshortened = ["equal"]
 plural = "equals"
 shortened = ["eq"]
 
+[dictionary.equality]
+
 [dictionary.equals]
 singular = "equal"
 
 [dictionary.equation]
 
+[dictionary.equator]
+
 [dictionary.equip]
 
+[dictionary.equirect]
+
+[dictionary.equivalence]
+
 [dictionary.equivalent]
+
+[dictionary.erase]
+
+[dictionary.eraser]
 
 [dictionary.err]
 unshortened = ["error"]
@@ -2031,11 +3571,23 @@ singular = "error"
 
 [dictionary.euclid]
 
+[dictionary.euler]
+plural = "eulers"
+kana = ["オイラー"]
+
+[dictionary.eulers]
+singular = "euler"
+
 [dictionary.eval]
+unshortened = ["evaluate", "evaluation"]
 
 [dictionary.evaluate]
+shortened = ["eval"]
 
 [dictionary.evaluation]
+shortened = ["eval"]
+
+[dictionary.evaluator]
 
 [dictionary.even]
 japanese = ["偶数"]
@@ -2047,21 +3599,43 @@ kana = ["イベント"]
 [dictionary.events]
 singular = "event"
 
+[dictionary.every]
+
+[dictionary.everything]
+
+[dictionary.evict]
+
+[dictionary.evt]
+
 [dictionary.exact]
+
+[dictionary.exactly]
+
+[dictionary.example]
 
 [dictionary.exceed]
 
 [dictionary.exceeded]
 
 [dictionary.exception]
+plural = "exceptions"
 japanese = ["例外"]
+
+[dictionary.exceptions]
+singular = "exception"
 
 [dictionary.exchange]
 shortened = ["xchg"]
 
+[dictionary.exclaim]
+
 [dictionary.exclamation]
 
+[dictionary.exclude]
+
 [dictionary.excluded]
+
+[dictionary.exclusion]
 
 [dictionary.exclusive]
 
@@ -2075,6 +3649,8 @@ shortened = ["exe"]
 
 [dictionary.execute]
 
+[dictionary.executing]
+
 [dictionary.execution]
 
 [dictionary.exhausted]
@@ -2082,25 +3658,44 @@ shortened = ["exe"]
 [dictionary.exhaustive]
 
 [dictionary.exist]
-plural = "exists"
 
-[dictionary.exists]
-singular = "exist"
+[dictionary.existing]
 
 [dictionary.exit]
 
+[dictionary.exited]
+
 [dictionary.exp]
 unshortened = ["exponent"]
+
+[dictionary.expand]
+antonym = ["collapse"]
+
+[dictionary.expanded]
+
+[dictionary.expansion]
 
 [dictionary.expect]
 
 [dictionary.expected]
 
+[dictionary.expensive]
+
+[dictionary.experimental]
+
+[dictionary.expiration]
+
+[dictionary.expires]
+
 [dictionary.explicit]
 japanese = ["明示的"]
 
+[dictionary.explosion]
+
 [dictionary.exponent]
 shortened = ["exp", "e"]
+
+[dictionary.exponential]
 
 [dictionary.export]
 
@@ -2110,10 +3705,14 @@ shortened = ["exp", "e"]
 
 [dictionary.exposed]
 
+[dictionary.exposure]
+
 [dictionary.expression]
 category = ["compiler"]
-japanese = ["式"]
+japanese = ["式", "表現"]
 description = "値を評価できるコードブロック。"
+
+[dictionary.exr]
 
 [dictionary.ext]
 unshortened = ["extension"]
@@ -2131,6 +3730,10 @@ japanese = ["拡張"]
 singular = "extension"
 
 [dictionary.extent]
+plural = "extents"
+
+[dictionary.extents]
+singular = "extent"
 
 [dictionary.extern]
 
@@ -2140,15 +3743,39 @@ singular = "extension"
 
 [dictionary.extract]
 
+[dictionary.extrapolate]
+
+[dictionary.extrapolation]
+
+[dictionary.extremum]
+
+[dictionary.extrude]
+category = ["computer graphics"]
+description = "型から押し出して成形する。"
+
+[dictionary.extrusion]
+
+[dictionary.eye]
+plural = "eyes"
+
+[dictionary.eyes]
+singular = "eye"
+
 [dictionary.f]
-plural = "fs"
 unshortened = ["float", "function"]
 
+[dictionary.facade]
+category = ["design pattern"]
+
 [dictionary.face]
+category = ["computer graphics"]
 plural = "faces"
+japanese = ["面"]
 
 [dictionary.faces]
 singular = "face"
+
+[dictionary.facilitator]
 
 [dictionary.facing]
 
@@ -2158,11 +3785,27 @@ plural = "factors"
 [dictionary.factors]
 singular = "factor"
 
+[dictionary.factory]
+category = ["design pattern"]
+
+[dictionary.fade]
+
+[dictionary.fading]
+
 [dictionary.fail]
 
 [dictionary.failed]
 
 [dictionary.failure]
+
+[dictionary.fallback]
+plural = "fallbacks"
+kana = ["フォールバック"]
+
+[dictionary.fallbacks]
+singular = "fallback"
+
+[dictionary.falloff]
 
 [dictionary.false]
 japanese = ["偽"]
@@ -2175,14 +3818,19 @@ plural = "fans"
 [dictionary.fans]
 singular = "fan"
 
-[dictionary.fast]
+[dictionary.fantastic]
+
+[dictionary.faroese]
 
 [dictionary.fat]
+
+[dictionary.fatal]
 
 [dictionary.fault]
 
 [dictionary.fd]
 plural = "fds"
+unshortened = ["file descriptor"]
 
 [dictionary.fds]
 singular = "fd"
@@ -2208,6 +3856,8 @@ singular = "fence"
 [dictionary.ffi]
 unshortened = ["foreign function interface"]
 
+[dictionary.fi]
+
 [dictionary.field]
 plural = "fields"
 kana = ["フィールド"]
@@ -2219,6 +3869,7 @@ singular = "field"
 english = "FIFO"
 
 [dictionary.file]
+plural = "files"
 
 [dictionary."file name"]
 japanese = ["ファイル名"]
@@ -2227,17 +3878,34 @@ japanese = ["ファイル名"]
 shortened = ["fs"]
 japanese = ["ファイルシステム"]
 
+[dictionary.filenames]
+
+[dictionary.files]
+singular = "file"
+
 [dictionary.fill]
 
 [dictionary.filled]
 
+[dictionary.fillrate]
+
 [dictionary.filter]
+plural = "filters"
+
+[dictionary.filtered]
+
+[dictionary.filtering]
+
+[dictionary.filters]
+singular = "filter"
 
 [dictionary.final]
 
 [dictionary.finalize]
 
 [dictionary.finalizer]
+
+[dictionary.finally]
 
 [dictionary.find]
 
@@ -2251,11 +3919,23 @@ japanese = ["ファイルシステム"]
 
 [dictionary.finite]
 
+[dictionary.finnish]
+
+[dictionary.fire]
+
+[dictionary.fired]
+
 [dictionary.first]
 
 [dictionary.fit]
 
+[dictionary.fitted]
+
+[dictionary.fixation]
+
 [dictionary.fixed]
+
+[dictionary.fixtures]
 
 [dictionary.flag]
 plural = "flags"
@@ -2265,13 +3945,29 @@ description = "onかoffかを表す値、またはその型。bitflagsは1ビッ
 [dictionary.flags]
 singular = "flag"
 
+[dictionary.flare]
+plural = "flares"
+
+[dictionary.flares]
+singular = "flare"
+
+[dictionary.flash]
+
 [dictionary.flat]
 
 [dictionary.flatten]
 
 [dictionary.flattened]
 
+[dictionary.flex]
+
+[dictionary.flexed]
+
+[dictionary.flexible]
+
 [dictionary.flip]
+
+[dictionary.flipped]
 
 [dictionary.float]
 plural = "floats"
@@ -2284,6 +3980,8 @@ description = "浮動小数点数のこと。一般的にはIEEE 754で定めら
 [dictionary.floats]
 singular = "float"
 
+[dictionary.flood]
+
 [dictionary.floor]
 antonym = ["ceil"]
 
@@ -2292,6 +3990,9 @@ antonym = ["ceil"]
 [dictionary.flowinfo]
 
 [dictionary.flush]
+
+[dictionary.flyweight]
+category = ["design pattern"]
 
 [dictionary.fma]
 unshortened = ["fused multiply add"]
@@ -2308,21 +4009,78 @@ unshortened = ["function"]
 [dictionary.fns]
 singular = "fn"
 
+[dictionary.focal]
+
+[dictionary."focal length"]
+japanese = ["焦点距離"]
+
+[dictionary.focus]
+
+[dictionary.focusable]
+
+[dictionary.focused]
+
+[dictionary.fog]
+
 [dictionary.fold]
 
+[dictionary.folder]
+
+[dictionary.foldout]
+
+[dictionary.foliage]
+
+[dictionary.following]
+
+[dictionary.font]
+plural = "fonts"
+
+[dictionary."font hinting"]
+
+[dictionary.fontname]
+plural = "fontnames"
+
+[dictionary.fontnames]
+singular = "fontname"
+
+[dictionary.fonts]
+singular = "font"
+
 [dictionary.foo]
+
+[dictionary.foot]
+
+[dictionary.footer]
 
 [dictionary.footprint]
 
 [dictionary.for]
 
 [dictionary.force]
+plural = "forces"
 
 [dictionary.forceable]
 
+[dictionary.forced]
+
+[dictionary.forces]
+singular = "force"
+
+[dictionary.fore]
+
+[dictionary.foreach]
+
+[dictionary.foreground]
+
 [dictionary.foreign]
 
+[dictionary.forest]
+
+[dictionary.forever]
+
 [dictionary.forget]
+
+[dictionary.forgive]
 
 [dictionary.form]
 
@@ -2333,12 +4091,26 @@ shortened = ["fmt"]
 [dictionary.formats]
 singular = "format"
 
+[dictionary.formatted]
+
 [dictionary.formatter]
+
+[dictionary.formerly]
 
 [dictionary.forward]
 shortened = ["fwd"]
 
 [dictionary.found]
+
+[dictionary.foundation]
+
+[dictionary.fov]
+unshortened = ["field of view"]
+japanese = ["視野", "視野角"]
+
+[dictionary.foveated]
+
+[dictionary.foveation]
 
 [dictionary.fp]
 unshortened = ["floating point"]
@@ -2348,9 +4120,14 @@ japanese = ["浮動小数点"]
 english = "FPGA"
 unshortened = ["field-programmable gate array"]
 
+[dictionary.fps]
+unshortened = ["frames per second"]
+
 [dictionary.fract]
+unshortened = ["fraction"]
 
 [dictionary.fraction]
+shortened = ["fract"]
 japanese = ["分数"]
 
 [dictionary.fractional]
@@ -2378,34 +4155,62 @@ plural = "frames"
 
 [dictionary."frame buffer"]
 
+[dictionary.framerate]
+
 [dictionary.frames]
 singular = "frame"
 
+[dictionary.framework]
+
 [dictionary.free]
 
+[dictionary.freeform]
+
+[dictionary.freerun]
+
+[dictionary.freeze]
+
 [dictionary.frem]
+
+[dictionary.freq]
+
+[dictionary.frequency]
+
+[dictionary.friction]
+
+[dictionary.friend]
+plural = "friends"
+
+[dictionary.friends]
+singular = "friend"
 
 [dictionary.from]
 
 [dictionary.front]
 
-[dictionary.fs]
-singular = "f"
-unshortened = ["file system", "file stream"]
+[dictionary.frozen]
 
-[dictionary.fuchsia]
+[dictionary.frustum]
+japanese = ["視錐台"]
+
+[dictionary.fs]
+unshortened = ["file system", "file stream"]
 
 [dictionary.fulfil]
 
 [dictionary.full]
 
-[dictionary.fully]
+[dictionary.fullscreen]
 
 [dictionary.func]
+unshortened = ["function"]
 
 [dictionary.function]
 plural = "functions"
-shortened = ["f", "fn"]
+shortened = ["f", "fn", "func"]
+
+[dictionary."function pointer"]
+japanese = ["関数ポインタ", "関数ポインター"]
 
 [dictionary.functionality]
 
@@ -2442,8 +4247,18 @@ unshortened = ["Fast Approximate Anti-Aliasing"]
 [dictionary.g]
 unshortened = ["green", "graph"]
 
+[dictionary.game]
+
+[dictionary.gamepad]
+
 [dictionary.gamma]
 kana = ["ガンマ"]
+
+[dictionary.gamut]
+
+[dictionary.gap]
+
+[dictionary.garbage]
 
 [dictionary."garbage collection"]
 unshortened = ["gc"]
@@ -2453,7 +4268,16 @@ kana = ["ガベージコレクション"]
 unshortened = ["gc"]
 kana = ["ガベージコレクター"]
 
+[dictionary.gate]
+
 [dictionary.gather]
+
+[dictionary.gauss]
+
+[dictionary.gaussian]
+
+[dictionary.gaze]
+japanese = ["視線"]
 
 [dictionary.gc]
 shortened = ["garbage collection", "garbage collector"]
@@ -2487,13 +4311,29 @@ japanese = ["生成的な", "生成"]
 
 [dictionary.generic]
 
+[dictionary.geom]
+unshortened = ["geometry"]
+
 [dictionary.geometries]
 
 [dictionary.geometry]
+shortened = ["geom"]
 
 [dictionary.get]
 
-[dictionary.ggp]
+[dictionary.getter]
+
+[dictionary.gi]
+unshortened = ["global illumination"]
+kana = ["グローバルイルミネーション"]
+japanese = ["大域照明"]
+
+[dictionary.gizmo]
+plural = "gizmos"
+kana = ["ギズモ"]
+
+[dictionary.gizmos]
+singular = "gizmo"
 
 [dictionary.gl]
 unshortened = ["graphics library"]
@@ -2501,8 +4341,22 @@ unshortened = ["graphics library"]
 [dictionary.global]
 antonym = ["local"]
 
+[dictionary.globally]
+
+[dictionary.glow]
+
 [dictionary.glyph]
 kana = ["グリフ"]
+
+[dictionary.go]
+
+[dictionary.goal]
+
+[dictionary.gof]
+category = ["design pattern"]
+unshortened = ["gang of four"]
+
+[dictionary.gos]
 
 [dictionary.goto]
 
@@ -2510,44 +4364,89 @@ kana = ["グリフ"]
 english = "GPU"
 unshortened = ["Graphics Processing Unit"]
 
+[dictionary.gr]
+
+[dictionary.grab]
+
 [dictionary.grad]
 unshortened = ["gradient"]
 
+[dictionary.gradian]
+plural = "gradians"
+
+[dictionary.gradians]
+singular = "gradian"
+
 [dictionary.gradient]
 category = ["mathmatics"]
+plural = "gradients"
 shortened = ["grad"]
 japanese = ["勾配"]
 description = "ベクトル解析において、スカラー場の変化量を表すベクトル場のこと。"
 
+[dictionary.gradients]
+singular = "gradient"
+
+[dictionary.grammar]
+japanese = ["文法"]
+
+[dictionary.granted]
+
 [dictionary.granularity]
 japanese = ["粒度"]
+
+[dictionary.graph]
+shortened = ["g"]
+kana = ["グラフ"]
 
 [dictionary.graphic]
 plural = "graphics"
 kana = ["グラフィック"]
 
+[dictionary.graphical]
+
 [dictionary.graphics]
 singular = "graphic"
 kana = ["グラフィックス"]
 
+[dictionary.grass]
+
 [dictionary.grave]
 
 [dictionary.gravity]
+japanese = ["重力"]
+
+[dictionary.gray]
+
+[dictionary.grayscale]
 
 [dictionary.greater]
+
+[dictionary.green]
+shortened = ["g"]
 
 [dictionary."green node"]
 category = ["compiler"]
 description = "red green syntax tree (赤緑構文木)におけるimmutableなノード。この文脈ではred nodeはmutableなノードを指し、赤黒木のそれとは異なる。Roslyn C#コンパイラが初出。"
 
+[dictionary.grey]
+
 [dictionary.grid]
 kana = ["グリッド"]
 japanese = ["格子"]
 
+[dictionary.grip]
+
+[dictionary.ground]
+
 [dictionary."ground truth"]
+
+[dictionary.grounded]
 
 [dictionary.group]
 plural = "groups"
+
+[dictionary.grouping]
 
 [dictionary.groups]
 singular = "group"
@@ -2562,6 +4461,20 @@ unshortened = ["greater than"]
 
 [dictionary.guard]
 
+[dictionary."guarded suspension"]
+category = ["design pattern"]
+
+[dictionary.gui]
+unshortened = ["graphical user interface"]
+
+[dictionary.guid]
+unshortened = ["global unique identifier"]
+
+[dictionary.gyro]
+kana = ["ジャイロ"]
+
+[dictionary.gyroscope]
+
 [dictionary.h]
 unshortened = ["heading", "height", "handle", "header"]
 
@@ -2570,19 +4483,58 @@ unshortened = ["heading", "height", "handle", "header"]
 [dictionary.half]
 description = "16ビットの浮動小数点数型のこと。x86など汎用CPUにはhalf用の演算回路は存在しない。"
 
+[dictionary.hallway]
+
+[dictionary.halo]
+kana = ["ハロ", "ヘイロー"]
+japanese = ["暈"]
+
+[dictionary.hamming]
+kana = ["ハミング"]
+
+[dictionary.hand]
+
+[dictionary.handed]
+
+[dictionary.handheld]
+
 [dictionary.handle]
 plural = "handles"
 shortened = ["h"]
 kana = ["ハンドル"]
 
+[dictionary.handler]
+plural = "handlers"
+
+[dictionary.handlers]
+singular = "handler"
+
 [dictionary.handles]
 singular = "handle"
 
+[dictionary.hangar]
+
+[dictionary.hangul]
+
+[dictionary.hanning]
+
+[dictionary.haptic]
+plural = "haptics"
+
+[dictionary.haptics]
+singular = "haptic"
+
 [dictionary.hard]
+antonym = ["soft"]
 
 [dictionary.hardware]
+antonym = ["software"]
+
+[dictionary.harmonics]
 
 [dictionary.hash]
+
+[dictionary.hashcode]
 
 [dictionary.hashed]
 
@@ -2590,7 +4542,11 @@ singular = "handle"
 
 [dictionary.hasher]
 
+[dictionary.have]
+
 [dictionary.haystack]
+
+[dictionary.hc]
 
 [dictionary.hdr]
 antonym = ["ldr"]
@@ -2598,12 +4554,18 @@ antonym = ["ldr"]
 [dictionary.head]
 
 [dictionary.header]
+plural = "headers"
 shortened = ["h"]
+
+[dictionary.headers]
+singular = "header"
 
 [dictionary.heading]
 shortened = ["h"]
 
 [dictionary.headless]
+
+[dictionary.healthy]
 
 [dictionary.heap]
 plural = "heaps"
@@ -2612,22 +4574,57 @@ kana = ["ヒープ"]
 [dictionary.heaps]
 singular = "heap"
 
+[dictionary.heavy]
+
 [dictionary.height]
+plural = "heights"
 shortened = ["h"]
 kana = ["height"]
 japanese = ["高さ"]
 
+[dictionary.heightmap]
+
+[dictionary.heights]
+singular = "height"
+
+[dictionary.held]
+
+[dictionary.help]
+
 [dictionary.helper]
+plural = "helpers"
+
+[dictionary.helpers]
+singular = "helper"
+
+[dictionary.hemisphere]
 
 [dictionary.hero]
+
+[dictionary.heuristic]
+plural = "heuristics"
+kana = ["ヒューリスティック"]
+
+[dictionary.heuristics]
+singular = "heuristic"
+kana = ["ヒューリスティクス"]
 
 [dictionary.hex]
 
 [dictionary.hexadecimal]
+japanese = ["16進法", "16進法の"]
+
+[dictionary.hexagon]
 
 [dictionary.hexdigit]
 
-[dictionary.hieralchy]
+[dictionary.hf]
+
+[dictionary.hidden]
+
+[dictionary.hide]
+
+[dictionary.hierarchy]
 kana = ["ヒエラルキー", "ハイアラルキー"]
 japanese = ["階層"]
 
@@ -2635,23 +4632,82 @@ japanese = ["階層"]
 
 [dictionary.high]
 
+[dictionary.highest]
+
+[dictionary.highlight]
+
+[dictionary.highpass]
+
+[dictionary."hill climbing"]
+
+[dictionary.hinge]
+kana = ["ヒンジ"]
+
 [dictionary.hint]
+plural = "hints"
+
+[dictionary.hinted]
+
+[dictionary.hinting]
+
+[dictionary.hints]
+singular = "hint"
+
+[dictionary.histogram]
 
 [dictionary.hit]
+plural = "hits"
+
+[dictionary.hits]
+singular = "hit"
 
 [dictionary.hlg]
+unshortened = ["hybrid log gamma"]
 
-[dictionary.hlsl]
+[dictionary.hold]
 
-[dictionary.hmonitor]
+[dictionary.hole]
+plural = "holes"
+
+[dictionary.holes]
+singular = "hole"
+
+[dictionary.hologram]
+plural = "holograms"
+
+[dictionary.holograms]
+singular = "hologram"
 
 [dictionary.home]
 
 [dictionary.hook]
 
+[dictionary.horiz]
+
 [dictionary.horizontal]
+antonym = ["vertical"]
+
+[dictionary.horizontally]
 
 [dictionary.host]
+
+[dictionary.hot]
+
+[dictionary.hotspot]
+
+[dictionary.hour]
+
+[dictionary.hover]
+
+[dictionary.hovered]
+
+[dictionary.hsv]
+
+[dictionary.http]
+
+[dictionary.hue]
+
+[dictionary.hull]
 
 [dictionary.hydrate]
 kana = ["ハイドレート"]
@@ -2667,14 +4723,30 @@ kana = ["ハイフン"]
 
 [dictionary.hypot]
 
+[dictionary.hypothesis]
+
+[dictionary.hz]
+
 [dictionary.i]
 plural = "is"
 unshortened = ["integer", "index"]
+
+[dictionary.iap]
+
+[dictionary.icon]
+
+[dictionary.iconwarning]
 
 [dictionary.id]
 plural = "ids"
 unshortened = ["identifier"]
 kana = ["アイディー"]
+
+[dictionary.ida]
+unshortened = ["interactive disassembler"]
+
+[dictionary.ident]
+plural = "idents"
 
 [dictionary.identical]
 
@@ -2685,6 +4757,7 @@ japanese = ["識別子"]
 [dictionary.identity]
 
 [dictionary.idents]
+singular = "ident"
 
 [dictionary.idle]
 
@@ -2707,8 +4780,13 @@ kana = ["アイトリプルイー"]
 
 [dictionary.ignored]
 
+[dictionary.ik]
+unshortened = ["inverse kinematics"]
+
 [dictionary.il]
 unshortened = ["intermediate language"]
+
+[dictionary.illumination]
 
 [dictionary.image]
 plural = "images"
@@ -2724,15 +4802,24 @@ singular = "image"
 [dictionary.imagination]
 
 [dictionary.ime]
+unshortened = ["input method editor"]
 
 [dictionary.img]
 unshortened = ["image"]
 
+[dictionary.imgui]
+
 [dictionary.immediate]
 japanese = ["即時"]
 
+[dictionary.immediately]
+
+[dictionary.immovable]
+
 [dictionary.immutable]
 japanese = ["不変"]
+
+[dictionary.impact]
 
 [dictionary.impl]
 unshortened = ["implement", "implementation"]
@@ -2745,21 +4832,37 @@ japanese = ["実装する"]
 shortened = ["impl"]
 japanese = ["実装"]
 
+[dictionary.implementors]
+
 [dictionary.implicit]
 japanese = ["暗黙的"]
+
+[dictionary.implicitly]
 
 [dictionary.import]
 
 [dictionary.importable]
 
+[dictionary.importance]
+
 [dictionary.imported]
+
+[dictionary.improved]
+
+[dictionary.impulse]
 
 [dictionary.in]
 antonym = ["out"]
 
+[dictionary.inactive]
+
+[dictionary.inch]
+
 [dictionary.include]
 
 [dictionary.included]
+
+[dictionary.including]
 
 [dictionary.inclusive]
 
@@ -2767,10 +4870,19 @@ antonym = ["out"]
 
 [dictionary.incompatible]
 
+[dictionary.increase]
+
 [dictionary.increment]
+antonym = ["decrement"]
 kana = ["インクリメント"]
 
 [dictionary.incremental]
+
+[dictionary.indent]
+plural = "indents"
+
+[dictionary.indents]
+singular = "indent"
 
 [dictionary.independence]
 
@@ -2786,6 +4898,8 @@ shortened = ["i", "idx"]
 
 [dictionary.indication]
 
+[dictionary.indicator]
+
 [dictionary.indices]
 singular = "index"
 
@@ -2793,13 +4907,33 @@ singular = "index"
 
 [dictionary.indirectly]
 
+[dictionary.individual]
+
+[dictionary.indonesian]
+
+[dictionary.inequality]
+
+[dictionary.inertia]
+
 [dictionary.inf]
+unshortened = ["infinite", "inifinity"]
 
 [dictionary.infallible]
 
+[dictionary.inference]
+
 [dictionary.infinite]
+shortened = ["inf"]
 
 [dictionary.infinity]
+
+[dictionary.inflate]
+
+[dictionary.influence]
+plural = "influences"
+
+[dictionary.influences]
+singular = "influence"
 
 [dictionary.info]
 plural = "infos"
@@ -2810,6 +4944,8 @@ shortened = ["info"]
 
 [dictionary.infos]
 singular = "info"
+
+[dictionary.infrastructure]
 
 [dictionary.inhabited]
 
@@ -2839,13 +4975,26 @@ japanese = ["初期化する"]
 
 [dictionary.initializer]
 
+[dictionary.initializing]
+
 [dictionary.initiation]
+
+[dictionary.inject]
+
+[dictionary.injection]
+japanese = ["注入"]
+
+[dictionary.injector]
+
+[dictionary."inlay hint"]
 
 [dictionary.inline]
 kana = ["インライン"]
 
 [dictionary.inner]
 antonym = ["outer"]
+
+[dictionary.innerloop]
 
 [dictionary.input]
 antonym = ["output"]
@@ -2858,21 +5007,49 @@ singular = "input"
 kana = ["インサート"]
 japanese = ["挿入", "挿入する"]
 
+[dictionary.insertion]
+
+[dictionary.inset]
+
+[dictionary.inside]
+
 [dictionary.inspect]
 
+[dictionary.inspector]
+
 [dictionary.inst]
+
+[dictionary.install]
+
+[dictionary.installation]
+
+[dictionary.installed]
+
+[dictionary.installer]
 
 [dictionary.instance]
 plural = "instances"
 kana = ["インスタンス"]
 
+[dictionary.instanced]
+
 [dictionary.instances]
 singular = "instance"
 
+[dictionary.instancing]
+
 [dictionary.instant]
+
+[dictionary.instantiable]
+
+[dictionary.instantiatable]
 
 [dictionary.instantiate]
 japanese = ["インスタンス化する"]
+
+[dictionary.instantiated]
+
+[dictionary.instantiation]
 
 [dictionary.instruction]
 plural = "instructions"
@@ -2884,7 +5061,10 @@ japanese = ["命令セット"]
 [dictionary.instructions]
 singular = "instruction"
 
+[dictionary.insufficient]
+
 [dictionary.int]
+plural = "ints"
 unshortened = ["integer"]
 
 [dictionary.integer]
@@ -2901,10 +5081,20 @@ japanese = ["統合する"]
 
 [dictionary.integrated]
 
+[dictionary.integration]
+
 [dictionary.intensity]
 japanese = ["強度", "強さ"]
 
 [dictionary.inter]
+
+[dictionary.interactable]
+
+[dictionary.interaction]
+
+[dictionary.interactive]
+
+[dictionary.interceptor]
 
 [dictionary.interest]
 
@@ -2915,6 +5105,9 @@ kana = ["インターフェース"]
 [dictionary.interfaces]
 singular = "interface"
 
+[dictionary.interior]
+antonym = ["exterior"]
+
 [dictionary.interlaced]
 
 [dictionary.interleave]
@@ -2922,11 +5115,17 @@ kana = ["インターリーブ", "インターリーヴ"]
 japanese = ["綴じ込む", "交代で挿入する"]
 description = "例：2つの配列[a1, a2, a3], [b1, b2, b3]をinterleaveすると、[a1, b1, a2, b2, a3, b3]となる。"
 
+[dictionary.interleaved]
+
 [dictionary.interleaving]
 
 [dictionary.interlock]
 
+[dictionary.intermediate]
+
 [dictionary.internal]
+
+[dictionary.internet]
 
 [dictionary.interop]
 japanese = ["相互運用する"]
@@ -2940,7 +5139,11 @@ unshortened = ["interpreter"]
 [dictionary.interpolate]
 japanese = ["補間する"]
 
+[dictionary.interpolated]
+
 [dictionary.interpolation]
+
+[dictionary.interpolator]
 
 [dictionary.interpret]
 
@@ -2955,11 +5158,17 @@ japanese = ["割り込み", "割り込む"]
 
 [dictionary.interruption]
 
+[dictionary.intersect]
+plural = "intersects"
+
 [dictionary.intersection]
 
 [dictionary.intersects]
+singular = "intersect"
 
 [dictionary.intersperse]
+
+[dictionary.interstitial]
 
 [dictionary.interval]
 
@@ -2974,6 +5183,12 @@ japanese = ["組み込み", "組み込みの"]
 [dictionary.intrinsics]
 singular = "intrinsic"
 
+[dictionary.ints]
+singular = "int"
+
+[dictionary.inv]
+unshortened = ["inverse"]
+
 [dictionary.invalid]
 antonym = ["valid"]
 
@@ -2982,10 +5197,15 @@ antonym = ["valid"]
 [dictionary.invariant]
 
 [dictionary.inverse]
+shortened = ["inv"]
+
+[dictionary.inversed]
 
 [dictionary.invert]
 
 [dictionary.inverted]
+
+[dictionary.invisible]
 
 [dictionary.invocation]
 plural = "invocations"
@@ -2993,14 +5213,16 @@ plural = "invocations"
 [dictionary.invocations]
 singular = "invocation"
 
+[dictionary.invocator]
+
 [dictionary.invoke]
 
-[dictionary.io]
-plural = "ios"
-description = "inputとoutputのこと。データの入出力。"
+[dictionary.invoker]
 
-[dictionary.ios]
-singular = "io"
+[dictionary.invoking]
+
+[dictionary.io]
+description = "inputとoutputのこと。データの入出力。"
 
 [dictionary.ip]
 unshortened = ["internet protocol"]
@@ -3010,14 +5232,30 @@ unshortened = ["internet protocol"]
 [dictionary.ir]
 unshortened = ["intermediate representation"]
 
+[dictionary.irradiance]
+
 [dictionary.irrelevant]
 
 [dictionary.is]
 singular = "i"
 
+[dictionary.iso]
+unshortened = ["International Organization for Standardization"]
+
 [dictionary.isolines]
 
+[dictionary.isometric]
+
+[dictionary.issue]
+
+[dictionary.italic]
+japanese = ["斜体"]
+
 [dictionary.item]
+plural = "items"
+
+[dictionary.items]
+singular = "item"
 
 [dictionary.iter]
 unshortened = ["iterator", "iteration", "iterate"]
@@ -3032,13 +5270,53 @@ singular = "iteration"
 [dictionary.iterator]
 shortened = ["iter"]
 
+[dictionary.itself]
+
+[dictionary.jacobian]
+kana = ["ヤコビアン"]
+
+[dictionary.jit]
+english = "JIT"
+category = ["compiler"]
+antonym = ["aot"]
+unshortened = ["just in time"]
+
+[dictionary.jitter]
+
+[dictionary.jittered]
+
+[dictionary.job]
+plural = "jobs"
+
+[dictionary.jobdata]
+
+[dictionary.jobified]
+
+[dictionary.jobs]
+singular = "job"
+
 [dictionary.join]
 
+[dictionary.joint]
+
+[dictionary.joystick]
+
+[dictionary.json]
+
 [dictionary.juice]
+
+[dictionary.jump]
+
+[dictionary.justification]
+
+[dictionary.justify]
+
+[dictionary.kb]
 
 [dictionary.keep]
 
 [dictionary.kernel]
+kana = ["カーネル"]
 
 [dictionary.key]
 plural = "keys"
@@ -3046,19 +5324,37 @@ kana = ["キー"]
 japanese = ["鍵"]
 description = "辞書や連想配列の挿入・探索に用いる識別可能な値。"
 
+[dictionary.keyable]
+
+[dictionary.keyboard]
+
 [dictionary.keyed]
+
+[dictionary.keyframe]
+
+[dictionary.keypad]
 
 [dictionary.keys]
 singular = "key"
 
 [dictionary.keyword]
+plural = "keywords"
 kana = ["キーワード"]
+
+[dictionary.keywords]
+singular = "keyword"
 
 [dictionary.kill]
 kana = ["キル"]
 description = "タスク・スレッド・プロセスなどを終了させること。"
 
 [dictionary.kind]
+
+[dictionary.kinect]
+
+[dictionary.kinematic]
+
+[dictionary.kit]
 
 [dictionary.known]
 
@@ -3068,6 +5364,13 @@ plural = "labels"
 [dictionary.labels]
 singular = "label"
 
+[dictionary.lambda]
+
+[dictionary."lambda expression"]
+japanese = ["ラムダ式"]
+
+[dictionary.landscape]
+
 [dictionary.lane]
 plural = "lanes"
 
@@ -3076,20 +5379,32 @@ singular = "lane"
 
 [dictionary.language]
 
-[dictionary.large]
-
 [dictionary.last]
+
+[dictionary.latch]
+
+[dictionary.latched]
 
 [dictionary.late]
 
 [dictionary.latency]
 
+[dictionary.later]
+
+[dictionary.latest]
+
+[dictionary.latitude]
+
 [dictionary.launch]
+
+[dictionary.launcher]
 
 [dictionary.layer]
 plural = "layers"
 
 [dictionary.layered]
+
+[dictionary.layermask]
 
 [dictionary.layers]
 singular = "layer"
@@ -3110,7 +5425,11 @@ antonym = ["hdr"]
 [dictionary.le]
 unshortened = ["little endian"]
 
+[dictionary.lead]
+
 [dictionary.leader]
+
+[dictionary.leaderboard]
 
 [dictionary.leading]
 
@@ -3118,12 +5437,18 @@ unshortened = ["little endian"]
 plural = "leaves"
 
 [dictionary.leak]
+plural = "leaks"
+
+[dictionary.leaks]
+singular = "leak"
 
 [dictionary.leave]
 plural = "leaves"
 
 [dictionary.leaves]
 singular = "leave"
+
+[dictionary.ledge]
 
 [dictionary.left]
 
@@ -3132,14 +5457,23 @@ singular = "leave"
 [dictionary.legacy]
 
 [dictionary.len]
+plural = "lens"
 unshortened = ["length"]
 
 [dictionary.length]
 shortened = ["len"]
 
+[dictionary.lens]
+singular = "len"
+
+[dictionary.lerp]
+unshortened = ["linear interpolate", "linear interpolation"]
+
 [dictionary.less]
 
 [dictionary.let]
+
+[dictionary.letter]
 
 [dictionary.level]
 plural = "levels"
@@ -3150,6 +5484,10 @@ singular = "level"
 [dictionary.lex]
 
 [dictionary.lexer]
+unshortened = ["lexical analyzer"]
+japanese = ["語彙解析機", "字句解析器"]
+
+[dictionary.lf]
 
 [dictionary.lhs]
 antonym = ["rhs"]
@@ -3159,6 +5497,8 @@ unshortened = ["library"]
 
 [dictionary.library]
 shortened = ["lib"]
+
+[dictionary.license]
 
 [dictionary.lifetime]
 plural = "lifetimes"
@@ -3171,12 +5511,52 @@ english = "LIFO"
 unshortened = ["Last In, First Out"]
 japanese = ["後入れ先出し"]
 
+[dictionary.ligature]
+plural = "ligatures"
+
+[dictionary.ligatures]
+singular = "ligature"
+
+[dictionary.light]
+plural = "lights"
+
+[dictionary."light transport"]
+japanese = ["光輸送"]
+
+[dictionary.lighten]
+
+[dictionary.lighting]
+
+[dictionary.lightmap]
+plural = "lightmaps"
+
+[dictionary.lightmapped]
+
+[dictionary.lightmapper]
+
+[dictionary.lightmapping]
+
+[dictionary.lightmaps]
+singular = "lightmap"
+
+[dictionary.lightning]
+
+[dictionary.lights]
+singular = "light"
+
 [dictionary.like]
+
+[dictionary.likelihood]
+japanese = ["尤度"]
 
 [dictionary.likely]
 
 [dictionary.limit]
 plural = "limits"
+
+[dictionary.limitation]
+
+[dictionary.limited]
 
 [dictionary.limits]
 singular = "limit"
@@ -3192,6 +5572,8 @@ japanese = ["改行"]
 [dictionary.linear]
 kana = ["リニア"]
 japanese = ["線形"]
+
+[dictionary.linecast]
 
 [dictionary.lines]
 singular = "line"
@@ -3216,11 +5598,26 @@ kana = ["リンカ", "リンカー"]
 [dictionary.links]
 singular = "link"
 
+[dictionary.linq]
+unshortened = ["language integrated query"]
+kana = ["リンク"]
+japanese = ["統合言語クエリ"]
+
 [dictionary.linux]
 
 [dictionary.list]
+plural = "lists"
+
+[dictionary.listen]
 
 [dictionary.listener]
+plural = "listeners"
+
+[dictionary.listeners]
+singular = "listener"
+
+[dictionary.lists]
+singular = "list"
 
 [dictionary.lit]
 category = ["computer graphics"]
@@ -3228,17 +5625,25 @@ infinitive = "light"
 
 [dictionary.literal]
 
+[dictionary.little]
+
 [dictionary.live]
 
 [dictionary.llv]
+
+[dictionary.lm]
 
 [dictionary.ln]
 unshortened = ["natural logarithm"]
 japanese = ["自然対数"]
 description = "ネイピア数を底とする対数関数。"
 
+[dictionary.lo]
+
 [dictionary.load]
 plural = "loads"
+
+[dictionary.loaded]
 
 [dictionary.loader]
 
@@ -3255,9 +5660,15 @@ description = "コードの行数"
 antonym = ["global"]
 kana = ["ローカル"]
 
+[dictionary.locale]
+
 [dictionary.localhost]
 
 [dictionary.locality]
+
+[dictionary.localization]
+
+[dictionary.localized]
 
 [dictionary.locate]
 
@@ -3271,10 +5682,20 @@ singular = "location"
 kana = ["ロック"]
 description = "mutexの排他的アクセスを獲得すること。"
 
+[dictionary.locked]
+
 [dictionary.lod]
+plural = "lods"
 unshortened = ["level of detail"]
 
+[dictionary.lods]
+singular = "lod"
+
 [dictionary.log]
+
+[dictionary.logarithmic]
+
+[dictionary.logger]
 
 [dictionary.logic]
 japanese = ["論理"]
@@ -3288,24 +5709,48 @@ japanese = ["論理演算"]
 [dictionary."logical operator"]
 japanese = ["論理演算子"]
 
+[dictionary.logo]
+
 [dictionary.long]
 
+[dictionary.longer]
+
+[dictionary.longest]
+
+[dictionary.longitude]
+
+[dictionary.look]
+
 [dictionary.lookup]
+plural = "lookups"
 kana = ["ルックアップ"]
 description = "探すこと。ルックアップテーブル。"
+
+[dictionary."lookup table"]
+
+[dictionary.lookups]
+singular = "lookup"
 
 [dictionary.loop]
 plural = "loops"
 
 [dictionary.loopback]
 
+[dictionary.looped]
+
+[dictionary.looping]
+
 [dictionary.loops]
 singular = "loop"
+
+[dictionary.loss]
 
 [dictionary.lossy]
 description = "非可逆変換のこと。データをロスする可能性がある変換のこと。"
 
 [dictionary.lost]
+
+[dictionary.lot]
 
 [dictionary.low]
 
@@ -3313,7 +5758,11 @@ description = "非可逆変換のこと。データをロスする可能性が�
 
 [dictionary.lowercase]
 
+[dictionary.lowpass]
+
 [dictionary.lsb]
+unshortened = ["least-significant bit"]
+japanese = ["最下位ビット"]
 
 [dictionary.lt]
 plural = "lts"
@@ -3322,6 +5771,8 @@ japanese = ["未満"]
 
 [dictionary.lto]
 unshortened = ["link time optimization"]
+
+[dictionary.ltr]
 
 [dictionary.lts]
 english = "LTS"
@@ -3333,10 +5784,22 @@ japanese = ["長期サポート"]
 
 [dictionary.luma]
 
+[dictionary.lumin]
+unshortened = ["luminance"]
+
 [dictionary.luminance]
+shortened = ["lumin"]
 japanese = ["輝度"]
 
+[dictionary.luminosity]
+
 [dictionary.lunarg]
+
+[dictionary.lut]
+
+[dictionary.lz]
+
+[dictionary.machine]
 
 [dictionary.macos]
 
@@ -3348,11 +5811,19 @@ singular = "macro"
 
 [dictionary.mag]
 
+[dictionary.magenta]
+
+[dictionary.magic]
+
+[dictionary.magnetic]
+
 [dictionary.magnification]
 
 [dictionary.magnifier]
 
 [dictionary.magnify]
+
+[dictionary.magnitude]
 
 [dictionary.mailbox]
 
@@ -3369,21 +5840,42 @@ plural = "makes"
 singular = "make"
 
 [dictionary.managed]
+antonym = ["unmanaged"]
 kana = ["マネージド"]
+
+[dictionary.management]
+
+[dictionary.manager]
+
+[dictionary.manifest]
+
+[dictionary.manipulator]
 
 [dictionary.mantissa]
 japanese = ["仮数"]
 
+[dictionary.manual]
+
 [dictionary.manually]
 
+[dictionary.manufacturer]
+
 [dictionary.map]
+plural = "maps"
 description = "全単射の写像。"
 
 [dictionary.mapped]
 
 [dictionary.mapping]
 
+[dictionary.maps]
+singular = "map"
+
+[dictionary.margin]
+
 [dictionary.mark]
+
+[dictionary.marked]
 
 [dictionary.marker]
 plural = "markers"
@@ -3392,6 +5884,10 @@ plural = "markers"
 singular = "marker"
 
 [dictionary.markup]
+plural = "markups"
+
+[dictionary.markups]
+singular = "markup"
 
 [dictionary.marshal]
 kana = ["マーシャル"]
@@ -3404,6 +5900,17 @@ plural = "masks"
 [dictionary.masks]
 singular = "mask"
 
+[dictionary.mass]
+plural = "masses"
+
+[dictionary.masses]
+singular = "mass"
+
+[dictionary.master]
+
+[dictionary.mat]
+unshortened = ["material", "matrix"]
+
 [dictionary.match]
 plural = "matches"
 
@@ -3412,24 +5919,69 @@ singular = "match"
 
 [dictionary.matching]
 
+[dictionary.material]
+plural = "materials"
+shortened = ["mat"]
+
+[dictionary.materials]
+singular = "material"
+
 [dictionary.math]
 
+[dictionary.matrices]
+singular = "matrix"
+
 [dictionary.matrix]
+plural = "matrices"
+shortened = ["mat"]
 kana = ["マトリックス", "メイトリックス"]
 japanese = ["行列"]
 
 [dictionary.max]
 
+[dictionary.maximized]
+
 [dictionary.maximum]
 
 [dictionary.maxnumf]
 
+[dictionary.mb]
+
+[dictionary.mcmc]
+unshortened = ["markov chain monte carlo"]
+
+[dictionary.md]
+
+[dictionary.mean]
+plural = "means"
+japanese = ["平均"]
+
+[dictionary.meaning]
+plural = "meanings"
+
+[dictionary.meanings]
+singular = "meaning"
+
+[dictionary.means]
+singular = "mean"
+
+[dictionary.measure]
+
 [dictionary.mechanism]
 kana = ["メカニズム"]
 
+[dictionary.med]
+
 [dictionary.media]
 
+[dictionary.mediator]
+category = ["design pattern"]
+
 [dictionary.medium]
+
+[dictionary.mega]
+
+[dictionary.megabytes]
 
 [dictionary.mem]
 unshortened = ["memory"]
@@ -3445,9 +5997,23 @@ singular = "member"
 shortened = ["mem"]
 kana = ["メモリ", "メモリー"]
 
+[dictionary."memory leak"]
+
+[dictionary."memory mapped buffer"]
+
+[dictionary."memory mapped file"]
+
+[dictionary.memoryless]
+
+[dictionary.menu]
+
 [dictionary.merge]
 
 [dictionary.mesh]
+plural = "meshes"
+
+[dictionary.meshes]
+singular = "mesh"
 
 [dictionary.meshlet]
 
@@ -3473,8 +6039,16 @@ kana = ["メタデータ"]
 
 [dictionary.metal]
 
+[dictionary.metallic]
+
 [dictionary.metaprogramming]
 kana = ["メタプログラミング"]
+
+[dictionary.meter]
+plural = "meters"
+
+[dictionary.meters]
+singular = "meter"
 
 [dictionary.method]
 plural = "methods"
@@ -3490,16 +6064,35 @@ singular = "metric"
 kana = ["メトリクス"]
 japanese = ["測定基準", "測定手法"]
 
+[dictionary.metro]
+
+[dictionary.metropolis-hastings]
+
+[dictionary.mic]
+unshortened = ["microphone"]
+
 [dictionary.micromap]
+
+[dictionary.microphone]
+shortened = ["mic"]
 
 [dictionary.micros]
 
 [dictionary.microsecond]
+plural = "microseconds"
 japanese = ["マイクロ秒"]
 description = "100万分の1秒。1000分の1ミリ秒。1000ナノ秒。"
 
+[dictionary.microseconds]
+singular = "microsecond"
+
 [dictionary.mid]
 unshortened = ["middle"]
+
+[dictionary.middle]
+shortened = ["mid"]
+
+[dictionary.midphase]
 
 [dictionary.midpoint]
 
@@ -3507,7 +6100,15 @@ unshortened = ["middle"]
 
 [dictionary.millisecond]
 
+[dictionary.mime]
+
 [dictionary.min]
+
+[dictionary.mine]
+
+[dictionary.mini]
+
+[dictionary.minimal]
 
 [dictionary.minimum]
 
@@ -3521,8 +6122,14 @@ description = "最小値と最大値を同時に求める関数。またはminma
 [dictionary.mip]
 plural = "mips"
 
+[dictionary.miplevel]
+
 [dictionary.mipmap]
+plural = "mipmaps"
 kana = ["ミップマップ"]
+
+[dictionary.mipmaps]
+singular = "mipmap"
 
 [dictionary.mips]
 singular = "mip"
@@ -3535,13 +6142,21 @@ singular = "mip"
 
 [dictionary.mirrored]
 
+[dictionary.mismatch]
+
 [dictionary.miss]
 
 [dictionary.missing]
 
+[dictionary.miter]
+
 [dictionary.mix]
 
 [dictionary.mixed]
+
+[dictionary.mixer]
+
+[dictionary.mixing]
 
 [dictionary.ml]
 english = "ML"
@@ -3553,16 +6168,28 @@ unshortened = ["markup language", "machine learning"]
 kana = ["ニーモニック"]
 description = "機械語命令に与えられた文字列・命令語。"
 
+[dictionary.mobile]
+
 [dictionary.mod]
 plural = "modes"
 unshortened = ["module"]
+
+[dictionary.modal]
 
 [dictionary.mode]
 
 [dictionary.model]
 
+[dictionary.modelview]
+
+[dictionary.modern]
+
 [dictionary.modes]
 singular = "mod"
+
+[dictionary.modifiable]
+
+[dictionary.modification]
 
 [dictionary.modified]
 
@@ -3583,12 +6210,44 @@ shortened = ["mod"]
 
 [dictionary.monitor]
 
+[dictionary.mono]
+
+[dictionary.monochrome]
+
+[dictionary."monte carlo"]
+
+[dictionary.morph]
+category = ["computer graphics"]
+kana = ["モーフ"]
+
+[dictionary.morphing]
+category = ["computer graphics"]
+kana = ["モーフィング"]
+description = "コンピュータグラフィックスの文脈において、メッシュとそれに付随する3Dモデルやテクスチャを、頂点構造を維持したまま頂点位置を変位させることによって動かすアニメーション技法。"
+
+[dictionary.most]
+
 [dictionary.motion]
+
+[dictionary.mount]
+antonym = ["unmount"]
+
+[dictionary.mounted]
+
+[dictionary.mouse]
 
 [dictionary.move]
 kana = ["ムーブ", "ムーヴ"]
 japanese = ["移動", "移動する"]
 description = "オブジェクトの所有権が移動すること。"
+
+[dictionary.moved]
+
+[dictionary.movie]
+
+[dictionary.mp]
+
+[dictionary.mpb]
 
 [dictionary.mpsc]
 unshortened = ["multi-producer single-consumer"]
@@ -3602,11 +6261,17 @@ unshortened = ["Multi-Sample Anti-Aliasing"]
 
 [dictionary.msb]
 
+[dictionary.mse]
+unshortened = ["mean squared error"]
+japanese = ["平均二乗誤差"]
+
 [dictionary.msg]
 unshortened = ["message"]
 
 [dictionary.mul]
 unshortened = ["multiply"]
+
+[dictionary.mult]
 
 [dictionary.multi]
 
@@ -3616,9 +6281,21 @@ unshortened = ["multiply"]
 
 [dictionary.multicast]
 
+[dictionary.multidimensional]
+japanese = ["多次元", "多次元の"]
+
+[dictionary.multiline]
+
+[dictionary.multimedia]
+
+[dictionary.multipart]
+
 [dictionary.multiple]
 
 [dictionary.multiplied]
+
+[dictionary.multiplier]
+japanese = ["乗数", "法"]
 
 [dictionary.multiply]
 shortened = ["mul"]
@@ -3627,9 +6304,12 @@ shortened = ["mul"]
 
 [dictionary.multisampled]
 
-[dictionary.multiview]
+[dictionary.multisampling]
 
-[dictionary.must]
+[dictionary.multithreading]
+category = ["computer architecture"]
+
+[dictionary.multiview]
 
 [dictionary.mut]
 unshortened = ["mutable"]
@@ -3644,13 +6324,29 @@ description = ""
 [dictionary.mutex]
 kana = ["ミューテックス"]
 
+[dictionary.mv]
+
+[dictionary.mvc]
+unshortened = ["model-view-controller"]
+
+[dictionary.mvvm]
+unshortened = ["model-view-viewmodel"]
+
+[dictionary.my]
+
 [dictionary.n]
 plural = "ns"
 description = "numberの略。"
 
+[dictionary.na]
+
 [dictionary.name]
+plural = "names"
 
 [dictionary.named]
+
+[dictionary.names]
+singular = "name"
 
 [dictionary.namespace]
 kana = ["ネームスペース"]
@@ -3660,15 +6356,11 @@ japanese = ["名前空間"]
 english = "NaN"
 unshortened = ["Not a Number"]
 japanese = ["非数"]
-description = """
-浮動小数点数型で、ゼロ除算など不正なオペランドの結果を保存するための値。IEEE 754では、指数部を1、仮数部を全て0以外の任意の値と定義する。
-"""
+description = "浮動小数点数型で、ゼロ除算など不正なオペランドの結果を保存するための値。IEEE 754では、指数部を1、仮数部を全て0以外の任意の値と定義する。"
 
 [dictionary.nand]
 kana = ["ナンド"]
-description = """
-ANDの否定(NOT)のこと。`!(a&b)`に等しい。
-"""
+description = "ANDの否定(NOT)のこと。`!(a&b)`に等しい。"
 
 [dictionary.nano]
 plural = "nanos"
@@ -3677,18 +6369,35 @@ plural = "nanos"
 singular = "nano"
 
 [dictionary.nanosecond]
+plural = "nanoseconds"
+
+[dictionary.nanoseconds]
+singular = "nanosecond"
 
 [dictionary.narrow]
 
+[dictionary.nat]
+
 [dictionary.native]
+plural = "natives"
 kana = ["ネイティブ"]
+
+[dictionary.natives]
+singular = "native"
+
+[dictionary.nav]
+
+[dictionary.navigation]
+
+[dictionary.nd]
+unshortened = ["n-dimensional"]
 
 [dictionary.ne]
 unshortened = ["not equal"]
 
-[dictionary.nearest]
+[dictionary.near]
 
-[dictionary.needed]
+[dictionary.nearest]
 
 [dictionary.needle]
 
@@ -3704,18 +6413,31 @@ shortened = ["neg"]
 japanese = ["否定"]
 
 [dictionary.negative]
+antonym = ["positive"]
 shortened = ["neg"]
 japanese = ["負", "負の"]
 
 [dictionary.neighbor]
+plural = "neighbors"
+
+[dictionary.neighbors]
+singular = "neighbor"
 
 [dictionary.neighbour]
+
+[dictionary.nest]
+
+[dictionary.nested]
+
+[dictionary.nesting]
 
 [dictionary.net]
 kana = ["ネット"]
 
 [dictionary.network]
 kana = ["ネットワーク"]
+
+[dictionary.networking]
 
 [dictionary."neural network"]
 shortened = ["nn"]
@@ -3731,6 +6453,8 @@ kana = ["ニュー"]
 [dictionary.nil]
 kana = ["ニル"]
 
+[dictionary.nm]
+
 [dictionary.nn]
 unshortened = ["neural network"]
 
@@ -3740,6 +6464,7 @@ unshortened = ["neural network"]
 
 [dictionary.node]
 category = ["computer network", "data structure"]
+plural = "nodes"
 kana = ["ノード"]
 japanese = ["節点", "頂点"]
 description = """
@@ -3748,6 +6473,11 @@ description = """
 """
 
 [dictionary.nodelay]
+
+[dictionary.nodes]
+singular = "node"
+
+[dictionary.noise]
 
 [dictionary.non]
 
@@ -3781,13 +6511,23 @@ unshortened = ["no operation"]
 kana = ["ノルム"]
 
 [dictionary.normal]
+plural = "normals"
 kana = ["ノーマル"]
 japanese = ["法線"]
 
 [dictionary.normalize]
 japanese = ["正規化", "正規化する"]
 
+[dictionary.normalized]
+
+[dictionary.normalmap]
+
+[dictionary.normals]
+singular = "normal"
+
 [dictionary.not]
+
+[dictionary.notification]
 
 [dictionary.notify]
 
@@ -3807,8 +6547,12 @@ kana = ["ヌル"]
 [dictionary.null]
 kana = ["ヌル"]
 
+[dictionary."null coalescing operator"]
+
 [dictionary."null terminated string"]
 japanese = ["ヌル終端文字列"]
+
+[dictionary.nullable]
 
 [dictionary.num]
 unshortened = ["number"]
@@ -3816,7 +6560,13 @@ unshortened = ["number"]
 [dictionary.numbanks]
 
 [dictionary.number]
+plural = "numbers"
 shortened = ["num"]
+
+[dictionary.numbers]
+singular = "number"
+
+[dictionary.numerator]
 
 [dictionary.numeric]
 antonym = ["analytic"]
@@ -3829,13 +6579,18 @@ japanese = ["数値的", "数値的な"]
 [dictionary."numerical calculation"]
 japanese = ["数値計算"]
 
+[dictionary.numlock]
+
 [dictionary.o]
 plural = "os"
 unshortened = ["object", "optimization"]
 
+[dictionary.obj]
+unshortened = ["object"]
+
 [dictionary.object]
 plural = "objects"
-shortened = ["o"]
+shortened = ["o", "obj"]
 
 [dictionary."object oriented"]
 japanese = ["オブジェクト指向", "オブジェクト指向の"]
@@ -3843,13 +6598,30 @@ japanese = ["オブジェクト指向", "オブジェクト指向の"]
 [dictionary.objects]
 singular = "object"
 
+[dictionary.oblique]
+
+[dictionary.observable]
+
+[dictionary.observed]
+
+[dictionary.observer]
+category = ["design pattern"]
+
+[dictionary.obsolete]
+
+[dictionary.obstacle]
+
 [dictionary.occlusion]
 
 [dictionary.occupied]
 antonym = ["vacant"]
 japanese = ["占有した", "埋まった", "使用中の"]
 
+[dictionary.occurred]
+
 [dictionary.octal]
+
+[dictionary.octave]
 
 [dictionary.octdigit]
 
@@ -3860,6 +6632,11 @@ japanese = ["奇数"]
 
 [dictionary.off]
 antonym = ["on"]
+
+[dictionary.offline]
+antonym = ["online"]
+
+[dictionary.offscreen]
 
 [dictionary.offset]
 plural = "offsets"
@@ -3876,6 +6653,12 @@ singular = "offset"
 antonym = ["off"]
 
 [dictionary.once]
+
+[dictionary.online]
+antonym = ["offline"]
+
+[dictionary.oop]
+unshortened = ["object-oriented programming"]
 
 [dictionary.op]
 plural = "ops"
@@ -3898,6 +6681,10 @@ kana = ["オペコード"]
 
 [dictionary.open]
 
+[dictionary."open source"]
+
+[dictionary.opening]
+
 [dictionary.operand]
 plural = "operands"
 shortened = ["op"]
@@ -3905,6 +6692,8 @@ kana = ["オペランド"]
 
 [dictionary.operands]
 singular = "operand"
+
+[dictionary.operating]
 
 [dictionary.operation]
 plural = "operations"
@@ -3925,9 +6714,13 @@ singular = "op"
 [dictionary.opt]
 unshortened = ["optimization"]
 
+[dictionary.opted]
+
 [dictionary.optical]
 
 [dictionary.optimal]
+
+[dictionary.optimizable]
 
 [dictionary.optimization]
 shortened = ["opt", "o"]
@@ -3941,10 +6734,14 @@ japanese = ["最適化する"]
 [dictionary.option]
 plural = "options"
 
+[dictionary.optional]
+
 [dictionary.options]
 singular = "option"
 
 [dictionary.or]
+
+[dictionary.orbital]
 
 [dictionary.ord]
 unshortened = ["order"]
@@ -3958,15 +6755,28 @@ shortened = ["ord"]
 
 [dictionary.organization]
 
+[dictionary.orientation]
+
 [dictionary.orig]
 
 [dictionary.origin]
 
 [dictionary.original]
 
+[dictionary.ortho]
+
+[dictionary.orthographic]
+
 [dictionary.os]
 singular = "o"
 unshortened = ["operating system"]
+
+[dictionary.oss]
+unshortened = ["open source software"]
+
+[dictionary.osx]
+
+[dictionary.others]
 
 [dictionary.out]
 antonym = ["in"]
@@ -3975,6 +6785,10 @@ antonym = ["in"]
 antonym = ["inner"]
 
 [dictionary.outline]
+plural = "outlines"
+
+[dictionary.outlines]
+singular = "outline"
 
 [dictionary.output]
 antonym = ["input"]
@@ -3983,7 +6797,13 @@ plural = "outputs"
 [dictionary.outputs]
 singular = "output"
 
+[dictionary.outside]
+
+[dictionary.over]
+
 [dictionary.overallocation]
+
+[dictionary.overdraw]
 
 [dictionary.overestimation]
 
@@ -3992,12 +6812,36 @@ singular = "output"
 [dictionary.overflowing]
 
 [dictionary.overlap]
+plural = "overlaps"
 kana = ["オーバーラップ"]
 
+[dictionary.overlapped]
+
+[dictionary.overlaps]
+singular = "overlap"
+
+[dictionary.overlay]
+
+[dictionary.overload]
+
+[dictionary.overridable]
+
 [dictionary.override]
+plural = "overrides"
 kana = ["オーバーライド"]
 
+[dictionary.overriden]
+
+[dictionary.overrides]
+singular = "override"
+
+[dictionary.overscan]
+
+[dictionary.overwrite]
+
 [dictionary.owned]
+
+[dictionary.owner]
 
 [dictionary.ownership]
 kana = ["オーナーシップ"]
@@ -4009,6 +6853,9 @@ unshortened = ["point"]
 [dictionary.p2p]
 
 [dictionary.pack]
+plural = "packs"
+
+[dictionary.packages]
 
 [dictionary.packed]
 
@@ -4019,6 +6866,11 @@ kana = ["パケット"]
 [dictionary.packets]
 singular = "packet"
 
+[dictionary.packing]
+
+[dictionary.packs]
+singular = "pack"
+
 [dictionary.pad]
 
 [dictionary.padded]
@@ -4026,7 +6878,15 @@ singular = "packet"
 [dictionary.padding]
 kana = ["パディング"]
 
+[dictionary.page]
+
+[dictionary."page fault"]
+
 [dictionary.pageable]
+
+[dictionary.paint]
+
+[dictionary.painter]
 
 [dictionary.pair]
 
@@ -4035,11 +6895,30 @@ kana = ["パディング"]
 [dictionary.pan]
 unshortened = ["panorama"]
 
+[dictionary.pane]
+
+[dictionary.panel]
+plural = "panels"
+
+[dictionary.panels]
+singular = "panel"
+
 [dictionary.panic]
 
 [dictionary.panicked]
 
 [dictionary.panicking]
+
+[dictionary.paper]
+
+[dictionary.paradigm]
+kana = ["パラダイム"]
+
+[dictionary.paragraph]
+plural = "paragraphs"
+
+[dictionary.paragraphs]
+singular = "paragraph"
 
 [dictionary.parallel]
 category = ["concurrent programming"]
@@ -4063,16 +6942,22 @@ shortened = ["params"]
 singular = "param"
 unshortened = ["parameters"]
 
+[dictionary.paren]
+unshortened = ["parenthesis"]
+
 [dictionary.parent]
 japanese = ["親"]
 
 [dictionary.parenthesis]
 plural = "parentheses"
+shortened = ["paren"]
 japanese = ["括弧", "丸括弧"]
 description = "\"()\"のこと。"
 
 [dictionary.park]
 antonym = ["unpark"]
+
+[dictionary.parking]
 
 [dictionary.parse]
 kana = ["パース"]
@@ -4087,6 +6972,14 @@ plural = "parts"
 
 [dictionary.partially]
 
+[dictionary.particle]
+plural = "particles"
+kana = ["パーティクル"]
+japanese = ["粒子"]
+
+[dictionary.particles]
+singular = "particle"
+
 [dictionary.partition]
 
 [dictionary.partitioned]
@@ -4099,10 +6992,18 @@ plural = "passes"
 
 [dictionary.passcred]
 
+[dictionary.passed]
+
 [dictionary.passes]
 singular = "pass"
 
+[dictionary.passive]
+
 [dictionary.passthrough]
+
+[dictionary.password]
+
+[dictionary.paste]
 
 [dictionary.pat]
 unshortened = ["pattern"]
@@ -4113,8 +7014,12 @@ plural = "patches"
 [dictionary.patches]
 singular = "patch"
 
+[dictionary.patching]
+
 [dictionary.path]
 plural = "paths"
+
+[dictionary.pathfinding]
 
 [dictionary.pathname]
 
@@ -4123,6 +7028,10 @@ singular = "path"
 
 [dictionary.pattern]
 shortened = ["pat"]
+
+[dictionary.pause]
+
+[dictionary.paused]
 
 [dictionary.payload]
 plural = "payloads"
@@ -4134,6 +7043,11 @@ singular = "payload"
 [dictionary.pc]
 
 [dictionary.pci]
+
+[dictionary.pcm]
+
+[dictionary.pe]
+unshortened = ["portable executable"]
 
 [dictionary.peek]
 description = "スタックやキューから値を取り除かずに値を覗き見ること。"
@@ -4150,13 +7064,34 @@ description = "スタックやキューから値を取り除かずに値を覗�
 
 [dictionary.pending]
 
+[dictionary.penetration]
+
+[dictionary.penumbra]
+
 [dictionary.per]
 
 [dictionary.percent]
 
+[dictionary.percentage]
+
+[dictionary.perceptual]
+
+[dictionary.perfect]
+
+[dictionary.perform]
+
 [dictionary.performance]
 
+[dictionary.performed]
+
+[dictionary.perimeter]
+
 [dictionary.period]
+
+[dictionary.periodic]
+
+[dictionary."perlin noise"]
+kana = ["パーリンノイズ"]
 
 [dictionary.perm]
 
@@ -4168,32 +7103,75 @@ singular = "permission"
 
 [dictionary.permitted]
 
+[dictionary.permute]
+
+[dictionary.perpendicular]
+
 [dictionary.persistent]
 
 [dictionary.perspective]
+japanese = ["透視"]
+
+[dictionary."perspective projection"]
+japanese = ["透視投影"]
 
 [dictionary.pfn]
 
 [dictionary.phantom]
 
+[dictionary.phase]
+plural = "phases"
+
 [dictionary.phases]
+singular = "phase"
 
 [dictionary.phi]
 japanese = ["φ"]
 
+[dictionary.phone]
+
+[dictionary.phonetic]
+
+[dictionary.photo]
+
+[dictionary.photon]
+
+[dictionary."photon mapping"]
+kana = ["フォトンマッピング"]
+
+[dictionary.phrase]
+
+[dictionary.physic]
+plural = "physics"
+
 [dictionary.physical]
+
+[dictionary.physics]
+singular = "physic"
 
 [dictionary.pi]
 japanese = ["π"]
 
+[dictionary.pick]
+
+[dictionary.picked]
+
+[dictionary.picker]
+
+[dictionary.picking]
+
 [dictionary.picture]
+plural = "pictures"
+
+[dictionary.pictures]
+singular = "picture"
 
 [dictionary.pid]
 unshortened = ["process id"]
 
-[dictionary.pidfd]
-
 [dictionary.pin]
+
+[dictionary.ping]
 
 [dictionary.pinned]
 
@@ -4203,7 +7181,11 @@ plural = "pipes"
 [dictionary.piped]
 
 [dictionary.pipeline]
+plural = "pipelines"
 kana = ["パイプライン"]
+
+[dictionary.pipelines]
+singular = "pipeline"
 
 [dictionary.pipelining]
 
@@ -4212,14 +7194,24 @@ singular = "pipe"
 
 [dictionary.pitch]
 
+[dictionary.pivot]
+
 [dictionary.pixel]
 plural = "pixels"
 kana = ["ピクセル"]
+
+[dictionary."pixel perfect"]
 
 [dictionary.pixels]
 singular = "pixel"
 
 [dictionary.place]
+
+[dictionary.placeholder]
+
+[dictionary.placement]
+
+[dictionary.plain]
 
 [dictionary.plane]
 plural = "planes"
@@ -4228,13 +7220,47 @@ plural = "planes"
 singular = "plane"
 
 [dictionary.platform]
+plural = "platforms"
 kana = ["プラットフォーム"]
+
+[dictionary.platforms]
+singular = "platform"
+
+[dictionary.play]
+
+[dictionary.playable]
+plural = "playables"
+
+[dictionary.playables]
+singular = "playable"
+
+[dictionary.playback]
+
+[dictionary.played]
+
+[dictionary.player]
+plural = "players"
+
+[dictionary.players]
+singular = "player"
+
+[dictionary.playing]
+
+[dictionary.playlists]
+
+[dictionary.plugin]
+plural = "plugins"
+
+[dictionary.plugins]
+singular = "plugin"
 
 [dictionary.plus]
 
+[dictionary.pod]
+
 [dictionary.point]
 plural = "points"
-shortened = ["p"]
+shortened = ["p", "pt"]
 
 [dictionary.pointee]
 description = "ポインターが指し示す値、あるいはその型。"
@@ -4248,6 +7274,8 @@ description = "メモリアドレスの型。ポインター型。"
 [dictionary.pointers]
 singular = "pointer"
 
+[dictionary.pointlight]
+
 [dictionary.points]
 singular = "point"
 
@@ -4257,15 +7285,22 @@ singular = "point"
 
 [dictionary.poisoning]
 kana = ["ポイズニング"]
+description = "あるスレッドで、ミューテックスなどのデータをロックしているときに例外が発生したとき、そのデータはpoisonedとみなされる。"
 
 [dictionary.polarities]
 
 [dictionary.polarity]
 
+[dictionary.policy]
+
+[dictionary.polish]
+
 [dictionary.poll]
 
 [dictionary.polling]
 kana = ["ポーリング"]
+
+[dictionary.poly]
 
 [dictionary.polygon]
 plural = "polygons"
@@ -4278,8 +7313,12 @@ singular = "polygon"
 kana = ["ポリモーフィズム"]
 japanese = ["多態性"]
 
+[dictionary.pong]
+
 [dictionary.pool]
 plural = "pools"
+
+[dictionary.pooled]
 
 [dictionary.pools]
 singular = "pool"
@@ -4292,27 +7331,53 @@ description = """
 「データを入力する」や「データを埋める」などの意味を持つ。データベースやリストなどにデータを追加したり、フィールドを埋めたりする行為を指す。
 スタックの操作である\"pop\"とは無関係。"""
 
+[dictionary.populated]
+
+[dictionary.population]
+
+[dictionary.popup]
+
 [dictionary.port]
 
 [dictionary.portability]
 
+[dictionary.portal]
+
+[dictionary.portrait]
+
+[dictionary.portuguese]
+
 [dictionary.pos]
+plural = "poses"
 unshortened = ["position"]
+
+[dictionary.pose]
+
+[dictionary.poses]
+singular = "pos"
 
 [dictionary.position]
 plural = "positions"
 shortened = ["pos"]
 
+[dictionary.positional]
+
+[dictionary.positioning]
+
 [dictionary.positions]
 singular = "position"
 
 [dictionary.positive]
+antonym = ["negative"]
 
 [dictionary.possible]
 
 [dictionary.post]
 
 [dictionary.potential]
+
+[dictionary.pov]
+unshortened = ["perspective of view"]
 
 [dictionary.pow]
 unshortened = ["power"]
@@ -4322,15 +7387,27 @@ shortened = ["pow"]
 
 [dictionary.practices]
 
+[dictionary.pragma]
+japanese = ["プログラム断片"]
+
 [dictionary.pre]
 
 [dictionary.precise]
 
 [dictionary.precision]
 
+[dictionary.preconfigured]
+
 [dictionary.pred]
 
 [dictionary.predicate]
+
+[dictionary.prediction]
+
+[dictionary.pref]
+plural = "prefs"
+
+[dictionary.prefab]
 
 [dictionary.prefer]
 plural = "prefers"
@@ -4350,25 +7427,65 @@ singular = "prefer"
 antonym = ["suffix"]
 japanese = ["接頭辞"]
 
+[dictionary.prefixed]
+
+[dictionary.prefs]
+singular = "pref"
+
 [dictionary.preinitialized]
+
+[dictionary.preload]
+
+[dictionary.preloaded]
+
+[dictionary.preloading]
 
 [dictionary.prelude]
 
 [dictionary.premultiplied]
 
+[dictionary.prepare]
+
+[dictionary.prepared]
+
+[dictionary.prepass]
+
 [dictionary.preprocess]
 
+[dictionary.preprocessing]
+
+[dictionary.presence]
+
 [dictionary.present]
+antonym = ["absent"]
 
 [dictionary.presentable]
 
 [dictionary.presentation]
 
+[dictionary.presenter]
+
 [dictionary.preserve]
 plural = "preserves"
 
+[dictionary.preserved]
+
 [dictionary.preserves]
 singular = "preserve"
+
+[dictionary.preset]
+plural = "presets"
+
+[dictionary.presets]
+singular = "preset"
+
+[dictionary.press]
+
+[dictionary.pressed]
+
+[dictionary.pressure]
+
+[dictionary.pretransform]
 
 [dictionary.pretty]
 
@@ -4377,8 +7494,17 @@ unshortened = ["previous", "preview"]
 
 [dictionary.prevent]
 
+[dictionary.prevented]
+
+[dictionary.preview]
+shortened = ["prev"]
+
 [dictionary.previous]
 shortened = ["prev"]
+
+[dictionary.prewarm]
+
+[dictionary.primaries]
 
 [dictionary.primary]
 
@@ -4392,11 +7518,30 @@ singular = "primitive"
 
 [dictionary.priorities]
 
+[dictionary.prioritize]
+
+[dictionary.prioritized]
+
 [dictionary.priority]
+
+[dictionary.prismatic]
+
+[dictionary.privacy]
 
 [dictionary.private]
 
+[dictionary.privilege]
+
+[dictionary.pro]
+
+[dictionary.probability]
+
 [dictionary.probe]
+plural = "probes"
+kana = ["プローブ"]
+
+[dictionary.probes]
+singular = "probe"
 
 [dictionary.problem]
 
@@ -4418,17 +7563,37 @@ kana = ["プロシージャ"]
 
 [dictionary.processing]
 
+[dictionary.processor]
+
+[dictionary.producer]
+category = ["design pattern"]
+antonym = ["consumer"]
+
 [dictionary.product]
 
 [dictionary.profile]
 
+[dictionary.profiler]
+
 [dictionary.profiling]
 
 [dictionary.program]
+plural = "programs"
 kana = ["プログラム"]
 
 [dictionary.programming]
 kana = ["プログラミング"]
+
+[dictionary.programs]
+singular = "program"
+
+[dictionary.progress]
+
+[dictionary.progressive]
+
+[dictionary.progressively]
+
+[dictionary.prohibited]
 
 [dictionary.proj]
 unshortened = ["project", "projection"]
@@ -4439,6 +7604,16 @@ shortened = ["proj"]
 [dictionary.projection]
 shortened = ["proj"]
 
+[dictionary.projector]
+
+[dictionary.prologic]
+
+[dictionary.promise]
+
+[dictionary.prop]
+plural = "props"
+unshortened = ["property"]
+
 [dictionary.propagate]
 
 [dictionary.propagation]
@@ -4448,25 +7623,59 @@ shortened = ["proj"]
 [dictionary.properties]
 
 [dictionary.property]
+shortened = ["prop"]
 kana = ["プロパティ", "プロパティー"]
 
 [dictionary.proprietary]
 kana = ["プロプライエタリ"]
 
+[dictionary.props]
+singular = "prop"
+
 [dictionary.protected]
+
+[dictionary.protection]
 
 [dictionary.protocol]
 kana = ["プロトコル"]
 
+[dictionary.prototype]
+category = ["design pattern"]
+plural = "prototypes"
+
+[dictionary.prototypes]
+singular = "prototype"
+
 [dictionary.provide]
+plural = "provides"
 
 [dictionary.provided]
+
+[dictionary.provider]
+plural = "providers"
+
+[dictionary.providers]
+singular = "provider"
+
+[dictionary.provides]
+singular = "provide"
 
 [dictionary.provisional]
 
 [dictionary.provoking]
 
+[dictionary.proximal]
+antonym = ["distal"]
+
 [dictionary.proxy]
+
+[dictionary.pseudocode]
+japanese = ["擬似コード"]
+
+[dictionary.psychotic]
+
+[dictionary.pt]
+unshortened = ["point"]
 
 [dictionary.ptr]
 unshortened = ["pointer"]
@@ -4474,9 +7683,16 @@ unshortened = ["pointer"]
 [dictionary.pub]
 unshortened = ["public"]
 
+[dictionary.public]
+shortened = ["pub"]
+
 [dictionary.pull]
 
+[dictionary.pulse]
+
 [dictionary.punctuation]
+
+[dictionary.purchase]
 
 [dictionary.pure]
 
@@ -4484,26 +7700,52 @@ unshortened = ["public"]
 
 [dictionary.push]
 
+[dictionary.put]
+
+[dictionary.pyramid]
+
 [dictionary.quad]
 plural = "quads"
+
+[dictionary.quadratic]
+japanese = ["二次", "二次の"]
 
 [dictionary.quads]
 singular = "quad"
 
 [dictionary.qualification]
 
+[dictionary.qualified]
+
 [dictionary.qualifier]
 japanese = ["修飾子"]
 
 [dictionary.qualify]
 
+[dictionary.quality]
+
+[dictionary.quantised]
+
 [dictionary.quantization]
+japanese = ["量子化"]
 
 [dictionary.quantize]
+japanese = ["量子化する"]
+
+[dictionary.quantized]
 
 [dictionary.quants]
 unshortened = ["quantitative analysts"]
 kana = ["クオンツ"]
+
+[dictionary.quarry]
+
+[dictionary.quat]
+unshortened = ["quaternion"]
+
+[dictionary.quaternion]
+shortened = ["quat"]
+kana = ["クォータニオン"]
 
 [dictionary.queries]
 
@@ -4516,10 +7758,16 @@ kana = ["クエリ", "クエリー"]
 plural = "queues"
 kana = ["キュー"]
 
+[dictionary.queued]
+
 [dictionary.queues]
 singular = "queue"
 
 [dictionary.quickack]
+
+[dictionary.quit]
+
+[dictionary.quitting]
 
 [dictionary.quota]
 
@@ -4527,7 +7775,11 @@ singular = "queue"
 kana = ["クォーテーション"]
 japanese = ["引用符"]
 
+[dictionary.quote]
+plural = "quotes"
+
 [dictionary.quotes]
+singular = "quote"
 
 [dictionary.quotient]
 japanese = ["商"]
@@ -4539,22 +7791,42 @@ description = "wordが16ビットのことであり、qwordはその4倍の64ビ
 [dictionary.rad]
 unshortened = ["radian"]
 
+[dictionary.radial]
+
 [dictionary.radian]
 plural = "radians"
 shortened = ["rad"]
 kana = ["ラジアン", "レイディアン"]
 description = "角度の単位。180度はπラジアンである。"
 
+[dictionary.radiance]
+japanese = ["放射", "放射輝度"]
+
 [dictionary.radians]
 singular = "radian"
 
+[dictionary.radio]
+
+[dictionary.radiosity]
+kana = ["ラジオシティ"]
+
 [dictionary.radius]
+plural = "radiuses"
 kana = ["レイディアス"]
 japanese = ["半径"]
+
+[dictionary.radiuses]
+singular = "radius"
 
 [dictionary.radix]
 kana = ["レイディクス"]
 japanese = ["基数"]
+
+[dictionary.raii]
+english = "RAII"
+unshortened = ["resource acquisition is initialization"]
+
+[dictionary.raise]
 
 [dictionary.ram]
 english = "RAM"
@@ -4566,6 +7838,14 @@ shortened = ["rnd"]
 kana = ["ランダム"]
 japanese = ["無作為", "無作為な"]
 
+[dictionary."random walk"]
+
+[dictionary.randomize]
+
+[dictionary.randomized]
+
+[dictionary.randomness]
+
 [dictionary.range]
 plural = "ranges"
 kana = ["レンジ"]
@@ -4573,6 +7853,10 @@ japanese = ["区間"]
 
 [dictionary.ranges]
 singular = "range"
+
+[dictionary.rank]
+
+[dictionary.ras]
 
 [dictionary.raster]
 category = ["computer graphics"]
@@ -4602,8 +7886,12 @@ plural = "rates"
 singular = "rate"
 
 [dictionary.ratio]
+plural = "ratios"
 kana = ["レシオ"]
 japanese = ["率", "比率"]
+
+[dictionary.ratios]
+singular = "ratio"
 
 [dictionary.raw]
 kana = ["ロー"]
@@ -4614,43 +7902,133 @@ plural = "rays"
 kana = ["レイ"]
 japanese = ["光線"]
 
+[dictionary.raycast]
+plural = "raycasts"
+
+[dictionary.raycasts]
+singular = "raycast"
+
 [dictionary.rays]
 singular = "ray"
 
 [dictionary.rc]
 unshortened = ["reference count", "reference counting"]
 
+[dictionary.reach]
+
+[dictionary.reachability]
+
+[dictionary.reachable]
+
 [dictionary.reached]
 
+[dictionary.reaction]
+
+[dictionary.reactive]
+category = ["design pattern"]
+
+[dictionary."reactive programming"]
+
+[dictionary.reactor]
+category = ["design pattern"]
+
 [dictionary.read]
+plural = "reads"
+
+[dictionary.readability]
 
 [dictionary.readable]
 
+[dictionary.readback]
+
 [dictionary.reader]
+
+[dictionary.reading]
 
 [dictionary.readonly]
 
+[dictionary.reads]
+singular = "read"
+
 [dictionary.ready]
+
+[dictionary.real]
 
 [dictionary.realloc]
 unshortened = ["reallocate"]
 
 [dictionary.realm]
 
+[dictionary.realtime]
+
+[dictionary.reapply]
+
 [dictionary.reason]
 
 [dictionary.reassoc]
 
+[dictionary.rebind]
+
 [dictionary.reborrow]
 
+[dictionary.rebuild]
+plural = "rebuilds"
+
+[dictionary.rebuilds]
+singular = "rebuild"
+
+[dictionary.rebuilt]
+
+[dictionary.rec]
+unshortened = ["receive"]
+
+[dictionary.recalculate]
+
+[dictionary.recalculation]
+
+[dictionary.receipt]
+
+[dictionary.receive]
+shortened = ["recv", "rec"]
+
+[dictionary.received]
+
 [dictionary.receiver]
+plural = "receivers"
 shortened = ["recv"]
 
+[dictionary.receivers]
+singular = "receiver"
+
+[dictionary.receiving]
+
+[dictionary.recenter]
+
 [dictionary.recip]
+
+[dictionary.recognition]
+
+[dictionary.recognized]
+
+[dictionary.recognizer]
+
+[dictionary.recompress]
+
+[dictionary.recompression]
 
 [dictionary.reconstruction]
 
 [dictionary.record]
+plural = "records"
+
+[dictionary.recorder]
+
+[dictionary.recording]
+
+[dictionary.records]
+singular = "record"
+
+[dictionary.recovery]
 
 [dictionary.recreate]
 
@@ -4680,14 +8058,22 @@ singular = "recursion"
 [dictionary.recursive]
 japanese = ["再帰", "再帰的", "再帰的に"]
 
+[dictionary.recursively]
+
 [dictionary.recv]
 unshortened = ["receive", "receiver"]
 
+[dictionary.recycle]
+
 [dictionary.red]
+
+[dictionary.redirect]
 
 [dictionary.redo]
 
 [dictionary.reduce]
+
+[dictionary.reduced]
 
 [dictionary.reduction]
 
@@ -4720,14 +8106,24 @@ singular = "reference"
 
 [dictionary.reflect]
 
+[dictionary.reflected]
+
 [dictionary.reflection]
+plural = "reflections"
 kana = ["リフレクション"]
+
+[dictionary.reflections]
+singular = "reflection"
 
 [dictionary.refresh]
 
 [dictionary.refused]
 
 [dictionary.reg]
+
+[dictionary.regex]
+unshortened = ["regular expression"]
+japanese = ["正規表現"]
 
 [dictionary.region]
 plural = "regions"
@@ -4736,6 +8132,22 @@ plural = "regions"
 singular = "region"
 
 [dictionary.register]
+plural = "registers"
+
+[dictionary.registered]
+
+[dictionary.registers]
+singular = "register"
+
+[dictionary.registory]
+
+[dictionary.registration]
+
+[dictionary.regular]
+
+[dictionary.reinit]
+
+[dictionary.reinitialize]
 
 [dictionary.reinterpret]
 
@@ -4745,7 +8157,13 @@ singular = "region"
 
 [dictionary.reject]
 
+[dictionary.rejected]
+
 [dictionary.rel]
+
+[dictionary.related]
+
+[dictionary."relational database"]
 
 [dictionary."relational operation"]
 japanese = ["比較演算"]
@@ -4760,8 +8178,14 @@ japanese = ["比較演算子"]
 [dictionary.release]
 antonym = ["allocate", "acquire"]
 
+[dictionary.reload]
+
 [dictionary.reloc]
 unshortened = ["reallocate"]
+
+[dictionary.relu]
+english = "ReLU"
+kana = ["レルー"]
 
 [dictionary.rem]
 unshortened = ["remainder", "remaining"]
@@ -4773,13 +8197,32 @@ japanese = ["剰余"]
 [dictionary.remaining]
 shortened = ["rem"]
 
+[dictionary.remap]
+
+[dictionary.remote]
+
+[dictionary.removable]
+
+[dictionary.removal]
+
 [dictionary.remove]
+
+[dictionary.removed]
 
 [dictionary.rename]
 
 [dictionary.render]
 category = ["computer graphics"]
+plural = "renders"
 kana = ["レンダー"]
+
+[dictionary.rendered]
+
+[dictionary.renderer]
+plural = "renderers"
+
+[dictionary.renderers]
+singular = "renderer"
 
 [dictionary.rendering]
 category = ["computer graphics"]
@@ -4787,17 +8230,30 @@ kana = ["レンダリング"]
 
 [dictionary.renderpass]
 
+[dictionary.renders]
+singular = "render"
+
 [dictionary.reorder]
 
+[dictionary.reorderable]
+
 [dictionary.reordering]
+
+[dictionary.repaint]
+
+[dictionary.repath]
 
 [dictionary.repeat]
 
 [dictionary.repeater]
 
+[dictionary.repeating]
+
 [dictionary.replace]
 kana = ["リプレース"]
 japanese = ["置換する"]
+
+[dictionary.replaced]
 
 [dictionary.replacement]
 kana = ["リプレースメント"]
@@ -4809,13 +8265,23 @@ japanese = ["置換"]
 
 [dictionary.replay]
 
+[dictionary.replicate]
+plural = "replicates"
+
 [dictionary.replicates]
+singular = "replicate"
 
 [dictionary.repo]
 
 [dictionary.report]
+plural = "reports"
+
+[dictionary.reported]
 
 [dictionary.reporting]
+
+[dictionary.reports]
+singular = "report"
 
 [dictionary.repository]
 
@@ -4826,15 +8292,26 @@ unshortened = ["representation"]
 
 [dictionary.reprogram]
 
+[dictionary.reprojection]
+
+[dictionary.req]
+unshortened = ["require", "request"]
+
 [dictionary.request]
+plural = "requests"
+shortened = ["req"]
 kana = ["リクエスト"]
 japanese = ["要求"]
 
 [dictionary.requested]
 infinitive = "request"
 
+[dictionary.requests]
+singular = "request"
+
 [dictionary.require]
 plural = "requires"
+shortened = ["req"]
 kana = ["リクワイア", "リクワイアー"]
 japanese = ["要求する", "必要とする"]
 
@@ -4876,13 +8353,29 @@ description = "データがメモリ上に配置されていること。特に�
 
 [dictionary.residual]
 
+[dictionary.resizable]
+
 [dictionary.resize]
 kana = ["リサイズ"]
 
 [dictionary.resolution]
+plural = "resolutions"
 kana = ["レゾリューション"]
 
+[dictionary.resolutions]
+singular = "resolution"
+
 [dictionary.resolve]
+
+[dictionary.resolved]
+
+[dictionary.resolver]
+
+[dictionary.resolving]
+
+[dictionary.resonace]
+
+[dictionary.resonance]
 
 [dictionary.resource]
 plural = "resources"
@@ -4892,6 +8385,11 @@ japanese = ["資源"]
 [dictionary.resources]
 singular = "resource"
 
+[dictionary.respect]
+
+[dictionary.response]
+shortened = ["res"]
+
 [dictionary.rest]
 
 [dictionary.restart]
@@ -4900,6 +8398,10 @@ singular = "resource"
 
 [dictionary.restrict]
 japanese = ["制限", "制限する"]
+
+[dictionary.restricted]
+
+[dictionary.restriction]
 
 [dictionary.result]
 plural = "results"
@@ -4914,6 +8416,10 @@ singular = "result"
 kana = ["リズーム"]
 japanese = ["再開", "再開する"]
 
+[dictionary.resumed]
+
+[dictionary.resync]
+
 [dictionary.ret]
 unshortened = ["return"]
 
@@ -4922,8 +8428,14 @@ unshortened = ["return"]
 [dictionary.retain]
 japanese = ["保持する", "維持する", "留める"]
 
+[dictionary.retargetable]
+
+[dictionary.retetrahedralization]
+
 [dictionary.retrieve]
 japanese = ["取り戻す", "回収する"]
+
+[dictionary.retry]
 
 [dictionary.return]
 shortened = ["ret"]
@@ -4933,11 +8445,23 @@ japanese = ["戻す", "返す"]
 [dictionary."return value"]
 japanese = ["戻り値", "返り値"]
 
+[dictionary.reuse]
+
 [dictionary.rev]
 unshortened = ["reverse"]
 
+[dictionary.reverb]
+
 [dictionary.reverse]
 shortened = ["rev"]
+
+[dictionary.reversed]
+
+[dictionary.revert]
+
+[dictionary.review]
+
+[dictionary.revolute]
 
 [dictionary.rewind]
 
@@ -4949,12 +8473,37 @@ description = "三原色のメモリレイアウトがred-green-blueの順に並
 english = "RGBA"
 description = "色のメモリレイアウトがred-green-blue-alphaの順に並んでいること。"
 
+[dictionary.rgbau]
+
+[dictionary.rgbm]
+
+[dictionary.rgtc]
+
+[dictionary.rho]
+
 [dictionary.rhs]
 category = ["compiler"]
 antonym = ["lhs"]
 unshortened = ["right-hand side"]
 japanese = ["右手側"]
 description = "二項演算子の右側の式。"
+
+[dictionary.ribbon]
+plural = "ribbons"
+
+[dictionary.ribbons]
+singular = "ribbon"
+
+[dictionary.rich]
+
+[dictionary.rid]
+
+[dictionary.rig]
+kana = ["リグ"]
+
+[dictionary.rigged]
+
+[dictionary.rigging]
 
 [dictionary.right]
 plural = "rights"
@@ -4963,6 +8512,14 @@ japanese = ["右"]
 
 [dictionary.rights]
 singular = "right"
+
+[dictionary.rigid]
+
+[dictionary.rigidbody]
+
+[dictionary.ring]
+
+[dictionary.rle]
 
 [dictionary.rmatches]
 
@@ -4973,6 +8530,8 @@ unshortened = ["random"]
 unshortened = ["random number generation", "random number generator"]
 japanese = ["乱数生成", "乱数生成器"]
 
+[dictionary.roaming]
+
 [dictionary.robust]
 kana = ["ロバスト"]
 japanese = ["堅牢な"]
@@ -4982,11 +8541,22 @@ description = "仕様変更・セキュリティ・メモリリークなどに�
 kana = ["ロバストネス"]
 japanese = ["堅牢性"]
 
+[dictionary.role]
+
+[dictionary.roll]
+
+[dictionary.rolloff]
+
+[dictionary.room]
+
 [dictionary.root]
 category = ["mathmatics", "data structure"]
 kana = ["ルート"]
 japanese = ["根"]
 description = "平方根、あるいは木構造の根のこと。"
+
+[dictionary.rot]
+unshortened = ["ratate", "rotation"]
 
 [dictionary.rotate]
 category = ["mathmatics"]
@@ -5005,7 +8575,18 @@ description = """
 [dictionary.rotated]
 
 [dictionary.rotation]
+plural = "rotations"
+shortened = ["rot"]
 japanese = ["回転"]
+
+[dictionary.rotational]
+
+[dictionary.rotations]
+singular = "rotation"
+
+[dictionary.roughness]
+
+[dictionary.roulette]
 
 [dictionary.round]
 japanese = ["丸める", "丸め"]
@@ -5014,6 +8595,8 @@ description = "四捨五入などで少数を丸めること。"
 [dictionary.rounded]
 
 [dictionary.rounding]
+
+[dictionary.routine]
 
 [dictionary.row]
 antonym = ["column"]
@@ -5024,16 +8607,40 @@ description = "行列・表・レイアウトの「行」。横方向の一連�
 [dictionary.rows]
 singular = "row"
 
+[dictionary.rpc]
+unshortened = ["remote procedure call"]
+
+[dictionary.rpm]
+
 [dictionary.rt]
 unshortened = ["render target", "ray tracing", "runtime"]
+
+[dictionary.rtl]
 
 [dictionary.rtp]
 
 [dictionary.rtz]
 
+[dictionary.rule]
+plural = "rules"
+
+[dictionary.rules]
+singular = "rule"
+
+[dictionary.run]
+
+[dictionary.runnable]
+
+[dictionary.runner]
+
+[dictionary.running]
+
 [dictionary.runtime]
 shortened = ["rt"]
 kana = ["ランタイム"]
+
+[dictionary.rwlock]
+unshortened = ["read-write lock"]
 
 [dictionary.sad]
 plural = "sads"
@@ -5066,6 +8673,10 @@ singular = "sample"
 
 [dictionary.samsung]
 
+[dictionary.sandbox]
+
+[dictionary.sandboxed]
+
 [dictionary.sat]
 
 [dictionary.satisfied]
@@ -5076,11 +8687,20 @@ singular = "sample"
 
 [dictionary.saturating]
 
+[dictionary.saturation]
+
 [dictionary.save]
+
+[dictionary.saved]
 
 [dictionary.sbt]
 
+[dictionary.scalable]
+
 [dictionary.scalar]
+kana = ["スカラ", "スカラー", "スケーラ", "スケーラー"]
+
+[dictionary.scale]
 
 [dictionary.scaled]
 
@@ -5088,7 +8708,21 @@ singular = "sample"
 
 [dictionary.scan]
 
+[dictionary.scanline]
+
 [dictionary.scatter]
+
+[dictionary.scattering]
+
+[dictionary.scene]
+plural = "scenes"
+
+[dictionary.scenes]
+singular = "scene"
+
+[dictionary.schedule]
+
+[dictionary.scheduled]
 
 [dictionary.scheduler]
 
@@ -5100,6 +8734,8 @@ kana = ["スキーム"]
 
 [dictionary.scissor]
 plural = "scissors"
+
+[dictionary."scissor rectangle"]
 
 [dictionary.scissors]
 singular = "scissor"
@@ -5114,6 +8750,12 @@ plural = "scopes"
 [dictionary.scopes]
 singular = "scope"
 
+[dictionary.score]
+plural = "scores"
+
+[dictionary.scores]
+singular = "score"
+
 [dictionary.scraper]
 
 [dictionary.scraping]
@@ -5122,28 +8764,85 @@ singular = "scope"
 
 [dictionary.screen]
 
+[dictionary.screenshot]
+
+[dictionary.screenspace]
+
+[dictionary.screento]
+
+[dictionary.script]
+plural = "scripts"
+
+[dictionary.scriptable]
+
+[dictionary.scripting]
+
+[dictionary.scripts]
+singular = "script"
+
+[dictionary.scroll]
+
+[dictionary.scrollbar]
+
+[dictionary.scroller]
+
+[dictionary.scrolling]
+
+[dictionary.sdf]
+unshortened = ["signed distance field"]
+
+[dictionary.sdk]
+unshortened = ["software development kit"]
+
+[dictionary.se]
+
 [dictionary.sealed]
 
 [dictionary.seamless]
 
+[dictionary.seams]
+
 [dictionary.search]
+plural = "searches"
 
 [dictionary.searcher]
+
+[dictionary.searches]
+singular = "search"
 
 [dictionary.sec]
 plural = "secs"
 
 [dictionary.second]
+plural = "seconds"
+
+[dictionary.secondaries]
 
 [dictionary.secondary]
+
+[dictionary.seconds]
+singular = "second"
+shortened = ["secs"]
 
 [dictionary.secs]
 singular = "sec"
 unshortened = ["seconds"]
 
 [dictionary.section]
+plural = "sections"
+
+[dictionary.sections]
+singular = "section"
+
+[dictionary.secure]
 
 [dictionary.security]
+
+[dictionary.seed]
+plural = "seeds"
+
+[dictionary.seeds]
+singular = "seed"
 
 [dictionary.seek]
 
@@ -5152,14 +8851,24 @@ unshortened = ["seconds"]
 [dictionary.segment]
 plural = "segments"
 
+[dictionary."segmentation fault"]
+
 [dictionary.segments]
 singular = "segment"
 
 [dictionary.select]
+plural = "selects"
+
+[dictionary.selectable]
+
+[dictionary.selected]
 
 [dictionary.selection]
 
 [dictionary.selector]
+
+[dictionary.selects]
+singular = "select"
 
 [dictionary.self]
 
@@ -5176,15 +8885,31 @@ kana = ["セマフォ"]
 [dictionary.semaphores]
 singular = "semaphore"
 
+[dictionary.semi]
+
 [dictionary.semicolon]
 
 [dictionary.send]
 
 [dictionary.sender]
 
+[dictionary.sending]
+
+[dictionary.sensor]
+plural = "sensors"
+
+[dictionary.sensors]
+singular = "sensor"
+
+[dictionary.sentinel]
+
 [dictionary.sep]
 
 [dictionary.separate]
+
+[dictionary.separated]
+
+[dictionary.separation]
 
 [dictionary.separator]
 
@@ -5208,6 +8933,8 @@ description = "シーケンシャルアクセスの対義語はランダムア�
 
 [dictionary.sequentially]
 
+[dictionary.serbo]
+
 [dictionary.serial]
 
 [dictionary.serializable]
@@ -5220,9 +8947,23 @@ antonym = ["deserialize"]
 kana = ["シリアライズ"]
 japanese = ["シリアル化する"]
 
+[dictionary.serialized]
+
 [dictionary.serializer]
 antonym = ["deserializer"]
 kana = ["シリアライザ", "シリアライザー"]
+
+[dictionary.series]
+
+[dictionary.server]
+
+[dictionary.service]
+plural = "services"
+
+[dictionary.services]
+singular = "service"
+
+[dictionary.session]
 
 [dictionary.set]
 plural = "sets"
@@ -5230,9 +8971,19 @@ plural = "sets"
 [dictionary.sets]
 singular = "set"
 
+[dictionary.setter]
+
 [dictionary.setting]
+plural = "settings"
+
+[dictionary.settings]
+singular = "setting"
+
+[dictionary.setup]
 
 [dictionary.severity]
+
+[dictionary.sewer]
 
 [dictionary.sext]
 
@@ -5242,6 +8993,12 @@ plural = "sgprs"
 [dictionary.sgprs]
 singular = "sgpr"
 
+[dictionary.sh]
+unshortened = ["shell"]
+
+[dictionary.sha]
+unshortened = ["secure hash algorithms"]
+
 [dictionary.shader]
 plural = "shaders"
 
@@ -5249,6 +9006,18 @@ plural = "shaders"
 singular = "shader"
 
 [dictionary.shading]
+
+[dictionary.shadow]
+plural = "shadows"
+
+[dictionary.shadowmap]
+
+[dictionary.shadowmapping]
+
+[dictionary.shadowmask]
+
+[dictionary.shadows]
+singular = "shadow"
 
 [dictionary."shallow copy"]
 antonym = ["deep copy"]
@@ -5269,14 +9038,37 @@ singular = "share"
 
 [dictionary.sharing]
 
+[dictionary.sharpening]
+
+[dictionary.sharpness]
+
+[dictionary.sheet]
+plural = "sheets"
+
+[dictionary.sheets]
+singular = "sheet"
+
+[dictionary.shell]
+shortened = ["sh"]
+
 [dictionary.shift]
+
+[dictionary.shininess]
 
 [dictionary.shl]
 unshortened = ["shift left"]
 
 [dictionary.short]
 
+[dictionary.shot]
+
+[dictionary.should]
+
+[dictionary.shoulder]
+
 [dictionary.show]
+
+[dictionary.showing]
 
 [dictionary.shr]
 unshortened = ["shift right"]
@@ -5287,11 +9079,26 @@ unshortened = ["shift right"]
 
 [dictionary.shutdown]
 
+[dictionary.shutter]
+
+[dictionary.sibling]
+category = ["data structure"]
+
 [dictionary.sic]
 
 [dictionary.side]
+plural = "sides"
 
 [dictionary.sided]
+
+[dictionary.sides]
+singular = "side"
+
+[dictionary.sideways]
+
+[dictionary.sig]
+
+[dictionary.sigma]
 
 [dictionary.sign]
 unshortened = ["signature"]
@@ -5301,11 +9108,17 @@ japanese = ["符号", "署名"]
 
 [dictionary.signaled]
 
+[dictionary.signature]
+shortened = ["sign"]
+description = "関数・API・エントリーポイントなどの、名前・引数の型と数・戻り値の型の定義のことである。"
+
 [dictionary.signed]
 
 [dictionary.signedness]
 
 [dictionary.signum]
+
+[dictionary.silence]
 
 [dictionary.silicon]
 
@@ -5314,11 +9127,23 @@ kana = ["シムド", "シムディー"]
 
 [dictionary.simple]
 
+[dictionary.simplified]
+
+[dictionary.simplify]
+
 [dictionary.simt]
+
+[dictionary.simulate]
+
+[dictionary.simulated]
+
+[dictionary.simulation]
 
 [dictionary.simultaneous]
 
 [dictionary.sin]
+
+[dictionary.sine]
 
 [dictionary.single]
 description = "IEEE 754で定められる32ビットの浮動小数点数型を指す。"
@@ -5326,6 +9151,9 @@ description = "IEEE 754で定められる32ビットの浮動小数点数型を�
 [dictionary.singlepump]
 
 [dictionary.singlethreadfence]
+
+[dictionary.singleton]
+category = ["design pattern"]
 
 [dictionary.sinh]
 
@@ -5336,6 +9164,10 @@ description = "IEEE 754で定められる32ビットの浮動小数点数型を�
 [dictionary.sip]
 
 [dictionary.site]
+plural = "sites"
+
+[dictionary.sites]
+singular = "site"
 
 [dictionary.size]
 plural = "sizes"
@@ -5347,9 +9179,29 @@ singular = "size"
 
 [dictionary.skc]
 
+[dictionary.skeleton]
+
+[dictionary.skin]
+
+[dictionary.skinned]
+
+[dictionary.skinning]
+
 [dictionary.skip]
 
+[dictionary.sky]
+
+[dictionary.skybox]
+
+[dictionary.slant]
+
+[dictionary.slash]
+
 [dictionary.sleep]
+
+[dictionary.sleeping]
+
+[dictionary.slerp]
 
 [dictionary.slice]
 plural = "slices"
@@ -5359,32 +9211,72 @@ plural = "slices"
 [dictionary.slices]
 singular = "slice"
 
+[dictionary.slicing]
+
+[dictionary.slider]
+
+[dictionary.slip]
+
 [dictionary.slope]
 
 [dictionary.slot]
+
+[dictionary.slovak]
+
+[dictionary.slovenian]
+
+[dictionary.slow]
 
 [dictionary.sm]
 
 [dictionary.small]
 
+[dictionary.smart]
+
 [dictionary.smooth]
+
+[dictionary.smoothness]
+
+[dictionary.snap]
+
+[dictionary.snapping]
+
+[dictionary.snapshot]
+plural = "snapshots"
+
+[dictionary.snapshots]
+singular = "snapshot"
+
+[dictionary.social]
 
 [dictionary.sock]
 
 [dictionary.socket]
 
 [dictionary.soft]
+antonym = ["hard"]
+
+[dictionary.softness]
 
 [dictionary.software]
+antonym = ["hardware"]
 kana = ["ソフトウェア"]
 
 [dictionary.solid]
 
 [dictionary.solidus]
 
+[dictionary.solve]
+
+[dictionary.solver]
+
 [dictionary.sort]
 
+[dictionary.sortable]
+
 [dictionary.sorted]
+
+[dictionary.sorting]
 
 [dictionary.source]
 antonym = ["destination"]
@@ -5394,18 +9286,39 @@ shortened = ["src"]
 [dictionary.sources]
 singular = "source"
 
+[dictionary.sp]
+
 [dictionary.space]
 
+[dictionary.spacer]
+
 [dictionary.spacing]
+
+[dictionary.span]
+
+[dictionary.spanish]
 
 [dictionary.spare]
 
 [dictionary.sparse]
 japanese = ["疎", "疎な"]
 
+[dictionary.spatial]
+
+[dictionary.spatialize]
+
+[dictionary.spatializer]
+
 [dictionary.spawn]
 
+[dictionary.spawner]
+
+[dictionary.speaker]
+
 [dictionary.spec]
+unshortened = ["specification"]
+
+[dictionary.speccube]
 
 [dictionary.specialization]
 
@@ -5413,23 +9326,89 @@ japanese = ["疎", "疎な"]
 
 [dictionary.specialized]
 
+[dictionary.specific]
+
 [dictionary.specification]
+shortened = ["spec"]
 
 [dictionary.specifier]
 japanese = ["指定子"]
 
 [dictionary.specify]
 
+[dictionary.spectrum]
+
+[dictionary.specular]
+
 [dictionary.speculated]
+
+[dictionary.speculative]
+
+[dictionary.speech]
+
+[dictionary.speed]
+plural = "speeds"
+
+[dictionary.speeds]
+singular = "speed"
+
+[dictionary.sphere]
+plural = "spheres"
+
+[dictionary.spherecast]
+
+[dictionary.spheres]
+singular = "sphere"
+
+[dictionary.spherical]
+
+[dictionary."spherical harmonics"]
+japanese = ["球面調和関数"]
+
+[dictionary.spill]
 
 [dictionary.spin]
 
+[dictionary.spine]
+
+[dictionary.splash]
+
 [dictionary.splat]
+
+[dictionary.splatmap]
 
 [dictionary.splice]
 japanese = ["接ぎ木する"]
 
+[dictionary.spline]
+kana = ["スプライン"]
+
 [dictionary.split]
+plural = "splits"
+
+[dictionary.splits]
+singular = "split"
+
+[dictionary.spot]
+
+[dictionary.spotlight]
+
+[dictionary.spread]
+
+[dictionary.spring]
+
+[dictionary.sprite]
+plural = "sprites"
+
+[dictionary.sprites]
+singular = "sprite"
+
+[dictionary.sprung]
+
+[dictionary.sql]
+unshortened = ["structured query language"]
+
+[dictionary.sqr]
 
 [dictionary.sqrt]
 unshortened = ["square root"]
@@ -5438,6 +9417,8 @@ japanese = ["平方根"]
 [dictionary.square]
 kana = ["スクエア", "スクエアー"]
 japanese = ["正方形", "2乗"]
+
+[dictionary.squared]
 
 [dictionary.src]
 antonym = ["dest", "dst"]
@@ -5461,11 +9442,16 @@ unshortened = ["server side rendering"]
 
 [dictionary.st]
 
+[dictionary.stabilize]
+
 [dictionary.stable]
 antonym = ["unstable", "nightly"]
 
 [dictionary.stack]
 kana = ["スタック"]
+
+[dictionary.stacktrace]
+kana = ["スタックトレース"]
 
 [dictionary.stage]
 plural = "stages"
@@ -5473,11 +9459,19 @@ plural = "stages"
 [dictionary.stages]
 singular = "stage"
 
+[dictionary.staging]
+
 [dictionary.stale]
 japanese = ["古い", "更新されていない"]
 description = "キャッシュやレプリカなどのコピーが元のデータと同期していない状態を指す。つまり、元のデータが更新され、コピーがその更新を反映していない場合、そのコピーは\"stale\"（陳腐化）している。"
 
 [dictionary.stall]
+
+[dictionary.stamp]
+
+[dictionary.stance]
+
+[dictionary.standalone]
 
 [dictionary.standard]
 shortened = ["std"]
@@ -5485,15 +9479,27 @@ shortened = ["std"]
 [dictionary.start]
 plural = "starts"
 
+[dictionary.started]
+
+[dictionary.starting]
+
 [dictionary.starts]
 singular = "start"
 
+[dictionary.startup]
+
 [dictionary.stat]
-plural = "states"
+plural = "stats"
 
 [dictionary.state]
+kana = ["ステート"]
+japanese = ["状態"]
+
+[dictionary."state machine"]
+kana = ["ステートマシン"]
 
 [dictionary."state of the art"]
+japanese = ["最先端の", "最新鋭の"]
 
 [dictionary.statement]
 category = ["compiler"]
@@ -5512,13 +9518,26 @@ description = """
 
 [dictionary.statically]
 
+[dictionary.station]
+
+[dictionary.stationary]
+
 [dictionary.statistic]
 plural = "statistics"
 
 [dictionary.statistics]
 singular = "statistic"
 
+[dictionary.stats]
+singular = "stat"
+
 [dictionary.status]
+
+[dictionary.stay]
+plural = "stays"
+
+[dictionary.stays]
+singular = "stay"
 
 [dictionary.std]
 unshortened = ["standard"]
@@ -5530,6 +9549,14 @@ unshortened = ["standard"]
 [dictionary.stdio]
 
 [dictionary.stdout]
+
+[dictionary.stealing]
+
+[dictionary.steepness]
+
+[dictionary.steer]
+
+[dictionary.steering]
 
 [dictionary.stem]
 
@@ -5543,17 +9570,33 @@ singular = "step"
 
 [dictionary.stereo]
 
+[dictionary.stereoscopic]
+
+[dictionary.stiffness]
+
 [dictionary.stipple]
 
 [dictionary.stippled]
+
+[dictionary.stitch]
 
 [dictionary.stochastic]
 antonym = ["deterministic"]
 japanese = ["確率論的な"]
 
+[dictionary.stone]
+
+[dictionary.stoneroom]
+
 [dictionary.stop]
+plural = "stops"
 
 [dictionary.stopped]
+
+[dictionary.stopping]
+
+[dictionary.stops]
+singular = "stop"
 
 [dictionary.storage]
 
@@ -5569,12 +9612,17 @@ unshortened = ["string"]
 [dictionary.strata]
 singular = "stratum"
 
+[dictionary.strategy]
+category = ["design pattern"]
+
 [dictionary.stratum]
 plural = "strata"
 japanese = ["層", "階層"]
 
 [dictionary.stream]
 plural = "streams"
+
+[dictionary.streamed]
 
 [dictionary.streamin]
 
@@ -5587,11 +9635,19 @@ plural = "streams"
 [dictionary.streams]
 singular = "stream"
 
+[dictionary.strength]
+
 [dictionary.stretch]
+
+[dictionary.stretchable]
+
+[dictionary.stretching]
 
 [dictionary.strict]
 
 [dictionary.stride]
+
+[dictionary.strikethrough]
 
 [dictionary.string]
 shortened = ["str"]
@@ -5600,16 +9656,22 @@ shortened = ["str"]
 
 [dictionary.strip]
 
+[dictionary.stripped]
+
 [dictionary.stroke]
 
 [dictionary.strong]
 
 [dictionary.struct]
+unshortened = ["structure"]
 
 [dictionary.structural]
 
 [dictionary.structure]
 plural = "structures"
+shortened = ["struct"]
+
+[dictionary.structured]
 
 [dictionary.structures]
 singular = "structure"
@@ -5617,8 +9679,17 @@ singular = "structure"
 [dictionary.stub]
 
 [dictionary.style]
+plural = "styles"
+
+[dictionary.styles]
+singular = "style"
+
+[dictionary.stylesheets]
+
+[dictionary.stylus]
 
 [dictionary.sub]
+antonym = ["super"]
 unshortened = ["subtract"]
 
 [dictionary.suballocation]
@@ -5628,12 +9699,20 @@ unshortened = ["subtract"]
 [dictionary.subbuffer]
 
 [dictionary.subdivision]
+plural = "subdivisions"
+
+[dictionary.subdivisions]
+singular = "subdivision"
+
+[dictionary.subgraph]
 
 [dictionary.subgroup]
 plural = "subgroups"
 
 [dictionary.subgroups]
 singular = "subgroup"
+
+[dictionary.submesh]
 
 [dictionary.subminor]
 
@@ -5659,9 +9738,13 @@ plural = "subpasses"
 [dictionary.subpasses]
 singular = "subpass"
 
+[dictionary.subrect]
+
 [dictionary.subresource]
 
 [dictionary.subsampled]
+
+[dictionary.subscript]
 
 [dictionary.subsec]
 
@@ -5670,12 +9753,30 @@ antonym = ["superset"]
 kana = ["サブセット"]
 japanese = ["部分集合"]
 
+[dictionary.subshader]
+
+[dictionary.substance]
+
+[dictionary.substeps]
+
 [dictionary.substitute]
+
+[dictionary.subsystem]
+plural = "subsystems"
+
+[dictionary.subsystems]
+singular = "subsystem"
+
+[dictionary.subsytems]
 
 [dictionary.subtract]
 shortened = ["sub"]
 
 [dictionary.subtracted]
+
+[dictionary.subtraction]
+
+[dictionary.subtractive]
 
 [dictionary.succ]
 
@@ -5690,11 +9791,18 @@ antonym = ["prefix"]
 
 [dictionary.sum]
 
+[dictionary.summary]
+
 [dictionary.super]
+antonym = ["sub"]
 
 [dictionary."super sampling"]
 
+[dictionary.superclass]
+
 [dictionary.supersample]
+
+[dictionary.superscript]
 
 [dictionary.superset]
 antonym = ["subset"]
@@ -5715,6 +9823,14 @@ singular = "support"
 
 [dictionary.surrogate]
 
+[dictionary.surround]
+
+[dictionary.suspension]
+
+[dictionary.sustained]
+
+[dictionary.sv]
+
 [dictionary.swap]
 
 [dictionary."swap chain"]
@@ -5722,9 +9838,17 @@ kana = ["スワップチェーン"]
 
 [dictionary.swapchain]
 
+[dictionary.swedish]
+
+[dictionary.sweep]
+
 [dictionary.swiftshader]
 
+[dictionary.swing]
+
 [dictionary.switch]
+
+[dictionary.switchable]
 
 [dictionary.swizzle]
 japanese = ["並べ替える"]
@@ -5738,14 +9862,34 @@ japanese = ["並べ替える"]
 [dictionary.symmetric]
 
 [dictionary.sync]
+plural = "syncs"
+
+[dictionary.synced]
+
+[dictionary.synched]
+
+[dictionary.synchronisation]
 
 [dictionary.synchronization]
 
+[dictionary.synchronize]
+
+[dictionary.synchronized]
+
 [dictionary.synchronous]
+
+[dictionary.syncs]
+singular = "sync"
 
 [dictionary.syntax]
 kana = ["シンタックス"]
 japanese = ["構文"]
+
+[dictionary."syntax analysis"]
+japanese = ["構文解析"]
+
+[dictionary."syntax analyzer"]
+japanese = ["構文解析器"]
 
 [dictionary."syntax highlighter"]
 
@@ -5755,15 +9899,32 @@ japanese = ["構文"]
 unshortened = ["system"]
 
 [dictionary.system]
+plural = "systems"
 shortened = ["sys"]
 kana = ["システム"]
 japanese = ["系"]
 
+[dictionary.systems]
+singular = "system"
+
+[dictionary.tab]
+
 [dictionary.table]
+plural = "tables"
+shortened = ["tbl"]
 kana = ["テーブル"]
 japanese = ["表"]
 
+[dictionary.tables]
+singular = "table"
+
 [dictionary.tabulation]
+
+[dictionary.tag]
+plural = "tags"
+
+[dictionary.tags]
+singular = "tag"
 
 [dictionary.tail]
 
@@ -5773,7 +9934,17 @@ japanese = ["表"]
 
 [dictionary.tan]
 
+[dictionary.tangent]
+plural = "tangents"
+
+[dictionary.tangential]
+
+[dictionary.tangents]
+singular = "tangent"
+
 [dictionary.tanh]
+
+[dictionary.tap]
 
 [dictionary.target]
 plural = "targets"
@@ -5787,25 +9958,50 @@ plural = "tasks"
 [dictionary.tasks]
 singular = "task"
 
+[dictionary.tbl]
+unshortened = ["table"]
+
 [dictionary.tcp]
+
+[dictionary.telephoto]
+
+[dictionary.teleport]
 
 [dictionary.tell]
 
 [dictionary.temp]
 unshortened = ["temporary"]
 
+[dictionary.temperature]
+
 [dictionary.template]
 
 [dictionary.temporary]
 shortened = ["temp"]
 
+[dictionary.tensor]
+
 [dictionary.terminal]
 
 [dictionary.terminate]
+plural = "terminates"
+
+[dictionary.terminates]
+singular = "terminate"
 
 [dictionary.termination]
 
 [dictionary.terminator]
+
+[dictionary.ternary]
+
+[dictionary.terrain]
+plural = "terrains"
+
+[dictionary.terrains]
+singular = "terrain"
+
+[dictionary.tertiary]
 
 [dictionary.tess]
 
@@ -5815,8 +10011,31 @@ kana = ["テッセレーション"]
 [dictionary.test]
 plural = "tests"
 
+[dictionary.tested]
+
+[dictionary.tester]
+
 [dictionary.tests]
 singular = "test"
+
+[dictionary.tether]
+plural = "tethers"
+
+[dictionary.tethers]
+singular = "tether"
+
+[dictionary.tetrahedral]
+
+[dictionary.tetrahedralization]
+
+[dictionary.tetrahedralize]
+
+[dictionary.tetrahedron]
+japanese = ["四面体"]
+
+[dictionary.tex]
+
+[dictionary.texcoords]
 
 [dictionary.texel]
 plural = "texels"
@@ -5826,35 +10045,107 @@ kana = ["テクセル"]
 singular = "texel"
 
 [dictionary.text]
+plural = "texts"
 kana = ["テキスト", "テクスト"]
 
+[dictionary.textmeshpro]
+
+[dictionary.texts]
+singular = "text"
+
 [dictionary.texture]
+plural = "textures"
 kana = ["テクスチャ", "テクスチャー"]
+
+[dictionary."texture atlas"]
+kana = ["テクスチャアトラス", "テクスチャーアトラス"]
+
+[dictionary.textures]
+singular = "texture"
+
+[dictionary.texturing]
+
+[dictionary.tga]
 
 [dictionary.than]
 
+[dictionary.that]
+
+[dictionary.theme]
+
 [dictionary.then]
+
+[dictionary.thickness]
 
 [dictionary.thin]
 
 [dictionary.this]
 
 [dictionary.thread]
+plural = "threads"
 kana = ["スレッド"]
 
-[dictionary.three]
+[dictionary."thread pool"]
+
+[dictionary."thread static"]
+
+[dictionary."thread-specific storage"]
+
+[dictionary.threaded]
+
+[dictionary.threading]
+
+[dictionary.threads]
+singular = "thread"
 
 [dictionary.threshold]
+plural = "thresholds"
+japanese = ["閾値"]
+
+[dictionary.thresholds]
+singular = "threshold"
 
 [dictionary.through]
 
+[dictionary.throughput]
+
+[dictionary.throw]
+
+[dictionary.thumbnail]
+kana = ["サムネイル"]
+
+[dictionary.thumbrest]
+
+[dictionary.tick]
+
+[dictionary.tier]
+
 [dictionary.ties]
 
+[dictionary.tight]
+
 [dictionary.tilde]
+kana = ["チルダ"]
 
 [dictionary.tile]
+plural = "tiles"
+
+[dictionary.tiled]
+
+[dictionary.tilemap]
+plural = "tilemaps"
+
+[dictionary.tilemaps]
+singular = "tilemap"
+
+[dictionary.tiles]
+singular = "tile"
+
+[dictionary.tilesize]
 
 [dictionary.tiling]
+
+[dictionary.tilt]
 
 [dictionary.time]
 plural = "times"
@@ -5864,6 +10155,8 @@ plural = "times"
 [dictionary.timeline]
 
 [dictionary.timeout]
+
+[dictionary.timer]
 
 [dictionary.times]
 singular = "time"
@@ -5875,49 +10168,156 @@ plural = "timestamps"
 singular = "timestamp"
 
 [dictionary.timing]
+plural = "timings"
+
+[dictionary.timings]
+singular = "timing"
+
+[dictionary.tint]
+
+[dictionary.tiny]
+
+[dictionary.tips]
+
+[dictionary.title]
+
+[dictionary.tizen]
+
+[dictionary.tmp]
+unshortened = ["temporal"]
 
 [dictionary.to]
 
+[dictionary.toast]
+
+[dictionary.today]
+
 [dictionary.todo]
+
+[dictionary.toes]
+
+[dictionary.toggle]
+
+[dictionary.toi]
 
 [dictionary.token]
 
+[dictionary.tokenizer]
+kana = ["トークナイザ", "トークナイザー"]
+
+[dictionary.tolerance]
+
+[dictionary.tone]
+
+[dictionary.tonemapping]
+
 [dictionary.tool]
+plural = "tools"
+
+[dictionary.toolbar]
 
 [dictionary.tooling]
+
+[dictionary.tools]
+singular = "tool"
+
+[dictionary.tooltip]
 
 [dictionary.top]
 antonym = ["bottom"]
 
+[dictionary.topic]
+
 [dictionary.topology]
+
+[dictionary.torque]
 
 [dictionary.total]
 
+[dictionary.touch]
+plural = "touches"
+
+[dictionary.touches]
+singular = "touch"
+
+[dictionary.touching]
+
+[dictionary.towards]
+
+[dictionary.toy]
+
+[dictionary.tr]
+
 [dictionary.trace]
+plural = "traces"
+
+[dictionary.traces]
+singular = "trace"
 
 [dictionary.tracing]
 
 [dictionary.track]
 
+[dictionary.tracked]
+
+[dictionary.tracker]
+
+[dictionary.tracking]
+
+[dictionary.traditional]
+
+[dictionary.trail]
+plural = "trails"
+
 [dictionary.trailing]
 
+[dictionary.trails]
+singular = "trail"
+
+[dictionary.training]
+
 [dictionary.trait]
+plural = "traits"
+
+[dictionary.traits]
+singular = "trait"
 
 [dictionary.trajectory]
 kana = ["トラジェクトリ", "トラジェクトリー"]
 japanese = ["軌道", "軌跡"]
 
+[dictionary.trans]
+
+[dictionary.transaction]
+
 [dictionary.transfer]
 
 [dictionary.transference]
 
+[dictionary.transferring]
+
 [dictionary.transform]
 plural = "transforms"
+shortened = ["xform"]
+
+[dictionary.transformed]
 
 [dictionary.transforms]
 singular = "transform"
 
+[dictionary.transfrom]
+
 [dictionary.transient]
+
+[dictionary.transition]
+plural = "transitions"
+
+[dictionary.transitions]
+singular = "transition"
+
+[dictionary.translate]
+
+[dictionary.translation]
 
 [dictionary.translucence]
 
@@ -5931,19 +10331,33 @@ singular = "transform"
 
 [dictionary.transmute]
 
+[dictionary.transparency]
+
 [dictionary.transparent]
+
+[dictionary.transpile]
 
 [dictionary.transpose]
 
 [dictionary.traversal]
 
+[dictionary.traverse]
+
 [dictionary.tree]
 category = ["data structure"]
+plural = "trees"
 kana = ["ツリー"]
 japanese = ["木"]
 description = "木構造のこと。ノードからノードまでの経路がただ1つに定まるようなネットワーク。"
 
+[dictionary.trees]
+singular = "tree"
+
+[dictionary.treshold]
+
 [dictionary.tri]
+
+[dictionary.trial]
 
 [dictionary.triangle]
 plural = "triangles"
@@ -5951,15 +10365,41 @@ plural = "triangles"
 [dictionary.triangles]
 singular = "triangle"
 
+[dictionary.triangulate]
+
+[dictionary.triangulation]
+
+[dictionary.trickle]
+plural = "trickles"
+
+[dictionary.trickles]
+singular = "trickle"
+
 [dictionary.trigger]
+plural = "triggers"
+
+[dictionary.triggered]
+
+[dictionary.triggers]
+singular = "trigger"
+
+[dictionary.trilight]
+
+[dictionary.trilinear]
 
 [dictionary.trim]
 
 [dictionary.trinary]
 
+[dictionary.triple]
+
 [dictionary.trivial]
 
 [dictionary.trn]
+
+[dictionary.trous]
+
+[dictionary.trs]
 
 [dictionary.true]
 
@@ -5977,14 +10417,24 @@ shortened = ["trunc"]
 
 [dictionary.ttl]
 
+[dictionary.tunnel]
+
 [dictionary.tuple]
 kana = ["タプル"]
 
-[dictionary.turnip]
+[dictionary.turbulence]
+
+[dictionary.turn]
+plural = "turns"
+
+[dictionary.turns]
+singular = "turn"
 
 [dictionary.tween]
 unshortened = ["in-betweening"]
 description = "アニメーションの文脈で、2つのキーフレームの間のフレームを補間・生成すること。"
+
+[dictionary.twist]
 
 [dictionary.ty]
 unshortened = ["type"]
@@ -5995,16 +10445,19 @@ shortened = ["ty"]
 kana = ["タイプ"]
 japanese = ["型"]
 
+[dictionary."type annotation"]
+japanese = ["型アノテーション"]
+
 [dictionary.typed]
 infinitive = "type"
+
+[dictionary.typeface]
 
 [dictionary.types]
 singular = "type"
 
 [dictionary.u]
 unshortened = ["unsigned"]
-
-[dictionary.ucred]
 
 [dictionary.udp]
 
@@ -6018,15 +10471,35 @@ unshortened = ["user interface"]
 [dictionary.uint]
 unshortened = ["unsigned integer"]
 
+[dictionary.ultra]
+
+[dictionary.un]
+
+[dictionary.unachieved]
+
 [dictionary.unaligned]
 antonym = ["aligned"]
+
+[dictionary.unary]
 
 [dictionary."unary operator"]
 japanese = ["単項演算子"]
 
+[dictionary.unassigned]
+
+[dictionary.unavailable]
+
+[dictionary.unbatched]
+
+[dictionary.unbiased]
+
+[dictionary.unbind]
+
 [dictionary.unbound]
 
 [dictionary.unbounded]
+
+[dictionary.unbox]
 
 [dictionary.unc]
 
@@ -6036,11 +10509,35 @@ japanese = ["単項演算子"]
 
 [dictionary.unchecked]
 
+[dictionary.unclamped]
+
+[dictionary.uncomment]
+
+[dictionary.uncompressed]
+
+[dictionary.uncovered]
+
 [dictionary.undef]
 
 [dictionary.undefined]
 
+[dictionary.under]
+
+[dictionary.underage]
+
 [dictionary.underestimation]
+
+[dictionary.underlay]
+
+[dictionary.underline]
+
+[dictionary.underlying]
+
+[dictionary.underscore]
+
+[dictionary.underwater]
+
+[dictionary.undisposable]
 
 [dictionary.undo]
 
@@ -6050,15 +10547,23 @@ japanese = ["単項演算子"]
 
 [dictionary.unfilled]
 
+[dictionary.unfocus]
+
 [dictionary.unguarded]
 
 [dictionary.unicast]
 
 [dictionary.unicode]
+plural = "unicodes"
 kana = ["ユニコード"]
 description = "広義ではUTF-8・UTF-16・UTF-32を含む、符号化文字集合や文字符号化方式などを定めた、文字コードの標準規格。狭義ではUTF-16を指す。"
 
+[dictionary.unicodes]
+singular = "unicode"
+
 [dictionary.unidirectional]
+
+[dictionary.unified]
 
 [dictionary.uniform]
 
@@ -6078,18 +10583,36 @@ plural = "units"
 [dictionary.units]
 singular = "unit"
 
+[dictionary.unity]
+
 [dictionary.unix]
 
 [dictionary.unknown]
 
 [dictionary.unlikely]
 
+[dictionary.unlimited]
+
 [dictionary.unlit]
 category = ["computer graphics"]
 
+[dictionary.unload]
+
+[dictionary.unloaded]
+
+[dictionary.unloading]
+
 [dictionary.unlock]
 
+[dictionary.unmanaged]
+antonym = ["managed"]
+
 [dictionary.unmap]
+
+[dictionary.unmark]
+
+[dictionary.unmount]
+antonym = ["mount"]
 
 [dictionary.unnamed]
 
@@ -6112,12 +10635,16 @@ antonym = ["park"]
 
 [dictionary.unreachable]
 
+[dictionary.unregister]
+
 [dictionary.unrestricted]
 
 [dictionary.unroll]
 
 [dictionary.unsafe]
 antonym = ["safe"]
+
+[dictionary.unscaled]
 
 [dictionary.unsigned]
 shortened = ["u"]
@@ -6152,33 +10679,66 @@ kana = ["アンワインディング"]
 [dictionary.unwrap]
 
 [dictionary.unzip]
+antonym = ["zip"]
 
 [dictionary.up]
 
 [dictionary.update]
+plural = "updates"
+
+[dictionary.updated]
+
+[dictionary.updater]
+
+[dictionary.updates]
+singular = "update"
+
+[dictionary.updating]
 
 [dictionary.upgrade]
+
+[dictionary.upload]
+
+[dictionary.uploaded]
 
 [dictionary.upper]
 
 [dictionary.uppercase]
 japanese = ["大文字"]
 
+[dictionary.upside]
+
+[dictionary.upwards]
+
+[dictionary.urgent]
+
 [dictionary.uri]
 
 [dictionary.url]
 
 [dictionary.usage]
+plural = "usages"
+
+[dictionary.usages]
+singular = "usage"
 
 [dictionary.uscaled]
 
 [dictionary.use]
+plural = "uses"
 
 [dictionary.used]
 
 [dictionary.user]
+plural = "users"
 
-[dictionary.usize]
+[dictionary.users]
+singular = "user"
+
+[dictionary.uses]
+singular = "use"
+
+[dictionary.using]
 
 [dictionary.usm]
 
@@ -6201,6 +10761,8 @@ description = ""
 [dictionary.util]
 plural = "utils"
 
+[dictionary.utilities]
+
 [dictionary.utility]
 kana = ["ユーティリティ"]
 
@@ -6216,6 +10778,10 @@ english = "UUID"
 unshortened = ["Universally Unique Identifier"]
 description = "ソフトウェア上でオブジェクトを一意に識別するための識別子。128ビットの数値で、分散システムで並列に生成しても衝突する確率を極めて低くすることができる。マイクロソフトによるUUID実装がGUIDである。"
 
+[dictionary.uv]
+
+[dictionary.uvs]
+
 [dictionary.ux]
 unshortened = ["user experience"]
 
@@ -6228,11 +10794,16 @@ antonym = ["occupied"]
 kana = ["ヴェイキャント"]
 japanese = ["空の"]
 
+[dictionary.vag]
+
 [dictionary.val]
 unshortened = ["value", "validate", "validation"]
 
 [dictionary.valid]
 antonym = ["invalid"]
+
+[dictionary.validate]
+shortened = ["val"]
 
 [dictionary.validated]
 
@@ -6257,20 +10828,29 @@ unshortened = ["variable"]
 shortened = ["var"]
 japanese = ["変数"]
 
+[dictionary.variance]
+japanese = ["偏差", "分散"]
+
 [dictionary.variant]
 plural = "variants"
 
 [dictionary.variants]
 singular = "variant"
 
+[dictionary.variation]
+
 [dictionary.vars]
 singular = "var"
 
+[dictionary.varying]
+
 [dictionary.vec]
+unshortened = ["vector"]
 
 [dictionary.vector]
 antonym = ["raster"]
 plural = "vectors"
+shortened = ["vec"]
 kana = ["ベクター", "ベクトル"]
 
 [dictionary.vectored]
@@ -6278,9 +10858,18 @@ kana = ["ベクター", "ベクトル"]
 [dictionary.vectors]
 singular = "vector"
 
+[dictionary.velocities]
+
+[dictionary.velocity]
+
 [dictionary.vendor]
 
 [dictionary.venus]
+
+[dictionary.ver]
+unshortened = ["version"]
+
+[dictionary.verb]
 
 [dictionary.verbatim]
 
@@ -6288,15 +10877,38 @@ singular = "vector"
 
 [dictionary.veri]
 
+[dictionary.verify]
+
 [dictionary.version]
+plural = "versions"
+shortened = ["ver"]
+
+[dictionary.versions]
+singular = "version"
+
+[dictionary.vert]
+plural = "verts"
 
 [dictionary.vertex]
 kana = ["バーテックス"]
 japanese = ["頂点"]
 
 [dictionary.vertical]
+antonym = ["horizontal"]
+japanese = ["垂直", "垂直の"]
+
+[dictionary.vertically]
 
 [dictionary.vertices]
+
+[dictionary.verts]
+singular = "vert"
+
+[dictionary.very]
+
+[dictionary.vfs]
+
+[dictionary.vfx]
 
 [dictionary.vgpr]
 plural = "vgprs"
@@ -6308,10 +10920,20 @@ singular = "vgpr"
 
 [dictionary.via]
 
+[dictionary.vibrate]
+
+[dictionary.vibration]
+
 [dictionary.video]
+plural = "videos"
+
+[dictionary.videos]
+singular = "video"
 
 [dictionary.view]
 plural = "views"
+
+[dictionary.viewed]
 
 [dictionary.viewport]
 plural = "viewports"
@@ -6322,7 +10944,16 @@ singular = "viewport"
 [dictionary.views]
 singular = "view"
 
+[dictionary.violation]
+
 [dictionary.virtual]
+japanese = ["仮想", "仮想の"]
+
+[dictionary."virtual machine"]
+shortened = ["vm"]
+japanese = ["仮想マシン"]
+
+[dictionary.virtualization]
 
 [dictionary.visibility]
 
@@ -6330,29 +10961,63 @@ singular = "view"
 
 [dictionary.vision]
 
+[dictionary.visit]
+
+[dictionary.visitation]
+
+[dictionary.visitor]
+category = ["design pattern"]
+
 [dictionary.visual]
 
 [dictionary.visualid]
 
+[dictionary.visualisation]
+
+[dictionary.vm]
+unshortened = ["virtual machine"]
+
 [dictionary.vme]
 
 [dictionary.vmo]
+
+[dictionary.voices]
 
 [dictionary.void]
 kana = ["ボイド", "ヴォイド"]
 
 [dictionary.volatile]
 
+[dictionary.volatility]
+
 [dictionary.volume]
+plural = "volumes"
+
+[dictionary.volumes]
+singular = "volume"
+
+[dictionary.vorbis]
 
 [dictionary.vote]
 
 [dictionary.voxel]
+plural = "voxels"
 kana = ["ボクセル"]
+
+[dictionary.voxels]
+singular = "voxel"
+
+[dictionary.vp]
+
+[dictionary.vr]
 
 [dictionary.vram]
 english = "VRAM"
 japanese = ["ビデオメモリ", "ビデオメモリー"]
+
+[dictionary.vs]
+
+[dictionary.vt]
 
 [dictionary.vtable]
 
@@ -6363,13 +11028,29 @@ unshortened = ["width"]
 
 [dictionary.wait]
 
+[dictionary.waiting]
+
 [dictionary.waitrequest]
 
 [dictionary.wake]
 
 [dictionary.waker]
 
+[dictionary.walkable]
+
+[dictionary.wants]
+
+[dictionary.warm]
+
+[dictionary.warmed]
+
+[dictionary.warmup]
+
 [dictionary.warning]
+plural = "warnings"
+
+[dictionary.warnings]
+singular = "warning"
 
 [dictionary.warp]
 plural = "warps"
@@ -6381,13 +11062,19 @@ singular = "warp"
 
 [dictionary.wasi]
 
+[dictionary.wav]
+
+[dictionary.wave]
+
 [dictionary.wavefront]
 plural = "wavefronts"
 
 [dictionary.wavefronts]
 singular = "wavefront"
 
-[dictionary.wayland]
+[dictionary.waving]
+
+[dictionary.way]
 
 [dictionary.weak]
 description = "破棄される可能性のある参照・ポインターのことをweak reference, weak pointerなどという。"
@@ -6400,17 +11087,23 @@ plural = "weights"
 [dictionary.weighted]
 
 [dictionary.weighting]
+plural = "weightings"
+
+[dictionary.weightings]
+singular = "weighting"
 
 [dictionary.weights]
 singular = "weight"
+
+[dictionary.weld]
 
 [dictionary.where]
 
 [dictionary.while]
 
-[dictionary.white]
-
 [dictionary.whitespace]
+
+[dictionary.wi]
 
 [dictionary.wide]
 kana = ["ワイド"]
@@ -6418,19 +11111,35 @@ kana = ["ワイド"]
 [dictionary.widening]
 
 [dictionary.width]
+plural = "widths"
 shortened = ["w"]
 kana = ["ウィドゥス"]
 japanese = ["幅"]
+
+[dictionary.widths]
+singular = "width"
+
+[dictionary.wifi]
 
 [dictionary.will]
 
 [dictionary.win]
 
+[dictionary.wind]
+
+[dictionary.winding]
+
 [dictionary.window]
 plural = "windows"
 
+[dictionary.windowed]
+
 [dictionary.windows]
 singular = "window"
+
+[dictionary.wire]
+
+[dictionary.wireframe]
 
 [dictionary.with]
 
@@ -6447,6 +11156,13 @@ singular = "word"
 [dictionary.work]
 
 [dictionary.worker]
+plural = "workers"
+
+[dictionary."worker thread"]
+category = ["design pattern"]
+
+[dictionary.workers]
+singular = "worker"
 
 [dictionary.workgroup]
 plural = "workgroups"
@@ -6456,7 +11172,15 @@ singular = "workgroup"
 
 [dictionary.workitems]
 
+[dictionary.workspace]
+
+[dictionary.wp]
+
 [dictionary.wrap]
+
+[dictionary.wrapped]
+
+[dictionary.wrapper]
 
 [dictionary.wrapping]
 
@@ -6474,6 +11198,10 @@ singular = "write"
 
 [dictionary.written]
 
+[dictionary.wrong]
+
+[dictionary.wsa]
+
 [dictionary.www]
 english = "WWW"
 unshortened = ["world wide web"]
@@ -6486,16 +11214,20 @@ description = "x座標のこと。"
 [dictionary.xchg]
 unshortened = ["exchange"]
 
+[dictionary.xcode]
+
 [dictionary.xfb]
 
-[dictionary.xlib]
+[dictionary.xform]
+unshortened = ["transform"]
 
 [dictionary.xor]
 
+[dictionary.xr]
+
 [dictionary.xsub]
 
-[dictionary.y]
-plural = "yes"
+[dictionary.xyzw]
 
 [dictionary.ycbcr]
 english = "YCbCr"
@@ -6503,13 +11235,10 @@ english = "YCbCr"
 [dictionary.yeet]
 
 [dictionary.yes]
-singular = "y"
 
 [dictionary.yield]
 
 [dictionary.yielded]
-
-[dictionary.z]
 
 [dictionary.zero]
 plural = "zeros"
@@ -6524,3 +11253,12 @@ singular = "zero"
 [dictionary.zext]
 
 [dictionary.zip]
+antonym = ["unzip"]
+
+[dictionary.zone]
+plural = "zones"
+
+[dictionary.zones]
+singular = "zone"
+
+[dictionary.zoom]

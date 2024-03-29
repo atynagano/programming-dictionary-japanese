@@ -46,6 +46,8 @@ pub struct Word {
     pub disabled: Option<bool>,
     pub english: Option<String>,
     pub category: Option<Vec<String>>,
+    pub see_also: Option<Vec<String>>,
+    pub synonym: Option<Vec<String>>,
     pub antonym: Option<Vec<String>>,
     pub infinitive: Option<String>,
     pub singular: Option<String>,

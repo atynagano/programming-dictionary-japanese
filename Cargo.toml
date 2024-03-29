@@ -20,7 +20,10 @@ console_error_panic_hook = "0.1"
 
 toml = "0.8"
 serde = "1.0"
-# reqwest = "0.12"
+convert_case = "0.6"
+scraper = "0.19"
+reqwest = "0.12"
+tokio = { version = "1.36", features = ["rt", "rt-multi-thread", "macros"] }
 
 
 [dev-dependencies]
