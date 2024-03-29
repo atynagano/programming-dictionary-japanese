@@ -6,7 +6,7 @@ use reqwest::Error;
 use tokio;
 use std::io::Write as _;
 
-#[tokio::main]
+#[tokio::main(flavor = "current_thread")]
 async fn main() -> Result<(), Error> {
     let ctx = &mut Context::default();
     let enumerate = &mut (0..);
